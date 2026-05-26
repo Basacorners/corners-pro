@@ -9651,7 +9651,903 @@ let equipos = [
     "rol": "Visitante",
     "prom": 1.5,
     "FD": 1.2654641609217112
-  } 
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Palmeiras",
+    "rol": "Local",
+    "prom": 7.0,
+    "FD": 0.867600542250339
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Palmeiras",
+    "rol": "Visitante",
+    "prom": 7.67,
+    "FD": 0.7770736358028152
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Independiente del Valle",
+    "rol": "Local",
+    "prom": 9.0,
+    "FD": 0.867600542250339
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Independiente del Valle",
+    "rol": "Visitante",
+    "prom": 6.33,
+    "FD": 0.5976109023610565
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "anús",
+    "rol": "Local",
+    "prom": 8.5,
+    "FD": 0.7230004518752825
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "anús",
+    "rol": "Visitante",
+    "prom": 4.67,
+    "FD": 0.7178509337670348
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Rosario Central",
+    "rol": "Local",
+    "prom": 6.0,
+    "FD": 0.867600542250339
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Rosario Central",
+    "rol": "Visitante",
+    "prom": 5.5,
+    "FD": 0.6281195670461555
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Coquimbo Unido",
+    "rol": "Local",
+    "prom": 7.67,
+    "FD": 1.8306371441482152
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Coquimbo Unido",
+    "rol": "Visitante",
+    "prom": 3.0,
+    "FD": 0.7178509337670348
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Nacional",
+    "rol": "Local",
+    "prom": 6.5,
+    "FD": 1.0122006326253954
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Nacional",
+    "rol": "Visitante",
+    "prom": 5.0,
+    "FD": 1.6743873030116088
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Universidad Católica",
+    "rol": "Local",
+    "prom": 6.67,
+    "FD": 1.156800723000452
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Universidad Católica",
+    "rol": "Visitante",
+    "prom": 3.5,
+    "FD": 1.6151646009758283
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Universitario",
+    "rol": "Local",
+    "prom": 7.0,
+    "FD": 1.0122006326253954
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Universitario",
+    "rol": "Visitante",
+    "prom": 4.33,
+    "FD": 1.256239134092311
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Sporting Cristal",
+    "rol": "Local",
+    "prom": 6.4,
+    "FD": 0.9832806145503842
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Sporting Cristal",
+    "rol": "Visitante",
+    "prom": 4.0,
+    "FD": 1.121642084010992
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Bolívar",
+    "rol": "Local",
+    "prom": 8.5,
+    "FD": 0.4338002711251695
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Bolívar",
+    "rol": "Visitante",
+    "prom": 3.0,
+    "FD": 0.9565363692445739
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Corinthians",
+    "rol": "Local",
+    "prom": 6.5,
+    "FD": 1.3014008133755084
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Corinthians",
+    "rol": "Visitante",
+    "prom": 4.0,
+    "FD": 0.7178509337670348
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Boca Juniors",
+    "rol": "Local",
+    "prom": 8.5,
+    "FD": 0.7230004518752825
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Boca Juniors",
+    "rol": "Visitante",
+    "prom": 2.33,
+    "FD": 0.7770736358028152
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Mirassol",
+    "rol": "Local",
+    "prom": 6.33,
+    "FD": 1.3505648441030276
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Mirassol",
+    "rol": "Visitante",
+    "prom": 2.5,
+    "FD": 0.6281195670461555
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Independiente Medellín",
+    "rol": "Local",
+    "prom": 5.25,
+    "FD": 0.6507004066877542
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Independiente Medellín",
+    "rol": "Visitante",
+    "prom": 4.0,
+    "FD": 0.9870450339296729
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Deportes Tolima",
+    "rol": "Local",
+    "prom": 4.6,
+    "FD": 1.156800723000452
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Deportes Tolima",
+    "rol": "Visitante",
+    "prom": 4.25,
+    "FD": 0.8973136672087935
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Junior Barranquilla",
+    "rol": "Local",
+    "prom": 5.33,
+    "FD": 1.8306371441482152
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Junior Barranquilla",
+    "rol": "Visitante",
+    "prom": 3.0,
+    "FD": 1.0767764006505522
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Estudiantes dea Plata",
+    "rol": "Local",
+    "prom": 6.0,
+    "FD": 0.289200180750113
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Estudiantes dea Plata",
+    "rol": "Visitante",
+    "prom": 3.0,
+    "FD": 0.7770736358028152
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Flamengo",
+    "rol": "Local",
+    "prom": 3.5,
+    "FD": 1.0122006326253954
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Flamengo",
+    "rol": "Visitante",
+    "prom": 4.5,
+    "FD": 1.1665077673714315
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Always Ready",
+    "rol": "Local",
+    "prom": 4.33,
+    "FD": 1.156800723000452
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Always Ready",
+    "rol": "Visitante",
+    "prom": 3.5,
+    "FD": 1.6151646009758283
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Deportivoa Guaira",
+    "rol": "Local",
+    "prom": 5.33,
+    "FD": 1.735201084500678
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Deportivoa Guaira",
+    "rol": "Visitante",
+    "prom": 2.0,
+    "FD": 1.7048959676967077
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Independiente Rivadavia",
+    "rol": "Local",
+    "prom": 5.0,
+    "FD": 0.4829643018526887
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Independiente Rivadavia",
+    "rol": "Visitante",
+    "prom": 2.0,
+    "FD": 0.7178509337670348
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Santa Fe",
+    "rol": "Local",
+    "prom": 4.33,
+    "FD": 1.2522367826479892
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Santa Fe",
+    "rol": "Visitante",
+    "prom": 3.0,
+    "FD": 0.9870450339296729
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Cusco FC",
+    "rol": "Local",
+    "prom": 5.67,
+    "FD": 1.2522367826479892
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Cusco FC",
+    "rol": "Visitante",
+    "prom": 0.5,
+    "FD": 0.8973136672087935
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "ibertad",
+    "rol": "Local",
+    "prom": 2.0,
+    "FD": 1.5906009941256214
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "ibertad",
+    "rol": "Visitante",
+    "prom": 4.67,
+    "FD": 0.8380909651730132
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Fluminense",
+    "rol": "Local",
+    "prom": 3.0,
+    "FD": 0.289200180750113
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Fluminense",
+    "rol": "Visitante",
+    "prom": 3.67,
+    "FD": 0.6586282317312544
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "DU",
+    "rol": "Local",
+    "prom": 4.5,
+    "FD": 0.4338002711251695
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "DU",
+    "rol": "Visitante",
+    "prom": 2.67,
+    "FD": 1.256239134092311
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Platense",
+    "rol": "Local",
+    "prom": 4.0,
+    "FD": 0.4829643018526887
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Platense",
+    "rol": "Visitante",
+    "prom": 1.5,
+    "FD": 0.5383882003252761
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Peñarol",
+    "rol": "Local",
+    "prom": 2.0,
+    "FD": 0.7230004518752825
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Peñarol",
+    "rol": "Visitante",
+    "prom": 3.67,
+    "FD": 0.7770736358028152
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Barcelona-SC",
+    "rol": "Local",
+    "prom": 3.4,
+    "FD": 0.867600542250339
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Barcelona-SC",
+    "rol": "Visitante",
+    "prom": 2.0,
+    "FD": 1.0319107172901125
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Cerro Porteño",
+    "rol": "Local",
+    "prom": 4.0,
+    "FD": 1.0122006326253954
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Cerro Porteño",
+    "rol": "Visitante",
+    "prom": 1.67,
+    "FD": 1.3154618361280914
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Cruzeiro",
+    "rol": "Local",
+    "prom": 4.5,
+    "FD": 0.7230004518752825
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Cruzeiro",
+    "rol": "Visitante",
+    "prom": 1.0,
+    "FD": 1.3154618361280914
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "UCV",
+    "rol": "Local",
+    "prom": 1.67,
+    "FD": 1.9289652056032536
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "UCV",
+    "rol": "Visitante",
+    "prom": 1.0,
+    "FD": 1.256239134092311
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Millonarios",
+    "rol": "Local",
+    "prom": 10.0,
+    "FD": 1.0226909555768617
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Millonarios",
+    "rol": "Visitante",
+    "prom": 4.25,
+    "FD": 1.2113734507318712
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Olimpia",
+    "rol": "Local",
+    "prom": 9.0,
+    "FD": 0.578400361500226
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Olimpia",
+    "rol": "Visitante",
+    "prom": 4.25,
+    "FD": 0.8972315683843928
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Botafogo",
+    "rol": "Local",
+    "prom": 8.67,
+    "FD": 0.578400361500226
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Botafogo",
+    "rol": "Visitante",
+    "prom": 5.0,
+    "FD": 0.8500088542588984
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Macará",
+    "rol": "Local",
+    "prom": 6.67,
+    "FD": 0.7721644826028017
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Macará",
+    "rol": "Visitante",
+    "prom": 5.67,
+    "FD": 1.2599020128681895
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Bragantino",
+    "rol": "Local",
+    "prom": 6.5,
+    "FD": 1.5906009941256214
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Bragantino",
+    "rol": "Visitante",
+    "prom": 5.0,
+    "FD": 0.6290065521515849
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Racing Club",
+    "rol": "Local",
+    "prom": 6.5,
+    "FD": 1.3014008133755084
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Racing Club",
+    "rol": "Visitante",
+    "prom": 5.67,
+    "FD": 0.6290065521515849
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "O'Higgins",
+    "rol": "Local",
+    "prom": 6.33,
+    "FD": 1.2522367826479892
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "O'Higgins",
+    "rol": "Visitante",
+    "prom": 7.5,
+    "FD": 0.7555634260079097
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Grêmio",
+    "rol": "Local",
+    "prom": 5.5,
+    "FD": 1.735201084500678
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Grêmio",
+    "rol": "Visitante",
+    "prom": 1.67,
+    "FD": 0.9444542825098872
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "ão Paulo",
+    "rol": "Local",
+    "prom": 5.5,
+    "FD": 1.446000903750565
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "ão Paulo",
+    "rol": "Visitante",
+    "prom": 5.67,
+    "FD": 1.5111268520158194
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Montevideo City Torque",
+    "rol": "Local",
+    "prom": 5.5,
+    "FD": 1.156800723000452
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Montevideo City Torque",
+    "rol": "Visitante",
+    "prom": 4.5,
+    "FD": 0.9444542825098872
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Barracas Central",
+    "rol": "Local",
+    "prom": 5.33,
+    "FD": 1.2522367826479892
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Barracas Central",
+    "rol": "Visitante",
+    "prom": 4.5,
+    "FD": 0.7555634260079097
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Audax Italiano",
+    "rol": "Local",
+    "prom": 5.33,
+    "FD": 1.735201084500678
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Audax Italiano",
+    "rol": "Visitante",
+    "prom": 5.0,
+    "FD": 0.9444542825098872
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Tigre",
+    "rol": "Local",
+    "prom": 5.0,
+    "FD": 0.7230004518752825
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Tigre",
+    "rol": "Visitante",
+    "prom": 3.33,
+    "FD": 1.071011156366212
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Cienciano",
+    "rol": "Local",
+    "prom": 5.0,
+    "FD": 0.3846362403976503
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Cienciano",
+    "rol": "Visitante",
+    "prom": 3.33,
+    "FD": 0.9444542825098872
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Juventud de Las Piedras",
+    "rol": "Local",
+    "prom": 5.0,
+    "FD": 1.6397650248531406
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Juventud de Las Piedras",
+    "rol": "Visitante",
+    "prom": 1.5,
+    "FD": 0.37778171300395486
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Blooming",
+    "rol": "Local",
+    "prom": 4.75,
+    "FD": 0.867600542250339
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Blooming",
+    "rol": "Visitante",
+    "prom": 5.0,
+    "FD": 1.3222359955138419
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Deportivo Riestra",
+    "rol": "Local",
+    "prom": 4.67,
+    "FD": 1.156800723000452
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Deportivo Riestra",
+    "rol": "Visitante",
+    "prom": 5.0,
+    "FD": 1.5111268520158194
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Atlético-MG",
+    "rol": "Local",
+    "prom": 4.5,
+    "FD": 0.289200180750113
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Atlético-MG",
+    "rol": "Visitante",
+    "prom": 3.0,
+    "FD": 1.1333451390118645
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Vasco",
+    "rol": "Local",
+    "prom": 4.5,
+    "FD": 1.446000903750565
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Vasco",
+    "rol": "Visitante",
+    "prom": 4.67,
+    "FD": 1.5111268520158194
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "an Lorenzo",
+    "rol": "Local",
+    "prom": 4.5,
+    "FD": 0.7230004518752825
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "an Lorenzo",
+    "rol": "Visitante",
+    "prom": 4.67,
+    "FD": 0.6932294433622571
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Palestino",
+    "rol": "Local",
+    "prom": 4.5,
+    "FD": 0.578400361500226
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Palestino",
+    "rol": "Visitante",
+    "prom": 5.5,
+    "FD": 0.7083407118824153
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Carabobo",
+    "rol": "Local",
+    "prom": 4.33,
+    "FD": 1.735201084500678
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Carabobo",
+    "rol": "Visitante",
+    "prom": 4.0,
+    "FD": 1.2277905672628533
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Alianza Atlético",
+    "rol": "Local",
+    "prom": 4.25,
+    "FD": 1.446000903750565
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Alianza Atlético",
+    "rol": "Visitante",
+    "prom": 2.5,
+    "FD": 1.1333451390118645
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Deportivo Cuenca",
+    "rol": "Local",
+    "prom": 4.25,
+    "FD": 1.156800723000452
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Deportivo Cuenca",
+    "rol": "Visitante",
+    "prom": 1.5,
+    "FD": 0.9444542825098872
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "antos",
+    "rol": "Local",
+    "prom": 4.0,
+    "FD": 1.0122006326253954
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "antos",
+    "rol": "Visitante",
+    "prom": 4.33,
+    "FD": 1.195679121657517
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Academia Puerto Cabello",
+    "rol": "Local",
+    "prom": 3.75,
+    "FD": 0.7230004518752825
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Academia Puerto Cabello",
+    "rol": "Visitante",
+    "prom": 3.0,
+    "FD": 0.7555634260079097
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "América de Cali",
+    "rol": "Local",
+    "prom": 3.67,
+    "FD": 0.6738364211477633
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "América de Cali",
+    "rol": "Visitante",
+    "prom": 2.67,
+    "FD": 0.8178974086535623
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Boston River",
+    "rol": "Local",
+    "prom": 3.25,
+    "FD": 2.385901491188432
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Boston River",
+    "rol": "Visitante",
+    "prom": 4.0,
+    "FD": 1.4166814237648306
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "River Plate",
+    "rol": "Local",
+    "prom": 3.0,
+    "FD": 1.156800723000452
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "River Plate",
+    "rol": "Visitante",
+    "prom": 4.67,
+    "FD": 0.4401156956496074
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Independiente Petrolero",
+    "rol": "Local",
+    "prom": 2.75,
+    "FD": 1.2291007681879802
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Independiente Petrolero",
+    "rol": "Visitante",
+    "prom": 1.5,
+    "FD": 1.3222359955138419
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Caracas",
+    "rol": "Local",
+    "prom": 2.67,
+    "FD": 1.2522367826479892
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Caracas",
+    "rol": "Visitante",
+    "prom": 3.33,
+    "FD": 1.0067882651555398
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Deportivo Recoleta",
+    "rol": "Local",
+    "prom": 5.67,
+    "FD": 1.0613646633529146
+  },
+  {
+    "liga": "America - Sudamericana",
+    "equipo": "Deportivo Recoleta",
+    "rol": "Visitante",
+    "prom": 1.67,
+    "FD": 1.071011156366212
+  }
 ];
 
 /* ========================
