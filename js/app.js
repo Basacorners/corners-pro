@@ -5,874 +5,873 @@ document.addEventListener("DOMContentLoaded", function () {
 ======================== */
 
 let equipos = [
-
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Arsenal",
     "rol": "Local",
     "prom": 5.89,
-    "FD": 0.6057974161328845
+    "FD": 0.6079755938112879
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Arsenal",
     "rol": "Visitante",
-    "prom": 5.56,
-    "FD": 0.7266274399925283
+    "prom": 5.47,
+    "FD": 0.7138209870805836
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Aston Villa",
     "rol": "Local",
     "prom": 5.53,
-    "FD": 1.074801867332537
+    "FD": 1.078666376116801
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Aston Villa",
     "rol": "Visitante",
-    "prom": 5.0,
-    "FD": 0.8723265153637808
+    "prom": 4.95,
+    "FD": 0.9090064132354307
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Bournemouth",
     "rol": "Local",
     "prom": 6.0,
-    "FD": 0.868526761480838
+    "FD": 0.8716495968620613
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Bournemouth",
     "rol": "Visitante",
-    "prom": 5.28,
-    "FD": 1.234706266928178
+    "prom": 5.16,
+    "FD": 1.2231620039037086
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Brentford",
     "rol": "Local",
     "prom": 4.37,
-    "FD": 1.0053197264140699
+    "FD": 1.008934408367836
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Brentford",
     "rol": "Visitante",
-    "prom": 5.39,
-    "FD": 1.0591202017371815
+    "prom": 5.21,
+    "FD": 1.135793289339158
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Brighton",
     "rol": "Local",
-    "prom": 5.22,
-    "FD": 1.000977092606666
+    "prom": 4.95,
+    "FD": 0.9871431684462846
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Brighton",
     "rol": "Visitante",
     "prom": 4.79,
-    "FD": 0.9545157373680772
+    "FD": 0.9499024072869227
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Burnley",
     "rol": "Local",
-    "prom": 3.56,
-    "FD": 1.2658777548583213
+    "prom": 3.74,
+    "FD": 1.2835040313793853
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Burnley",
     "rol": "Visitante",
     "prom": 3.53,
-    "FD": 1.1207621182404035
+    "FD": 1.115345292313412
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Chelsea",
     "rol": "Local",
     "prom": 6.84,
-    "FD": 0.844642275540115
+    "FD": 0.8476792329483547
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Chelsea",
     "rol": "Visitante",
-    "prom": 5.22,
-    "FD": 0.8611188941813768
+    "prom": 5.05,
+    "FD": 0.8699693280044613
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Crystal Palace",
     "rol": "Local",
-    "prom": 4.44,
-    "FD": 0.9532081207252195
+    "prom": 4.37,
+    "FD": 0.9522771845718021
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Crystal Palace",
     "rol": "Visitante",
     "prom": 4.0,
-    "FD": 1.1413094237414778
+    "FD": 1.135793289339158
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Everton",
     "rol": "Local",
     "prom": 4.95,
-    "FD": 1.0053197264140699
+    "FD": 1.008934408367836
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Everton",
     "rol": "Visitante",
-    "prom": 3.72,
-    "FD": 1.0385728962361072
+    "prom": 3.89,
+    "FD": 1.046565665954085
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Fulham",
     "rol": "Local",
-    "prom": 5.44,
-    "FD": 1.2311366843990879
+    "prom": 5.47,
+    "FD": 1.237742427544127
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Fulham",
     "rol": "Visitante",
     "prom": 4.37,
-    "FD": 1.0030820958251612
+    "FD": 0.9982340366205038
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Leeds Utd",
     "rol": "Local",
     "prom": 5.58,
-    "FD": 0.9141244164585819
+    "FD": 0.9174112006973196
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Leeds Utd",
     "rol": "Visitante",
-    "prom": 3.22,
-    "FD": 1.1095544970579996
+    "prom": 3.26,
+    "FD": 1.1060507482108002
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Liverpool",
     "rol": "Local",
-    "prom": 5.83,
-    "FD": 1.072630550428835
+    "prom": 6.26,
+    "FD": 1.0438003922423185
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Liverpool",
     "rol": "Visitante",
     "prom": 5.95,
-    "FD": 0.7471747454936024
+    "FD": 0.7435635282089413
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Manchester City",
     "rol": "Local",
-    "prom": 7.0,
-    "FD": 0.712191944414287
+    "prom": 7.11,
+    "FD": 0.7234691653955109
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Manchester City",
     "rol": "Visitante",
     "prom": 5.74,
-    "FD": 0.8069487251330907
+    "FD": 0.8030486104656567
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Manchester Utd",
     "rol": "Local",
     "prom": 5.26,
-    "FD": 0.9705786559548364
+    "FD": 0.9740684244933535
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Manchester Utd",
     "rol": "Visitante",
-    "prom": 4.33,
-    "FD": 1.0385728962361072
+    "prom": 4.26,
+    "FD": 0.9777860395947578
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Newcastle Utd",
     "rol": "Local",
     "prom": 6.74,
-    "FD": 1.074801867332537
+    "FD": 1.078666376116801
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Newcastle Utd",
     "rol": "Visitante",
-    "prom": 5.33,
-    "FD": 0.9022135051835249
+    "prom": 5.37,
+    "FD": 0.9090064132354307
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Nottm Forest",
     "rol": "Local",
     "prom": 6.0,
-    "FD": 0.8554988600586253
+    "FD": 0.8476792329483547
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Nottm Forest",
     "rol": "Visitante",
     "prom": 4.42,
-    "FD": 1.0721957597833194
+    "FD": 1.0670136629798308
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Sunderland",
     "rol": "Local",
-    "prom": 3.78,
-    "FD": 1.048746064488112
+    "prom": 3.89,
+    "FD": 1.0198300283286117
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Sunderland",
     "rol": "Visitante",
     "prom": 3.37,
-    "FD": 1.0423087699635754
+    "FD": 1.0372711218514732
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Tottenham",
     "rol": "Local",
-    "prom": 6.17,
-    "FD": 1.1334274237324935
+    "prom": 6.21,
+    "FD": 1.1592939638265416
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Tottenham",
     "rol": "Visitante",
     "prom": 4.79,
-    "FD": 0.8069487251330907
+    "FD": 0.8030486104656567
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "West Ham Utd",
     "rol": "Local",
-    "prom": 5.28,
-    "FD": 1.2072521984583646
+    "prom": 5.32,
+    "FD": 1.191980823708869
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "West Ham Utd",
     "rol": "Visitante",
     "prom": 4.53,
-    "FD": 1.247781824974316
+    "FD": 1.2417510921089319
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Wolverhampton",
     "rol": "Local",
     "prom": 3.11,
-    "FD": 1.1551405927695144
+    "FD": 1.1592939638265416
   },
   {
     "liga": "Europa - Inglaterra",
     "equipo": "Wolverhampton",
     "rol": "Visitante",
-    "prom": 3.5,
-    "FD": 1.2141589614271038
+    "prom": 3.68,
+    "FD": 1.2138674598010968
   },
   {
     "liga": "Europa - España",
     "equipo": "Alaves",
     "rol": "Local",
-    "prom": 5.94,
-    "FD": 1.0034478658899058
+    "prom": 6.16,
+    "FD": 1.0088809946714028
   },
   {
     "liga": "Europa - España",
     "equipo": "Alaves",
     "rol": "Visitante",
     "prom": 3.95,
-    "FD": 1.0500320131711334
+    "FD": 1.0551470588235294
   },
   {
     "liga": "Europa - España",
     "equipo": "Athletic Bilbao",
     "rol": "Local",
     "prom": 6.32,
-    "FD": 0.8750445844727142
+    "FD": 0.8715216104203669
   },
   {
     "liga": "Europa - España",
     "equipo": "Athletic Bilbao",
     "rol": "Visitante",
-    "prom": 5.44,
-    "FD": 0.7518521906155676
+    "prom": 5.21,
+    "FD": 0.7352941176470589
   },
   {
     "liga": "Europa - España",
     "equipo": "Atletico Madrid",
     "rol": "Local",
     "prom": 7.79,
-    "FD": 0.9012008084651051
+    "FD": 0.8975725281231496
   },
   {
     "liga": "Europa - España",
     "equipo": "Atletico Madrid",
     "rol": "Visitante",
-    "prom": 4.94,
-    "FD": 0.8744169029543585
+    "prom": 5.16,
+    "FD": 0.880514705882353
   },
   {
     "liga": "Europa - España",
     "equipo": "Celta Vigo",
     "rol": "Local",
-    "prom": 4.56,
-    "FD": 0.9249791939127332
+    "prom": 4.53,
+    "FD": 0.9094138543516871
   },
   {
     "liga": "Europa - España",
     "equipo": "Celta Vigo",
     "rol": "Visitante",
     "prom": 3.05,
-    "FD": 0.9732004024512944
+    "FD": 0.9779411764705884
   },
   {
     "liga": "Europa - España",
     "equipo": "Elche",
     "rol": "Local",
     "prom": 4.79,
-    "FD": 0.851266199025086
+    "FD": 0.8478389579632917
   },
   {
     "liga": "Europa - España",
     "equipo": "Elche",
     "rol": "Visitante",
-    "prom": 2.89,
-    "FD": 1.0262508003292785
+    "prom": 2.79,
+    "FD": 0.9963235294117648
   },
   {
     "liga": "Europa - España",
     "equipo": "Espanyol",
     "rol": "Local",
-    "prom": 5.28,
-    "FD": 1.1223397931280463
+    "prom": 5.16,
+    "FD": 1.122557726465364
   },
   {
     "liga": "Europa - España",
     "equipo": "Espanyol",
     "rol": "Visitante",
     "prom": 4.21,
-    "FD": 0.9055154120552457
+    "FD": 0.9099264705882354
   },
   {
     "liga": "Europa - España",
     "equipo": "FC Barcelona",
     "rol": "Local",
     "prom": 7.11,
-    "FD": 0.9511354179051241
+    "FD": 0.9473060982830075
   },
   {
     "liga": "Europa - España",
     "equipo": "FC Barcelona",
     "rol": "Visitante",
-    "prom": 6.61,
-    "FD": 0.8634409585658099
+    "prom": 6.68,
+    "FD": 0.8897058823529412
   },
   {
     "liga": "Europa - España",
     "equipo": "Getafe",
     "rol": "Local",
-    "prom": 4.28,
-    "FD": 0.9107121626441563
+    "prom": 4.16,
+    "FD": 0.9094138543516871
   },
   {
     "liga": "Europa - España",
     "equipo": "Getafe",
     "rol": "Visitante",
     "prom": 4.42,
-    "FD": 0.991493643098875
+    "FD": 0.9963235294117648
   },
   {
     "liga": "Europa - España",
     "equipo": "Girona",
     "rol": "Local",
-    "prom": 4.94,
-    "FD": 0.9654024491737009
+    "prom": 4.79,
+    "FD": 0.9212551805802248
   },
   {
     "liga": "Europa - España",
     "equipo": "Girona",
     "rol": "Visitante",
     "prom": 3.58,
-    "FD": 1.1835726698984725
+    "FD": 1.1893382352941178
   },
   {
     "liga": "Europa - España",
     "equipo": "Levante",
     "rol": "Local",
     "prom": 5.21,
-    "FD": 1.1270954702175722
+    "FD": 1.122557726465364
   },
   {
     "liga": "Europa - España",
     "equipo": "Levante",
     "rol": "Visitante",
-    "prom": 3.06,
-    "FD": 1.3317479191438764
+    "prom": 3.32,
+    "FD": 1.3069852941176472
   },
   {
     "liga": "Europa - España",
     "equipo": "Mallorca",
     "rol": "Local",
-    "prom": 3.94,
-    "FD": 1.4124360955891093
+    "prom": 4.0,
+    "FD": 1.3949082297217283
   },
   {
     "liga": "Europa - España",
     "equipo": "Mallorca",
     "rol": "Visitante",
     "prom": 3.37,
-    "FD": 1.221988475258392
+    "FD": 1.2279411764705883
   },
   {
     "liga": "Europa - España",
     "equipo": "Osasuna",
     "rol": "Local",
     "prom": 4.53,
-    "FD": 0.9130900011889191
+    "FD": 0.9094138543516871
   },
   {
     "liga": "Europa - España",
     "equipo": "Osasuna",
     "rol": "Visitante",
-    "prom": 2.89,
-    "FD": 1.097594438854843
+    "prom": 2.95,
+    "FD": 1.0643382352941178
   },
   {
     "liga": "Europa - España",
     "equipo": "Rayo Vallecano",
     "rol": "Local",
     "prom": 6.63,
-    "FD": 1.1627630483890141
+    "FD": 1.1580817051509766
   },
   {
     "liga": "Europa - España",
     "equipo": "Rayo Vallecano",
     "rol": "Visitante",
-    "prom": 4.72,
-    "FD": 0.9750297265160524
+    "prom": 4.74,
+    "FD": 1.0257352941176472
   },
   {
     "liga": "Europa - España",
     "equipo": "Real Betis",
     "rol": "Local",
-    "prom": 4.67,
-    "FD": 1.029604089882297
+    "prom": 4.63,
+    "FD": 1.072824156305506
   },
   {
     "liga": "Europa - España",
     "equipo": "Real Betis",
     "rol": "Visitante",
     "prom": 4.37,
-    "FD": 1.0500320131711334
+    "FD": 1.0551470588235294
   },
   {
     "liga": "Europa - España",
     "equipo": "Real Madrid",
     "rol": "Local",
-    "prom": 6.72,
-    "FD": 0.7395077874212339
+    "prom": 6.47,
+    "FD": 0.7104795737122556
   },
   {
     "liga": "Europa - España",
     "equipo": "Real Madrid",
     "rol": "Visitante",
     "prom": 6.11,
-    "FD": 0.7902679959754871
+    "FD": 0.7941176470588237
   },
   {
     "liga": "Europa - España",
     "equipo": "Real Oviedo",
     "rol": "Local",
     "prom": 4.63,
-    "FD": 1.1508738556652
+    "FD": 1.146240378922439
   },
   {
     "liga": "Europa - España",
     "equipo": "Real Oviedo",
     "rol": "Visitante",
-    "prom": 3.17,
-    "FD": 1.1579621329918595
+    "prom": 3.26,
+    "FD": 1.1507352941176472
   },
   {
     "liga": "Europa - España",
     "equipo": "Real Sociedad",
     "rol": "Local",
     "prom": 5.95,
-    "FD": 1.062893829508976
+    "FD": 1.0586145648312608
   },
   {
     "liga": "Europa - España",
     "equipo": "Real Sociedad",
     "rol": "Visitante",
-    "prom": 5.17,
-    "FD": 0.8433183938534712
+    "prom": 5.16,
+    "FD": 0.8327205882352943
   },
   {
     "liga": "Europa - España",
     "equipo": "Sevilla FC",
     "rol": "Local",
     "prom": 4.58,
-    "FD": 0.8750445844727142
+    "FD": 0.8715216104203669
   },
   {
     "liga": "Europa - España",
     "equipo": "Sevilla FC",
     "rol": "Visitante",
-    "prom": 5.11,
-    "FD": 1.0061282356169396
+    "prom": 5.0,
+    "FD": 0.9963235294117648
   },
   {
     "liga": "Europa - España",
     "equipo": "Valencia",
     "rol": "Local",
-    "prom": 5.94,
-    "FD": 0.977291641897515
+    "prom": 6.0,
+    "FD": 1.023090586145648
   },
   {
     "liga": "Europa - España",
     "equipo": "Valencia",
     "rol": "Visitante",
     "prom": 4.16,
-    "FD": 0.9622244580627458
+    "FD": 0.9669117647058824
   },
   {
     "liga": "Europa - España",
     "equipo": "Villarreal",
     "rol": "Local",
-    "prom": 5.39,
-    "FD": 1.0438711211508735
+    "prom": 5.37,
+    "FD": 1.096506808762581
   },
   {
     "liga": "Europa - España",
     "equipo": "Villarreal",
     "rol": "Visitante",
     "prom": 3.0,
-    "FD": 0.9439312174151652
+    "FD": 0.948529411764706
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Albacete",
     "rol": "Local",
-    "prom": 5.35,
-    "FD": 1.131910235358511
+    "prom": 5.38,
+    "FD": 1.1350531107738997
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Albacete",
     "rol": "Visitante",
     "prom": 4.85,
-    "FD": 1.2022375215146301
+    "FD": 1.2059737569060776
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Almeria",
     "rol": "Local",
     "prom": 6.1,
-    "FD": 0.9512862616310891
+    "FD": 0.9419033167136353
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Almeria",
     "rol": "Visitante",
-    "prom": 3.55,
-    "FD": 0.975043029259897
+    "prom": 3.76,
+    "FD": 0.9685773480662984
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Burgos",
     "rol": "Local",
     "prom": 4.3,
-    "FD": 1.0476190476190472
+    "FD": 1.037285931064383
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Burgos",
     "rol": "Visitante",
-    "prom": 3.4,
-    "FD": 0.9466437177280553
+    "prom": 3.24,
+    "FD": 0.9856698895027627
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Cadiz",
     "rol": "Local",
-    "prom": 5.55,
-    "FD": 1.1439518336070058
+    "prom": 5.48,
+    "FD": 1.146975937567743
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Cadiz",
     "rol": "Visitante",
     "prom": 3.35,
-    "FD": 1.0886402753872637
+    "FD": 1.0920234806629836
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Castellon",
     "rol": "Local",
     "prom": 6.1,
-    "FD": 0.8308702791461411
+    "FD": 0.8226750487752005
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Castellon",
     "rol": "Visitante",
-    "prom": 6.15,
-    "FD": 0.7289156626506026
+    "prom": 6.29,
+    "FD": 0.7140883977900553
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Ceuta",
     "rol": "Local",
     "prom": 4.8,
-    "FD": 1.0476190476190472
+    "FD": 1.037285931064383
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Ceuta",
     "rol": "Visitante",
-    "prom": 3.4,
-    "FD": 1.0507745266781414
+    "prom": 3.24,
+    "FD": 1.021754143646409
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Cordoba",
     "rol": "Local",
     "prom": 6.5,
-    "FD": 0.8308702791461411
+    "FD": 0.8226750487752005
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Cordoba",
     "rol": "Visitante",
-    "prom": 5.8,
-    "FD": 1.0129087779690191
+    "prom": 6.14,
+    "FD": 0.9856698895027627
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Deportivo",
     "rol": "Local",
     "prom": 5.15,
-    "FD": 0.9512862616310891
+    "FD": 0.9419033167136353
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Deportivo",
     "rol": "Visitante",
-    "prom": 5.15,
-    "FD": 0.8614457831325303
+    "prom": 5.05,
+    "FD": 0.8774171270718234
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Eibar",
     "rol": "Local",
-    "prom": 5.1,
-    "FD": 0.8308702791461411
+    "prom": 4.95,
+    "FD": 0.9299804899197918
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Eibar",
     "rol": "Visitante",
     "prom": 3.6,
-    "FD": 1.1359724612736664
+    "FD": 1.1395027624309393
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "FC Andorra",
     "rol": "Local",
-    "prom": 5.8,
-    "FD": 0.7586206896551723
+    "prom": 5.62,
+    "FD": 0.7153696076306091
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "FC Andorra",
     "rol": "Visitante",
     "prom": 4.25,
-    "FD": 1.0697074010327026
+    "FD": 1.0730317679558012
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Granada",
     "rol": "Local",
     "prom": 5.15,
-    "FD": 0.9994526546250683
+    "FD": 0.9895946238890092
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Granada",
     "rol": "Visitante",
-    "prom": 3.55,
-    "FD": 1.0697074010327026
+    "prom": 3.67,
+    "FD": 1.0673342541436466
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Huesca",
     "rol": "Local",
-    "prom": 5.3,
-    "FD": 1.1800766283524902
+    "prom": 5.14,
+    "FD": 1.2161283329720354
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Huesca",
     "rol": "Visitante",
     "prom": 3.9,
-    "FD": 1.0034423407917386
+    "FD": 1.0065607734806632
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Las Palmas",
     "rol": "Local",
-    "prom": 4.6,
-    "FD": 0.8669950738916254
+    "prom": 4.57,
+    "FD": 0.8846737481031866
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Las Palmas",
     "rol": "Visitante",
     "prom": 4.15,
-    "FD": 0.7289156626506026
+    "FD": 0.7311809392265195
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Leganes",
     "rol": "Local",
     "prom": 5.7,
-    "FD": 1.071702244116037
+    "FD": 1.0611315846520701
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Leganes",
     "rol": "Visitante",
-    "prom": 3.6,
-    "FD": 1.0129087779690191
+    "prom": 3.71,
+    "FD": 1.0046616022099448
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Leonesa",
     "rol": "Local",
-    "prom": 4.2,
-    "FD": 1.0476190476190472
+    "prom": 4.43,
+    "FD": 0.9872100585302404
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Leonesa",
     "rol": "Visitante",
     "prom": 3.35,
-    "FD": 1.0129087779690191
+    "FD": 1.0160566298342542
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Malaga",
     "rol": "Local",
-    "prom": 4.1,
-    "FD": 0.9031198686371098
+    "prom": 4.14,
+    "FD": 0.9299804899197918
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Malaga",
     "rol": "Visitante",
     "prom": 4.25,
-    "FD": 1.060240963855422
+    "FD": 1.06353591160221
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Mirandes",
     "rol": "Local",
-    "prom": 5.3,
-    "FD": 1.0837438423645318
+    "prom": 5.29,
+    "FD": 1.0897463689572946
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Mirandes",
     "rol": "Visitante",
     "prom": 3.4,
-    "FD": 1.0318416523235803
+    "FD": 1.0350483425414367
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Racing",
     "rol": "Local",
     "prom": 7.15,
-    "FD": 1.0837438423645318
+    "FD": 1.0730544114459135
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Racing",
     "rol": "Visitante",
-    "prom": 4.25,
-    "FD": 0.9655765920826164
+    "prom": 4.38,
+    "FD": 0.9685773480662984
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Real Sociedad B",
     "rol": "Local",
     "prom": 3.7,
-    "FD": 1.1800766283524902
+    "FD": 1.1684370257966614
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Real Sociedad B",
     "rol": "Visitante",
-    "prom": 3.65,
-    "FD": 1.1265060240963858
+    "prom": 3.76,
+    "FD": 1.1300069060773483
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Real Zaragoza",
     "rol": "Local",
     "prom": 4.85,
-    "FD": 1.2402846195949642
+    "FD": 1.228051159765879
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Real Zaragoza",
     "rol": "Visitante",
-    "prom": 5.2,
-    "FD": 0.9845094664371776
+    "prom": 5.24,
+    "FD": 0.9761740331491714
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Sporting Gijon",
     "rol": "Local",
-    "prom": 5.3,
-    "FD": 1.1800766283524902
+    "prom": 5.24,
+    "FD": 1.2042055061781918
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Sporting Gijon",
     "rol": "Visitante",
     "prom": 3.85,
-    "FD": 1.1075731497418246
+    "FD": 1.1110151933701657
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Valladolid",
     "rol": "Local",
     "prom": 6.1,
-    "FD": 0.6382047071702243
+    "FD": 0.636678950791242
   },
   {
     "liga": "Europa - EspañaB",
     "equipo": "Valladolid",
     "rol": "Visitante",
     "prom": 4.7,
-    "FD": 0.8235800344234081
+    "FD": 0.826139502762431
   },
   {
     "liga": "Europa - Bulgaria",
@@ -1103,252 +1102,252 @@ let equipos = [
     "equipo": "Arka Gdynia",
     "rol": "Local",
     "prom": 4.12,
-    "FD": 1.0913107511045654
+    "FD": 1.0898394411079788
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Arka Gdynia",
     "rol": "Visitante",
-    "prom": 4.13,
-    "FD": 1.2100677637947725
+    "prom": 4.12,
+    "FD": 1.1585220500595947
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Cracovia Krakow",
     "rol": "Local",
-    "prom": 5.19,
-    "FD": 0.8969072164948452
+    "prom": 5.06,
+    "FD": 0.8559872533398699
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Cracovia Krakow",
     "rol": "Visitante",
     "prom": 4.53,
-    "FD": 1.0822846079380446
+    "FD": 1.0902589663018745
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Gornik Zabrze",
     "rol": "Local",
-    "prom": 5.81,
-    "FD": 0.8836524300441825
+    "prom": 5.82,
+    "FD": 0.8824610859173917
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Gornik Zabrze",
     "rol": "Visitante",
     "prom": 5.65,
-    "FD": 0.8538238141335915
+    "FD": 0.8601148553472748
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Jagiellonia",
     "rol": "Local",
-    "prom": 5.19,
-    "FD": 0.828424153166421
+    "prom": 5.24,
+    "FD": 0.792008824610859
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Jagiellonia",
     "rol": "Visitante",
     "prom": 5.24,
-    "FD": 0.9002904162633109
+    "FD": 0.9069238270668545
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Katowice",
     "rol": "Local",
     "prom": 5.71,
-    "FD": 1.1686303387334314
+    "FD": 1.1670547861257505
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Katowice",
     "rol": "Visitante",
-    "prom": 3.63,
-    "FD": 1.0048402710551791
+    "prom": 3.59,
+    "FD": 0.9985913966843645
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Korona Kielce",
     "rol": "Local",
     "prom": 5.65,
-    "FD": 1.0007363770250368
+    "FD": 0.9993871798014462
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Korona Kielce",
     "rol": "Visitante",
-    "prom": 4.31,
-    "FD": 1.1616650532429815
+    "prom": 4.12,
+    "FD": 1.135117564199805
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Lech Poznan",
     "rol": "Local",
-    "prom": 6.63,
-    "FD": 1.0228276877761413
+    "prom": 6.53,
+    "FD": 1.0390979286677287
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Lech Poznan",
     "rol": "Visitante",
-    "prom": 5.65,
-    "FD": 0.8538238141335915
+    "prom": 5.71,
+    "FD": 0.8601148553472748
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Lechia Gdansk",
     "rol": "Local",
     "prom": 5.59,
-    "FD": 1.0913107511045654
+    "FD": 1.0898394411079788
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Lechia Gdansk",
     "rol": "Visitante",
-    "prom": 4.38,
-    "FD": 0.8964181994191674
+    "prom": 4.71,
+    "FD": 0.8718170982771697
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Legia Warsaw",
     "rol": "Local",
-    "prom": 6.25,
-    "FD": 0.7179675994108983
+    "prom": 6.18,
+    "FD": 0.7147934795930874
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Legia Warsaw",
     "rol": "Visitante",
     "prom": 4.88,
-    "FD": 0.797676669893514
+    "FD": 0.8035540145194495
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Motor Lublin",
     "rol": "Local",
     "prom": 4.82,
-    "FD": 1.0780559646539025
+    "FD": 1.076602524819218
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Motor Lublin",
     "rol": "Visitante",
-    "prom": 5.88,
-    "FD": 1.0648596321393997
+    "prom": 5.71,
+    "FD": 1.0668544804420845
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Piast Gliwice",
     "rol": "Local",
     "prom": 6.35,
-    "FD": 0.857142857142857
+    "FD": 0.8559872533398699
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Piast Gliwice",
     "rol": "Visitante",
-    "prom": 3.88,
-    "FD": 0.882865440464666
+    "prom": 4.0,
+    "FD": 0.9069238270668545
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Pogon Szczecin",
     "rol": "Local",
-    "prom": 5.94,
-    "FD": 1.1597938144329896
+    "prom": 5.82,
+    "FD": 1.1295501899742615
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Pogon Szczecin",
     "rol": "Visitante",
     "prom": 4.24,
-    "FD": 1.1616650532429815
+    "FD": 1.1702242929894895
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Radomiak Radom",
     "rol": "Local",
     "prom": 4.71,
-    "FD": 1.0272459499263622
+    "FD": 1.0390979286677287
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Radomiak Radom",
     "rol": "Visitante",
-    "prom": 4.5,
-    "FD": 1.0532429816069702
+    "prom": 4.47,
+    "FD": 1.0668544804420845
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Rakow C.",
     "rol": "Local",
-    "prom": 4.0,
-    "FD": 0.7047128129602356
+    "prom": 3.82,
+    "FD": 0.7147934795930874
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Rakow C.",
     "rol": "Visitante",
     "prom": 4.53,
-    "FD": 0.8305905130687319
+    "FD": 0.836710369487485
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Termalica",
     "rol": "Local",
-    "prom": 4.19,
-    "FD": 1.2437407952871868
+    "prom": 4.06,
+    "FD": 1.2972177962985658
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Termalica",
     "rol": "Visitante",
     "prom": 4.76,
-    "FD": 1.0029041626331074
+    "FD": 1.0102936396142592
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Widzew Lodz",
     "rol": "Local",
-    "prom": 4.44,
-    "FD": 0.7466863033873342
+    "prom": 4.53,
+    "FD": 0.7787719083220981
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Widzew Lodz",
     "rol": "Visitante",
     "prom": 3.71,
-    "FD": 0.9796708615682478
+    "FD": 0.9868891537544695
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Wisla Plock",
     "rol": "Local",
     "prom": 5.12,
-    "FD": 1.2724594992636227
+    "FD": 1.270743963721044
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Wisla Plock",
     "rol": "Visitante",
-    "prom": 3.44,
-    "FD": 0.9196515004840271
+    "prom": 3.59,
+    "FD": 0.928377939104995
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Zaglebie Lubin",
     "rol": "Local",
     "prom": 3.18,
-    "FD": 1.2083946980854194
+    "FD": 1.2067655349920332
   },
   {
     "liga": "Europa - Polonia",
     "equipo": "Zaglebie Lubin",
     "rol": "Visitante",
-    "prom": 4.25,
-    "FD": 1.3436592449177154
+    "prom": 4.06,
+    "FD": 1.3418571892946147
   },
   {
     "liga": "Europa - Alemania2",
@@ -2359,536 +2358,536 @@ let equipos = [
     "FD": 0.8856304985337246
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "ADO Den Haag",
     "rol": "Local",
     "prom": 8.0,
     "FD": 0.6778276847692936
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "ADO Den Haag",
     "rol": "Visitante",
     "prom": 6.63,
     "FD": 0.6355680176735491
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Almere City",
     "rol": "Local",
     "prom": 7.58,
     "FD": 0.8595345038791344
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Almere City",
     "rol": "Visitante",
     "prom": 6.26,
     "FD": 0.7341320418047412
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Cambuur",
     "rol": "Local",
     "prom": 7.05,
     "FD": 0.6451612903225807
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Cambuur",
     "rol": "Visitante",
     "prom": 5.63,
     "FD": 0.6984450675503441
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "De Graafschap",
     "rol": "Local",
     "prom": 7.05,
     "FD": 1.0208248264597797
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "De Graafschap",
     "rol": "Visitante",
     "prom": 6.11,
     "FD": 1.0994986829807119
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "FC Den Bosch",
     "rol": "Local",
     "prom": 5.79,
     "FD": 1.1923233973050225
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "FC Den Bosch",
     "rol": "Visitante",
     "prom": 4.84,
     "FD": 1.2167558841023025
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "FC Dordrecht",
     "rol": "Local",
     "prom": 6.89,
     "FD": 1.0432829726418948
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "FC Dordrecht",
     "rol": "Visitante",
     "prom": 5.16,
     "FD": 0.9295607103407254
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "FC Eindhoven",
     "rol": "Local",
     "prom": 3.79,
     "FD": 1.0963658636178033
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "FC Eindhoven",
     "rol": "Visitante",
     "prom": 6.05,
     "FD": 1.1453819355935082
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "FC Emmen",
     "rol": "Local",
     "prom": 6.16,
     "FD": 1.0432829726418948
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "FC Emmen",
     "rol": "Visitante",
     "prom": 4.95,
     "FD": 0.8411929645679326
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Helmond Sport",
     "rol": "Local",
     "prom": 6.89,
     "FD": 0.8819926500612496
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Helmond Sport",
     "rol": "Visitante",
     "prom": 4.95,
     "FD": 0.9295607103407254
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Jong Ajax",
     "rol": "Local",
     "prom": 5.05,
     "FD": 1.1596570028583095
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Jong Ajax",
     "rol": "Visitante",
     "prom": 3.53,
     "FD": 1.0910017843487125
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Jong AZ",
     "rol": "Local",
     "prom": 5.68,
     "FD": 0.8922008983258474
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Jong AZ",
     "rol": "Visitante",
     "prom": 4.16,
     "FD": 1.2439459597247002
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Jong PSV",
     "rol": "Local",
     "prom": 5.0,
     "FD": 1.139240506329114
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Jong PSV",
     "rol": "Visitante",
     "prom": 4.89,
     "FD": 1.1895658084799046
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Jong Utrecht",
     "rol": "Local",
     "prom": 4.05,
     "FD": 1.1167823601469988
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Jong Utrecht",
     "rol": "Visitante",
     "prom": 4.53,
     "FD": 0.8581867618319312
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "MVV Maastricht",
     "rol": "Local",
     "prom": 4.53,
     "FD": 1.1167823601469988
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "MVV Maastricht",
     "rol": "Visitante",
     "prom": 3.37,
     "FD": 1.3051236298750952
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "RKC Waalwijk",
     "rol": "Local",
     "prom": 4.79,
     "FD": 1.1923233973050225
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "RKC Waalwijk",
     "rol": "Visitante",
     "prom": 4.74,
     "FD": 0.8938737360863284
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Roda JC",
     "rol": "Local",
     "prom": 6.0,
     "FD": 1.0861576153532055
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Roda JC",
     "rol": "Visitante",
     "prom": 4.63,
     "FD": 0.8411929645679326
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "TOP Oss",
     "rol": "Local",
     "prom": 5.79,
     "FD": 1.278072682727644
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "TOP Oss",
     "rol": "Visitante",
     "prom": 3.74,
     "FD": 1.3238168068654939
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Vitesse Arnhem",
     "rol": "Local",
     "prom": 5.68,
     "FD": 0.7737852184565129
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Vitesse Arnhem",
     "rol": "Visitante",
     "prom": 4.05,
     "FD": 0.9567507859631232
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "VVV",
     "rol": "Local",
     "prom": 5.74,
     "FD": 0.9350755410371581
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "VVV",
     "rol": "Visitante",
     "prom": 4.42,
     "FD": 1.1266887586031096
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Willem II",
     "rol": "Local",
     "prom": 6.16,
     "FD": 0.8493262556145367
   },
   {
-    "liga": "Europa - HolandaB",
+    "liga": "Europa - HolandaB ",
     "equipo": "Willem II",
     "rol": "Visitante",
     "prom": 5.32,
     "FD": 0.9397569886991247
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "Ajax Amsterdam",
     "rol": "Local",
     "prom": 5.29,
-    "FD": 0.9076156253622347
+    "FD": 0.9083526682134568
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "Ajax Amsterdam",
     "rol": "Visitante",
     "prom": 4.35,
-    "FD": 1.0899470899470898
+    "FD": 1.0890934012140199
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "AZ Alkmaar",
     "rol": "Local",
     "prom": 5.88,
-    "FD": 0.9076156253622347
+    "FD": 0.9083526682134568
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "AZ Alkmaar",
     "rol": "Visitante",
     "prom": 5.65,
-    "FD": 0.8306878306878306
+    "FD": 0.8300372038378695
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "Excelsior",
     "rol": "Local",
     "prom": 4.18,
-    "FD": 0.8846644256404311
+    "FD": 0.8853828306264501
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "Excelsior",
     "rol": "Visitante",
     "prom": 4.0,
-    "FD": 1.1005291005291005
+    "FD": 1.0996671235559037
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "FC Groningen",
     "rol": "Local",
     "prom": 6.88,
-    "FD": 1.0432363509910745
+    "FD": 1.0440835266821344
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "FC Groningen",
     "rol": "Visitante",
     "prom": 5.59,
-    "FD": 0.8606701940035272
+    "FD": 0.8599960838065399
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "FC Twente",
     "rol": "Local",
     "prom": 5.71,
-    "FD": 0.7240060275878057
+    "FD": 0.7245939675174013
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "FC Twente",
     "rol": "Visitante",
     "prom": 5.0,
-    "FD": 0.8500881834215167
+    "FD": 0.8494223614646563
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "FC Utrecht",
     "rol": "Local",
     "prom": 5.12,
-    "FD": 0.9326532977860205
+    "FD": 0.9334106728538281
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "FC Utrecht",
     "rol": "Visitante",
     "prom": 5.24,
-    "FD": 0.7883597883597881
+    "FD": 0.7877423144703347
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "FC Volendam",
     "rol": "Local",
     "prom": 4.47,
-    "FD": 1.1413005679842354
+    "FD": 1.142227378190255
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "FC Volendam",
     "rol": "Visitante",
     "prom": 3.0,
-    "FD": 1.3597883597883595
+    "FD": 1.358723320932054
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "Feyenoord",
     "rol": "Local",
     "prom": 7.88,
-    "FD": 0.6634983192303233
+    "FD": 0.6640371229698375
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "Feyenoord",
     "rol": "Visitante",
     "prom": 6.59,
-    "FD": 0.6225749559082892
+    "FD": 0.6220873311141569
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "Fortuna Sittard",
     "rol": "Local",
     "prom": 4.94,
-    "FD": 1.3875043468181292
+    "FD": 1.3886310904872388
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "Fortuna Sittard",
     "rol": "Visitante",
     "prom": 3.71,
-    "FD": 1.2134038800705464
+    "FD": 1.2124534952026629
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "Go Ahead Eagles",
     "rol": "Local",
     "prom": 6.47,
-    "FD": 1.1913759128318069
+    "FD": 1.1923433874709974
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "Go Ahead Eagles",
     "rol": "Visitante",
     "prom": 4.41,
-    "FD": 1.1516754850088182
+    "FD": 1.1507734482083414
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "Heerenveen",
     "rol": "Local",
     "prom": 5.94,
-    "FD": 0.8846644256404311
+    "FD": 0.8853828306264501
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "Heerenveen",
     "rol": "Visitante",
-    "prom": 5.31,
-    "FD": 0.9929453262786595
+    "prom": 5.18,
+    "FD": 1.006265909535931
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "Heracles Almelo",
     "rol": "Local",
     "prom": 4.82,
-    "FD": 1.1037440593485568
+    "FD": 1.1046403712296982
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "Heracles Almelo",
     "rol": "Visitante",
     "prom": 4.18,
-    "FD": 1.1834215167548499
+    "FD": 1.1824946152339924
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "NAC Breda",
     "rol": "Local",
-    "prom": 6.0,
-    "FD": 0.8617132259186274
+    "prom": 6.06,
+    "FD": 0.847795823665893
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "NAC Breda",
     "rol": "Visitante",
     "prom": 5.47,
-    "FD": 0.8095238095238094
+    "FD": 0.8088897591541021
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "NEC Nijmegen",
     "rol": "Local",
     "prom": 6.76,
-    "FD": 0.6760171554422163
+    "FD": 0.6765661252900231
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "NEC Nijmegen",
     "rol": "Visitante",
     "prom": 5.47,
-    "FD": 0.8306878306878306
+    "FD": 0.8300372038378695
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "PEC Zwolle",
     "rol": "Local",
     "prom": 4.06,
-    "FD": 1.2769212936130752
+    "FD": 1.2779582366589326
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "PEC Zwolle",
     "rol": "Visitante",
     "prom": 3.12,
-    "FD": 1.0687830687830686
+    "FD": 1.0679459565302525
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "PSV Eindhoven",
     "rol": "Local",
     "prom": 7.59,
-    "FD": 0.8721455894285381
+    "FD": 0.8728538283062643
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "PSV Eindhoven",
     "rol": "Visitante",
     "prom": 6.71,
-    "FD": 0.82010582010582
+    "FD": 0.8194634814959859
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "Sparta",
     "rol": "Local",
     "prom": 4.71,
-    "FD": 1.3624666743943432
+    "FD": 1.3635730858468675
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "Sparta",
     "rol": "Visitante",
     "prom": 4.41,
-    "FD": 1.1922398589065253
+    "FD": 1.1913060505188955
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "Telstar",
     "rol": "Local",
     "prom": 5.35,
-    "FD": 1.1788570766199142
+    "FD": 1.179814385150812
   },
   {
-    "liga": "Europa - Holanda",
+    "liga": "Europa - Holanda ",
     "equipo": "Telstar",
     "rol": "Visitante",
     "prom": 4.12,
-    "FD": 1.2345679012345678
+    "FD": 1.2336009398864303
   },
   {
     "liga": "Europa - Alemania",
@@ -3146,281 +3145,281 @@ let equipos = [
     "liga": "Europa - Italia",
     "equipo": "AC Milan",
     "rol": "Local",
-    "prom": 4.94,
-    "FD": 0.9348698692218049
+    "prom": 4.95,
+    "FD": 0.9538621047174703
   },
   {
     "liga": "Europa - Italia",
     "equipo": "AC Milan",
     "rol": "Visitante",
     "prom": 3.58,
-    "FD": 0.979273054971463
+    "FD": 0.9866828087167069
   },
   {
     "liga": "Europa - Italia",
     "equipo": "AS Roma",
     "rol": "Local",
     "prom": 5.74,
-    "FD": 0.7225171565453838
+    "FD": 0.7231726283048212
   },
   {
     "liga": "Europa - Italia",
     "equipo": "AS Roma",
     "rol": "Visitante",
-    "prom": 4.5,
-    "FD": 0.8130569740662862
+    "prom": 4.58,
+    "FD": 0.8393866020984665
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Atalanta",
     "rol": "Local",
     "prom": 6.84,
-    "FD": 0.9271008675385213
+    "FD": 0.9279419388284086
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Atalanta",
     "rol": "Visitante",
-    "prom": 4.56,
-    "FD": 0.9672574346650648
+    "prom": 4.47,
+    "FD": 0.9564164648910412
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Bologna",
     "rol": "Local",
-    "prom": 5.44,
-    "FD": 0.9788942120937458
+    "prom": 5.21,
+    "FD": 0.9823742871954382
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Bologna",
     "rol": "Visitante",
     "prom": 3.74,
-    "FD": 0.9372183838990689
+    "FD": 0.9443099273607747
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Cagliari",
     "rol": "Local",
     "prom": 4.16,
-    "FD": 1.3077819500194223
+    "FD": 1.3089683773976155
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Cagliari",
     "rol": "Visitante",
-    "prom": 3.33,
-    "FD": 1.0573745869630522
+    "prom": 3.42,
+    "FD": 1.0613397901533494
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Como",
     "rol": "Local",
     "prom": 5.0,
-    "FD": 0.5308817816910526
+    "FD": 0.5313634007257646
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Como",
     "rol": "Visitante",
-    "prom": 3.94,
-    "FD": 0.901171522979874
+    "prom": 3.95,
+    "FD": 0.8817594834543987
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Cremonese",
     "rol": "Local",
-    "prom": 3.67,
-    "FD": 1.3388579567525571
+    "prom": 3.58,
+    "FD": 1.3245204769310526
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Cremonese",
     "rol": "Visitante",
     "prom": 3.42,
-    "FD": 1.3697807149294083
+    "FD": 1.380145278450363
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Fiorentina",
     "rol": "Local",
-    "prom": 5.61,
-    "FD": 1.0514048944710603
+    "prom": 5.47,
+    "FD": 1.0368066355624677
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Fiorentina",
     "rol": "Visitante",
     "prom": 3.42,
-    "FD": 1.0333433463502555
+    "FD": 1.0411622276029056
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Genoa",
     "rol": "Local",
     "prom": 3.63,
-    "FD": 1.022918554965687
+    "FD": 1.023846552617937
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Genoa",
     "rol": "Visitante",
-    "prom": 3.61,
-    "FD": 1.2135776509462302
+    "prom": 3.74,
+    "FD": 1.168280871670702
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Hellas Verona",
     "rol": "Local",
-    "prom": 4.78,
-    "FD": 1.0073805515991194
+    "prom": 4.84,
+    "FD": 1.0368066355624677
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Hellas Verona",
     "rol": "Visitante",
     "prom": 3.05,
-    "FD": 1.2336036847902276
+    "FD": 1.2429378531073445
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Inter Milan",
     "rol": "Local",
     "prom": 7.37,
-    "FD": 0.7639518321895636
+    "FD": 0.7646448937273199
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Inter Milan",
     "rol": "Visitante",
-    "prom": 5.39,
-    "FD": 0.5887653950135177
+    "prom": 5.32,
+    "FD": 0.5730427764326068
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Juventus",
     "rol": "Local",
     "prom": 6.47,
-    "FD": 0.8727178557555354
+    "FD": 0.8735095904613791
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Juventus",
     "rol": "Visitante",
-    "prom": 4.28,
-    "FD": 0.8130569740662862
+    "prom": 4.37,
+    "FD": 0.8393866020984665
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Lazio",
     "rol": "Local",
-    "prom": 4.56,
-    "FD": 0.9633562087271785
+    "prom": 4.58,
+    "FD": 0.9279419388284086
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Lazio",
     "rol": "Visitante",
     "prom": 2.89,
-    "FD": 0.9592470211274658
+    "FD": 0.9665052461662631
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Lecce",
     "rol": "Local",
-    "prom": 4.39,
-    "FD": 1.136863912987181
+    "prom": 4.21,
+    "FD": 1.1586314152410575
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Lecce",
     "rol": "Visitante",
     "prom": 4.37,
-    "FD": 1.2436167017122262
+    "FD": 1.2530266343825665
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Napoli",
     "rol": "Local",
-    "prom": 6.44,
-    "FD": 0.6629548103068755
+    "prom": 6.26,
+    "FD": 0.6687402799377917
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Napoli",
     "rol": "Visitante",
     "prom": 4.68,
-    "FD": 0.5907679983979174
+    "FD": 0.5952380952380952
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Parma",
     "rol": "Local",
-    "prom": 4.33,
-    "FD": 1.079891233976434
+    "prom": 4.16,
+    "FD": 1.0368066355624677
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Parma",
     "rol": "Visitante",
     "prom": 3.53,
-    "FD": 1.1915490137178335
+    "FD": 1.2005649717514124
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Pisa",
     "rol": "Local",
     "prom": 3.79,
-    "FD": 1.1187362423928524
+    "FD": 1.119751166407465
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Pisa",
     "rol": "Visitante",
-    "prom": 3.44,
-    "FD": 1.0673876038850507
+    "prom": 3.32,
+    "FD": 1.0734463276836157
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Sassuolo",
     "rol": "Local",
     "prom": 3.79,
-    "FD": 1.2948336138806162
+    "FD": 1.2960082944530846
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Sassuolo",
     "rol": "Visitante",
-    "prom": 3.89,
-    "FD": 1.00130169219986
+    "prom": 3.74,
+    "FD": 0.9665052461662631
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Torino",
     "rol": "Local",
-    "prom": 4.22,
-    "FD": 1.1808882558591218
+    "prom": 4.32,
+    "FD": 1.2001036806635563
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Torino",
     "rol": "Visitante",
     "prom": 3.37,
-    "FD": 0.9492340042054673
+    "FD": 0.9564164648910412
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Udinese",
     "rol": "Local",
     "prom": 4.74,
-    "FD": 1.1031982390262849
+    "FD": 1.104199066874028
   },
   {
     "liga": "Europa - Italia",
     "equipo": "Udinese",
     "rol": "Visitante",
-    "prom": 4.28,
-    "FD": 1.0894162411134478
+    "prom": 4.21,
+    "FD": 1.0734463276836157
   },
   {
     "liga": "Europa - Belgica",
@@ -5107,224 +5106,224 @@ let equipos = [
     "equipo": "Aalesund",
     "rol": "Local",
     "prom": 5.6,
-    "FD": 1.3471793432500703
+    "FD": 1.30879345603272
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Aalesund",
     "rol": "Visitante",
-    "prom": 1.25,
-    "FD": 1.6777493606138107
+    "prom": 2.8,
+    "FD": 1.5642225689027558
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Bodo/Glimt",
     "rol": "Local",
-    "prom": 9.5,
-    "FD": 0.39292730844793716
+    "prom": 9.0,
+    "FD": 0.43626448534424
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Bodo/Glimt",
     "rol": "Visitante",
     "prom": 5.6,
-    "FD": 0.4255754475703325
+    "FD": 0.43265730629225163
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Brann",
     "rol": "Local",
     "prom": 6.5,
-    "FD": 0.7297221442604548
+    "FD": 0.7089297886843899
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Brann",
     "rol": "Visitante",
-    "prom": 7.33,
-    "FD": 0.9820971867007673
+    "prom": 6.71,
+    "FD": 0.9984399375975037
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Fredrikstad",
     "rol": "Local",
     "prom": 5.0,
-    "FD": 1.122649452708392
+    "FD": 1.0906612133606
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Fredrikstad",
     "rol": "Visitante",
-    "prom": 4.0,
-    "FD": 0.8838874680306906
+    "prom": 4.17,
+    "FD": 0.9152366094643783
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "HamKam",
     "rol": "Local",
-    "prom": 3.8,
-    "FD": 1.2124614089250634
+    "prom": 3.83,
+    "FD": 1.30879345603272
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "HamKam",
     "rol": "Visitante",
     "prom": 5.33,
-    "FD": 0.6007161125319693
+    "FD": 0.6107124284971397
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "KFUM Oslo",
     "rol": "Local",
-    "prom": 4.5,
-    "FD": 0.841987089531294
+    "prom": 5.4,
+    "FD": 0.7416496250852079
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "KFUM Oslo",
     "rol": "Visitante",
     "prom": 2.8,
-    "FD": 0.9820971867007673
+    "FD": 0.9984399375975037
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Kristiansund",
     "rol": "Local",
-    "prom": 3.5,
-    "FD": 1.5717092337917486
+    "prom": 3.6,
+    "FD": 1.396046353101568
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Kristiansund",
     "rol": "Visitante",
     "prom": 4.2,
-    "FD": 1.1785166240409208
+    "FD": 1.1981279251170045
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Lillestrom",
     "rol": "Local",
     "prom": 5.0,
-    "FD": 0.8083076059500423
+    "FD": 0.785276073619632
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Lillestrom",
     "rol": "Visitante",
-    "prom": 5.2,
-    "FD": 0.9493606138107417
+    "prom": 5.83,
+    "FD": 0.9152366094643783
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Molde",
     "rol": "Local",
     "prom": 3.6,
-    "FD": 1.122649452708392
+    "FD": 1.0906612133606
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Molde",
     "rol": "Visitante",
-    "prom": 5.0,
-    "FD": 0.8593350383631714
+    "prom": 5.6,
+    "FD": 0.7654706188247528
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Rosenborg",
     "rol": "Local",
     "prom": 8.4,
-    "FD": 1.122649452708392
+    "FD": 1.0906612133606
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Rosenborg",
     "rol": "Visitante",
-    "prom": 4.5,
-    "FD": 1.0639386189258313
+    "prom": 4.0,
+    "FD": 1.1648465938637542
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Sandefjord",
     "rol": "Local",
-    "prom": 7.5,
-    "FD": 1.2910468706146507
+    "prom": 7.2,
+    "FD": 1.221540558963872
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Sandefjord",
     "rol": "Visitante",
     "prom": 4.6,
-    "FD": 1.4076726342710997
+    "FD": 1.4310972438897553
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Sarpsborg 08",
     "rol": "Local",
-    "prom": 8.0,
-    "FD": 0.7858546168958743
+    "prom": 6.8,
+    "FD": 0.959781867757328
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Sarpsborg 08",
     "rol": "Visitante",
     "prom": 3.0,
-    "FD": 0.8838874680306906
+    "FD": 0.8985959438377534
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Start",
     "rol": "Local",
-    "prom": 4.25,
-    "FD": 0.841987089531294
+    "prom": 4.4,
+    "FD": 0.959781867757328
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Start",
     "rol": "Visitante",
     "prom": 2.67,
-    "FD": 1.1997953964194374
+    "FD": 1.219760790431617
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Tromso",
     "rol": "Local",
-    "prom": 7.0,
-    "FD": 0.6084760033679484
+    "prom": 6.88,
+    "FD": 0.7634628493524199
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Tromso",
     "rol": "Visitante",
     "prom": 3.75,
-    "FD": 0.9002557544757033
+    "FD": 0.9568382735309411
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Valerenga",
     "rol": "Local",
     "prom": 9.6,
-    "FD": 0.9430255402750493
+    "FD": 0.916155419222904
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Valerenga",
     "rol": "Visitante",
-    "prom": 4.75,
-    "FD": 1.0639386189258313
+    "prom": 5.2,
+    "FD": 1.0317212688507538
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Viking",
     "rol": "Local",
     "prom": 6.2,
-    "FD": 1.257367387033399
+    "FD": 1.221540558963872
   },
   {
     "liga": "Europa - Noruega",
     "equipo": "Viking",
     "rol": "Visitante",
-    "prom": 7.0,
-    "FD": 0.9411764705882353
+    "prom": 6.4,
+    "FD": 0.8985959438377534
   },
   {
     "liga": "Europa - Austria",
@@ -5666,3123 +5665,3123 @@ let equipos = [
     "liga": "Europa - Croacia",
     "equipo": "Dinamo Zagreb",
     "rol": "Local",
-    "prom": 6.53,
-    "FD": 0.7245080500894455
+    "prom": 6.39,
+    "FD": 0.7157371867238653
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Dinamo Zagreb",
     "rol": "Visitante",
     "prom": 6.17,
-    "FD": 0.731006160164271
+    "FD": 0.7207936829317677
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Gorica",
     "rol": "Local",
     "prom": 4.5,
-    "FD": 1.0196779964221825
+    "FD": 1.0295777827952133
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Gorica",
     "rol": "Visitante",
-    "prom": 4.29,
-    "FD": 0.8583162217659137
+    "prom": 4.22,
+    "FD": 0.8766956873861107
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Hajduk Split",
     "rol": "Local",
-    "prom": 4.65,
-    "FD": 0.8027728085867621
+    "prom": 4.83,
+    "FD": 0.803793181305035
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Hajduk Split",
     "rol": "Visitante",
     "prom": 5.61,
-    "FD": 0.9466119096509241
+    "FD": 0.9333873253695082
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Istra",
     "rol": "Local",
     "prom": 4.56,
-    "FD": 1.2678890876565296
+    "FD": 1.2801986904493112
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Istra",
     "rol": "Visitante",
-    "prom": 3.82,
-    "FD": 1.2813141683778235
+    "prom": 3.78,
+    "FD": 1.2148208139299455
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Lok. Zagreb",
     "rol": "Local",
     "prom": 4.22,
-    "FD": 1.0442754919499107
+    "FD": 1.054414088959133
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Lok. Zagreb",
     "rol": "Visitante",
-    "prom": 5.06,
-    "FD": 0.7967145790554414
+    "prom": 4.89,
+    "FD": 0.7876088276979147
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Osijek",
     "rol": "Local",
-    "prom": 5.71,
-    "FD": 1.1046511627906979
+    "prom": 6.28,
+    "FD": 1.0792503951230525
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Osijek",
     "rol": "Visitante",
     "prom": 3.83,
-    "FD": 1.141683778234086
+    "FD": 1.1257339542417495
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Rijeka",
     "rol": "Local",
     "prom": 7.0,
-    "FD": 0.7625223613595707
+    "FD": 0.7654097990517047
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Rijeka",
     "rol": "Visitante",
     "prom": 5.56,
-    "FD": 0.8788501026694046
+    "FD": 0.8665721806033612
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Slaven Belupo",
     "rol": "Local",
     "prom": 4.11,
-    "FD": 0.8564400715563507
+    "FD": 0.8647550237073831
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Slaven Belupo",
     "rol": "Visitante",
-    "prom": 3.59,
-    "FD": 0.7618069815195072
+    "prom": 3.5,
+    "FD": 0.8888438955254101
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Varazdin",
     "rol": "Local",
-    "prom": 3.76,
-    "FD": 1.25
+    "prom": 3.67,
+    "FD": 1.2282682321065703
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Varazdin",
     "rol": "Visitante",
     "prom": 3.61,
-    "FD": 1.322381930184805
+    "FD": 1.3039076736181416
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Vukovar",
     "rol": "Local",
     "prom": 3.83,
-    "FD": 1.167262969588551
+    "FD": 1.178595619778731
   },
   {
     "liga": "Europa - Croacia",
     "equipo": "Vukovar",
     "rol": "Visitante",
-    "prom": 3.12,
-    "FD": 1.2813141683778235
+    "prom": 3.11,
+    "FD": 1.2816359586960926
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "AIK",
     "rol": "Local",
     "prom": 7.25,
-    "FD": 1.2809802283486496
+    "FD": 1.2582056892778992
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "AIK",
     "rol": "Visitante",
-    "prom": 6.25,
-    "FD": 0.8476571697668943
+    "prom": 5.8,
+    "FD": 0.8908254659888647
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Brommapojkarna",
     "rol": "Local",
     "prom": 4.67,
-    "FD": 1.3366750208855473
+    "FD": 1.312910284463895
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Brommapojkarna",
     "rol": "Visitante",
-    "prom": 3.6,
-    "FD": 0.8288203437720745
+    "prom": 4.33,
+    "FD": 0.8075526506899057
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Degerfors",
     "rol": "Local",
     "prom": 4.6,
-    "FD": 0.9802283486494014
+    "FD": 0.962800875273523
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Degerfors",
     "rol": "Visitante",
-    "prom": 3.0,
-    "FD": 0.6913115140098893
+    "prom": 4.25,
+    "FD": 0.8230452674897121
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Djurgarden",
     "rol": "Local",
-    "prom": 6.0,
-    "FD": 0.8020050125313284
+    "prom": 5.5,
+    "FD": 0.9474835886214441
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Djurgarden",
     "rol": "Visitante",
     "prom": 8.67,
-    "FD": 0.6913115140098893
+    "FD": 0.710723795691116
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Elfsborg",
     "rol": "Local",
-    "prom": 4.2,
-    "FD": 1.3366750208855473
+    "prom": 3.67,
+    "FD": 1.312910284463895
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Elfsborg",
     "rol": "Visitante",
     "prom": 3.75,
-    "FD": 0.8476571697668943
+    "FD": 0.8714596949891068
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "GAIS",
     "rol": "Local",
     "prom": 5.0,
-    "FD": 0.8911166805903649
+    "FD": 0.87527352297593
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "GAIS",
     "rol": "Visitante",
     "prom": 4.0,
-    "FD": 0.7534730397927949
+    "FD": 0.8908254659888647
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Hacken",
     "rol": "Local",
     "prom": 4.5,
-    "FD": 1.2252854358117518
+    "FD": 1.2035010940919038
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Hacken",
     "rol": "Visitante",
     "prom": 6.0,
-    "FD": 1.036025429715093
+    "FD": 0.8908254659888647
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Halmstad",
     "rol": "Local",
-    "prom": 2.25,
-    "FD": 1.169590643274854
+    "prom": 2.4,
+    "FD": 1.1378555798687089
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Halmstad",
     "rol": "Visitante",
     "prom": 2.75,
-    "FD": 1.4598540145985401
+    "FD": 1.5008472524812395
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Hammarby",
     "rol": "Local",
-    "prom": 6.8,
-    "FD": 0.534670008354219
+    "prom": 6.5,
+    "FD": 0.5842450765864332
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Hammarby",
     "rol": "Visitante",
     "prom": 3.0,
-    "FD": 0.4709206498704968
+    "FD": 0.48414427499394824
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "IFK Goteborg",
     "rol": "Local",
-    "prom": 5.67,
-    "FD": 0.8175995544416598
+    "prom": 4.75,
+    "FD": 0.7658643326039387
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "IFK Goteborg",
     "rol": "Visitante",
     "prom": 5.25,
-    "FD": 1.1302095596891923
+    "FD": 1.1619462599854757
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Kalmar",
     "rol": "Local",
-    "prom": 8.75,
-    "FD": 0.8911166805903649
+    "prom": 8.2,
+    "FD": 1.0503282275711159
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Kalmar",
     "rol": "Visitante",
     "prom": 4.5,
-    "FD": 0.894749234753944
+    "FD": 0.9198741224885016
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Malmo FF",
     "rol": "Local",
-    "prom": 5.0,
-    "FD": 0.7418546365914788
+    "prom": 4.25,
+    "FD": 0.711159737417943
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Malmo FF",
     "rol": "Visitante",
     "prom": 5.2,
-    "FD": 1.6953143395337886
+    "FD": 1.7429193899782136
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Mjallby",
     "rol": "Local",
     "prom": 7.5,
-    "FD": 0.8911166805903649
+    "FD": 0.87527352297593
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Mjallby",
     "rol": "Visitante",
     "prom": 3.0,
-    "FD": 0.7911466917824347
+    "FD": 0.7417090292907287
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Orgryte",
     "rol": "Local",
     "prom": 4.0,
-    "FD": 0.8175995544416598
+    "FD": 0.8030634573304157
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Orgryte",
     "rol": "Visitante",
-    "prom": 3.75,
-    "FD": 1.4598540145985401
+    "prom": 4.0,
+    "FD": 1.3168724279835393
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Sirius",
     "rol": "Local",
-    "prom": 4.5,
-    "FD": 1.1138958507379562
+    "prom": 5.0,
+    "FD": 1.0503282275711159
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Sirius",
     "rol": "Visitante",
     "prom": 5.25,
-    "FD": 0.9418412997409936
+    "FD": 0.9682885499878965
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Vasteras",
     "rol": "Local",
     "prom": 5.0,
-    "FD": 1.169590643274854
+    "FD": 1.148796498905908
   },
   {
     "liga": "Europa - Suecia",
     "equipo": "Vasteras",
     "rol": "Visitante",
-    "prom": 4.75,
-    "FD": 1.4598540145985401
+    "prom": 4.4,
+    "FD": 1.2781408859840233
   },
   {
     "liga": "America - Brasil",
     "equipo": "Internacional",
     "rol": "Local",
     "prom": 7.44,
-    "FD": 0.7934621099554234
+    "FD": 0.7694801685939695
   },
   {
     "liga": "America - Brasil",
     "equipo": "Internacional",
     "rol": "Visitante",
-    "prom": 7.71,
-    "FD": 0.8241539482415394
+    "prom": 7.5,
+    "FD": 0.750704353358175
   },
   {
     "liga": "America - Brasil",
     "equipo": "Mirassol",
     "rol": "Local",
-    "prom": 7.0,
-    "FD": 0.8358098068350668
+    "prom": 6.67,
+    "FD": 0.8408083864692533
   },
   {
     "liga": "America - Brasil",
     "equipo": "Mirassol",
     "rol": "Visitante",
     "prom": 4.71,
-    "FD": 1.1366954213669542
+    "FD": 1.0378987548850314
   },
   {
     "liga": "America - Brasil",
     "equipo": "Fluminense",
     "rol": "Local",
     "prom": 5.44,
-    "FD": 0.7421991084695393
+    "FD": 0.7197665621960445
   },
   {
     "liga": "America - Brasil",
     "equipo": "Fluminense",
     "rol": "Visitante",
-    "prom": 5.86,
-    "FD": 0.9674850696748507
+    "prom": 5.75,
+    "FD": 0.863400890666182
   },
   {
     "liga": "America - Brasil",
     "equipo": "São Paulo",
     "rol": "Local",
-    "prom": 8.29,
-    "FD": 1.0832095096582466
+    "prom": 7.75,
+    "FD": 1.0007565114017076
   },
   {
     "liga": "America - Brasil",
     "equipo": "São Paulo",
     "rol": "Visitante",
     "prom": 5.56,
-    "FD": 0.8619774386197744
+    "FD": 0.7870580750704353
   },
   {
     "liga": "America - Brasil",
     "equipo": "Santos",
     "rol": "Local",
     "prom": 5.22,
-    "FD": 1.016344725111441
+    "FD": 0.9856262833675564
   },
   {
     "liga": "America - Brasil",
     "equipo": "Santos",
     "rol": "Visitante",
-    "prom": 5.29,
-    "FD": 1.053085600530856
+    "prom": 5.25,
+    "FD": 1.0233572662001271
   },
   {
     "liga": "America - Brasil",
     "equipo": "Bragantino",
     "rol": "Local",
     "prom": 6.13,
-    "FD": 1.2548291233283801
+    "FD": 1.2169026261752944
   },
   {
     "liga": "America - Brasil",
     "equipo": "Bragantino",
     "rol": "Visitante",
-    "prom": 4.88,
-    "FD": 1.0212342402123424
+    "prom": 5.0,
+    "FD": 0.9488321366899936
   },
   {
     "liga": "America - Brasil",
     "equipo": "Vasco",
     "rol": "Local",
-    "prom": 6.13,
-    "FD": 0.7243684992570578
+    "prom": 6.11,
+    "FD": 0.7694801685939695
   },
   {
     "liga": "America - Brasil",
     "equipo": "Vasco",
     "rol": "Visitante",
     "prom": 4.75,
-    "FD": 0.8460517584605176
+    "FD": 0.7725165863855312
   },
   {
     "liga": "America - Brasil",
     "equipo": "Palmeiras",
     "rol": "Local",
     "prom": 6.38,
-    "FD": 0.9472511144130756
+    "FD": 0.9186209877877445
   },
   {
     "liga": "America - Brasil",
     "equipo": "Palmeiras",
     "rol": "Visitante",
-    "prom": 6.25,
-    "FD": 1.5686794956867949
+    "prom": 6.0,
+    "FD": 1.4341543215486685
   },
   {
     "liga": "America - Brasil",
     "equipo": "Atlético-MG",
     "rol": "Local",
     "prom": 4.75,
-    "FD": 1.2815750371471024
+    "FD": 1.242840159948125
   },
   {
     "liga": "America - Brasil",
     "equipo": "Atlético-MG",
     "rol": "Visitante",
-    "prom": 5.75,
-    "FD": 0.9455872594558726
+    "prom": 5.11,
+    "FD": 0.8288648550395346
   },
   {
     "liga": "America - Brasil",
     "equipo": "Cruzeiro",
     "rol": "Local",
-    "prom": 5.5,
-    "FD": 0.6686478454680534
+    "prom": 5.89,
+    "FD": 0.6246622716956662
   },
   {
     "liga": "America - Brasil",
     "equipo": "Cruzeiro",
     "rol": "Visitante",
     "prom": 4.75,
-    "FD": 1.0451227604512277
+    "FD": 0.9542851949468327
   },
   {
     "liga": "America - Brasil",
     "equipo": "Bahia",
     "rol": "Local",
     "prom": 6.0,
-    "FD": 0.9472511144130756
+    "FD": 0.9186209877877445
   },
   {
     "liga": "America - Brasil",
     "equipo": "Bahia",
     "rol": "Visitante",
-    "prom": 5.0,
-    "FD": 1.4790975447909753
+    "prom": 5.13,
+    "FD": 1.250568026901754
   },
   {
     "liga": "America - Brasil",
     "equipo": "Corinthians",
     "rol": "Local",
-    "prom": 5.25,
-    "FD": 1.1701337295690935
+    "prom": 5.0,
+    "FD": 1.009402355992651
   },
   {
     "liga": "America - Brasil",
     "equipo": "Corinthians",
     "rol": "Visitante",
     "prom": 4.0,
-    "FD": 0.9714664897146649
+    "FD": 0.8870308097791512
   },
   {
     "liga": "America - Brasil",
     "equipo": "Athletico-PR",
     "rol": "Local",
     "prom": 5.89,
-    "FD": 0.8424962852897473
+    "FD": 0.8170323138441586
   },
   {
     "liga": "America - Brasil",
     "equipo": "Athletico-PR",
     "rol": "Visitante",
-    "prom": 3.43,
-    "FD": 1.1366954213669542
+    "prom": 4.25,
+    "FD": 0.9779151140598018
   },
   {
     "liga": "America - Brasil",
     "equipo": "Chapecoense",
     "rol": "Local",
     "prom": 5.0,
-    "FD": 1.163447251114413
+    "FD": 1.1282827191181237
   },
   {
     "liga": "America - Brasil",
     "equipo": "Chapecoense",
     "rol": "Visitante",
     "prom": 2.0,
-    "FD": 1.6264100862641009
+    "FD": 1.506861764973189
   },
   {
     "liga": "America - Brasil",
     "equipo": "Flamengo",
     "rol": "Local",
-    "prom": 4.67,
-    "FD": 0.9650817236255571
+    "prom": 5.14,
+    "FD": 0.927266832378688
   },
   {
     "liga": "America - Brasil",
     "equipo": "Flamengo",
     "rol": "Visitante",
     "prom": 3.89,
-    "FD": 1.0829462508294625
+    "FD": 0.98882123057348
   },
   {
     "liga": "America - Brasil",
     "equipo": "Grêmio",
     "rol": "Local",
-    "prom": 4.43,
-    "FD": 0.8603268945022287
+    "prom": 4.88,
+    "FD": 0.8645844590943478
   },
   {
     "liga": "America - Brasil",
     "equipo": "Grêmio",
     "rol": "Visitante",
     "prom": 3.0,
-    "FD": 0.9734571997345719
+    "FD": 0.8888484958647641
   },
   {
     "liga": "America - Brasil",
     "equipo": "Remo",
     "rol": "Local",
-    "prom": 4.86,
-    "FD": 1.6872213967310548
+    "prom": 4.63,
+    "FD": 1.703231384415865
   },
   {
     "liga": "America - Brasil",
     "equipo": "Remo",
     "rol": "Visitante",
     "prom": 4.11,
-    "FD": 1.0829462508294625
+    "FD": 0.98882123057348
   },
   {
     "liga": "America - Brasil",
     "equipo": "Vitória",
     "rol": "Local",
-    "prom": 3.71,
-    "FD": 0.9561664190193164
+    "prom": 3.75,
+    "FD": 0.9726575164811413
   },
   {
     "liga": "America - Brasil",
     "equipo": "Vitória",
     "rol": "Visitante",
     "prom": 4.0,
-    "FD": 1.19442601194426
+    "FD": 1.0906116513678088
   },
   {
     "liga": "America - Brasil",
     "equipo": "Botafogo",
     "rol": "Local",
     "prom": 4.14,
-    "FD": 1.1456166419019314
+    "FD": 1.1109910299362369
   },
   {
     "liga": "America - Brasil",
     "equipo": "Botafogo",
     "rol": "Visitante",
-    "prom": 3.38,
-    "FD": 0.9714664897146649
+    "prom": 3.33,
+    "FD": 0.868853948923021
   },
   {
     "liga": "America - Brasil",
     "equipo": "Coritiba",
     "rol": "Local",
-    "prom": 2.71,
-    "FD": 1.5289747399702822
+    "prom": 2.75,
+    "FD": 1.458986274721712
   },
   {
     "liga": "America - Brasil",
     "equipo": "Coritiba",
     "rol": "Visitante",
     "prom": 3.56,
-    "FD": 1.2601194426011944
+    "FD": 1.1505952921930382
   },
   {
     "liga": "America - Chile",
     "equipo": "Colo-Colo",
     "rol": "Local",
     "prom": 7.14,
-    "FD": 0.6998514115898959
+    "FD": 0.7099053271160096
   },
   {
     "liga": "America - Chile",
     "equipo": "Colo-Colo",
     "rol": "Visitante",
-    "prom": 4.8,
-    "FD": 0.955540809555408
+    "prom": 4.17,
+    "FD": 1.04038062705868
   },
   {
     "liga": "America - Chile",
     "equipo": "Unión La Calera",
     "rol": "Local",
-    "prom": 5.5,
-    "FD": 1.076523031203566
+    "prom": 5.43,
+    "FD": 1.0987706655362444
   },
   {
     "liga": "America - Chile",
     "equipo": "Unión La Calera",
     "rol": "Visitante",
     "prom": 5.67,
-    "FD": 0.8958195089581951
+    "FD": 0.8783701354153958
   },
   {
     "liga": "America - Chile",
     "equipo": "Univ. Concepción",
     "rol": "Local",
     "prom": 5.67,
-    "FD": 0.8179791976225853
+    "FD": 0.8297301116292215
   },
   {
     "liga": "America - Chile",
     "equipo": "Univ. Concepción",
     "rol": "Visitante",
-    "prom": 4.67,
-    "FD": 1.4930325149303252
+    "prom": 4.71,
+    "FD": 1.309747468586068
   },
   {
     "liga": "America - Chile",
     "equipo": "Coquimbo Unido",
     "rol": "Local",
     "prom": 7.0,
-    "FD": 0.7065378900445765
+    "FD": 0.7166878620884556
   },
   {
     "liga": "America - Chile",
     "equipo": "Coquimbo Unido",
     "rol": "Visitante",
-    "prom": 4.17,
-    "FD": 0.9615129396151294
+    "prom": 4.57,
+    "FD": 0.9486397462486275
   },
   {
     "liga": "America - Chile",
     "equipo": "Cobresal",
     "rol": "Local",
     "prom": 6.17,
-    "FD": 1.2994056463595838
+    "FD": 1.31807262964533
   },
   {
     "liga": "America - Chile",
     "equipo": "Cobresal",
     "rol": "Visitante",
-    "prom": 4.83,
-    "FD": 0.9615129396151294
+    "prom": 4.57,
+    "FD": 0.9193607417347809
   },
   {
     "liga": "America - Chile",
     "equipo": "Universidad de Chile",
     "rol": "Local",
     "prom": 7.0,
-    "FD": 1.0252600297176817
+    "FD": 1.039988695775046
   },
   {
     "liga": "America - Chile",
     "equipo": "Universidad de Chile",
     "rol": "Visitante",
     "prom": 4.71,
-    "FD": 0.9376244193762442
+    "FD": 0.9193607417347809
   },
   {
     "liga": "America - Chile",
     "equipo": "Concepción",
     "rol": "Local",
-    "prom": 5.6,
-    "FD": 1.1589895988112926
+    "prom": 5.5,
+    "FD": 1.0919881305637984
   },
   {
     "liga": "America - Chile",
     "equipo": "Concepción",
     "rol": "Visitante",
     "prom": 3.86,
-    "FD": 0.8818845388188453
+    "FD": 0.8647065999756006
   },
   {
     "liga": "America - Chile",
     "equipo": "O'Higgins",
     "rol": "Local",
     "prom": 7.14,
-    "FD": 0.7332838038632986
+    "FD": 0.7438180019782394
   },
   {
     "liga": "America - Chile",
     "equipo": "O'Higgins",
     "rol": "Visitante",
     "prom": 4.4,
-    "FD": 0.915726609157266
+    "FD": 0.89788947175796
   },
   {
     "liga": "America - Chile",
     "equipo": "Universidad Católica",
     "rol": "Local",
-    "prom": 3.6,
-    "FD": 1.114413075780089
+    "prom": 4.33,
+    "FD": 0.9789458810230325
   },
   {
     "liga": "America - Chile",
     "equipo": "Universidad Católica",
     "rol": "Visitante",
     "prom": 5.43,
-    "FD": 0.7106834771068348
+    "FD": 0.6968403074295473
   },
   {
     "liga": "America - Chile",
     "equipo": "Ñublense",
     "rol": "Local",
-    "prom": 5.17,
-    "FD": 1.152303120356612
+    "prom": 4.71,
+    "FD": 1.162074325279073
   },
   {
     "liga": "America - Chile",
     "equipo": "Ñublense",
     "rol": "Visitante",
     "prom": 3.83,
-    "FD": 1.1287325812873257
+    "FD": 1.1067463706233986
   },
   {
     "liga": "America - Chile",
     "equipo": "Palestino",
     "rol": "Local",
     "prom": 3.86,
-    "FD": 0.7332838038632986
+    "FD": 0.7438180019782394
   },
   {
     "liga": "America - Chile",
     "equipo": "Palestino",
     "rol": "Visitante",
-    "prom": 4.8,
-    "FD": 0.9953550099535501
+    "prom": 4.83,
+    "FD": 0.9759668171282175
   },
   {
     "liga": "America - Chile",
     "equipo": "La Serena",
     "rol": "Local",
-    "prom": 4.67,
-    "FD": 0.9650817236255571
+    "prom": 4.57,
+    "FD": 1.0332061608026002
   },
   {
     "liga": "America - Chile",
     "equipo": "La Serena",
     "rol": "Visitante",
     "prom": 4.17,
-    "FD": 1.0610484406104843
+    "FD": 1.04038062705868
   },
   {
     "liga": "America - Chile",
     "equipo": "Audax Italiano",
     "rol": "Local",
-    "prom": 2.83,
-    "FD": 0.8915304606240712
+    "prom": 3.0,
+    "FD": 0.8726861664547124
   },
   {
     "liga": "America - Chile",
     "equipo": "Audax Italiano",
     "rol": "Visitante",
     "prom": 4.17,
-    "FD": 0.8958195089581951
+    "FD": 0.8783701354153958
   },
   {
     "liga": "America - Chile",
     "equipo": "Everton de Viña del Mar",
     "rol": "Local",
-    "prom": 4.17,
-    "FD": 1.00297176820208
+    "prom": 4.29,
+    "FD": 1.0987706655362444
   },
   {
     "liga": "America - Chile",
     "equipo": "Everton de Viña del Mar",
     "rol": "Visitante",
     "prom": 4.17,
-    "FD": 1.2601194426011944
+    "FD": 1.2355739904843233
   },
   {
     "liga": "America - Chile",
     "equipo": "Deportes Limache",
     "rol": "Local",
     "prom": 3.33,
-    "FD": 1.4108469539375927
+    "FD": 1.431114879186096
   },
   {
     "liga": "America - Chile",
     "equipo": "Deportes Limache",
     "rol": "Visitante",
-    "prom": 3.83,
-    "FD": 1.1287325812873257
+    "prom": 4.14,
+    "FD": 1.059899963401244
   },
   {
     "liga": "America - Chile",
     "equipo": "Huachipato",
     "rol": "Local",
     "prom": 3.33,
-    "FD": 1.114413075780089
+    "FD": 1.1304224954076587
   },
   {
     "liga": "America - Chile",
     "equipo": "Huachipato",
     "rol": "Visitante",
     "prom": 3.0,
-    "FD": 1.2939615129396151
+    "FD": 1.2277662559472977
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Guadalajara",
     "rol": "Local",
     "prom": 6.8,
-    "FD": 0.6797919762258543
+    "FD": 0.6798761609907121
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Guadalajara",
     "rol": "Visitante",
     "prom": 4.9,
-    "FD": 0.6768414067684141
+    "FD": 0.6755712551054199
   },
   {
     "liga": "America - LigaMX",
     "equipo": "América",
     "rol": "Local",
     "prom": 6.32,
-    "FD": 0.7043090638930163
+    "FD": 0.7043962848297215
   },
   {
     "liga": "America - LigaMX",
     "equipo": "América",
     "rol": "Visitante",
     "prom": 5.58,
-    "FD": 0.7445255474452555
+    "FD": 0.743128380615962
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Tigres UANL",
     "rol": "Local",
     "prom": 5.71,
-    "FD": 0.7421991084695393
+    "FD": 0.7422910216718267
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Tigres UANL",
     "rol": "Visitante",
     "prom": 5.19,
-    "FD": 0.9197080291970803
+    "FD": 0.9179821172314824
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Toluca",
     "rol": "Local",
     "prom": 5.52,
-    "FD": 0.7221396731054978
+    "FD": 0.7222291021671827
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Toluca",
     "rol": "Visitante",
     "prom": 5.76,
-    "FD": 0.834107498341075
+    "FD": 0.8325422232034441
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Cruz Azul",
     "rol": "Local",
-    "prom": 6.43,
-    "FD": 0.7221396731054978
+    "prom": 6.45,
+    "FD": 0.6999380804953561
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Cruz Azul",
     "rol": "Visitante",
-    "prom": 4.71,
-    "FD": 0.8719309887193099
+    "prom": 4.82,
+    "FD": 0.8941384258748205
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Necaxa",
     "rol": "Local",
     "prom": 4.88,
-    "FD": 1.074294205052006
+    "FD": 1.0744272445820435
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Necaxa",
     "rol": "Visitante",
     "prom": 4.82,
-    "FD": 1.1008626410086264
+    "FD": 1.0987967766861684
   },
   {
     "liga": "America - LigaMX",
     "equipo": "León",
     "rol": "Local",
     "prom": 5.41,
-    "FD": 1.087667161961367
+    "FD": 1.0878018575851394
   },
   {
     "liga": "America - LigaMX",
     "equipo": "León",
     "rol": "Visitante",
     "prom": 4.59,
-    "FD": 1.1008626410086264
+    "FD": 1.0987967766861684
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Puebla",
     "rol": "Local",
     "prom": 4.41,
-    "FD": 1.3907875185735512
+    "FD": 1.3909597523219817
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Puebla",
     "rol": "Visitante",
     "prom": 4.94,
-    "FD": 0.9834107498341076
+    "FD": 0.9815652941825808
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Pachuca",
     "rol": "Local",
     "prom": 5.35,
-    "FD": 0.8803863298662704
+    "FD": 0.8804953560371518
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Pachuca",
     "rol": "Visitante",
     "prom": 3.95,
-    "FD": 0.955540809555408
+    "FD": 0.9537476542664751
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Monterrey",
     "rol": "Local",
     "prom": 4.95,
-    "FD": 1.0898959881129269
+    "FD": 1.0900309597523221
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Monterrey",
     "rol": "Visitante",
     "prom": 4.0,
-    "FD": 0.9316522893165228
+    "FD": 0.9299039629098133
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Juárez",
     "rol": "Local",
     "prom": 4.53,
-    "FD": 1.0208023774145616
+    "FD": 1.0209287925696595
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Juárez",
     "rol": "Visitante",
     "prom": 4.21,
-    "FD": 1.0172528201725282
+    "FD": 1.015343856937852
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Atlético San Luis",
     "rol": "Local",
     "prom": 4.65,
-    "FD": 0.813521545319465
+    "FD": 0.8136222910216718
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Atlético San Luis",
     "rol": "Visitante",
     "prom": 4.18,
-    "FD": 0.8201725282017253
+    "FD": 0.8186334032453912
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Santos Laguna",
     "rol": "Local",
     "prom": 4.35,
-    "FD": 1.1679049034175333
+    "FD": 1.1680495356037153
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Santos Laguna",
     "rol": "Visitante",
     "prom": 4.29,
-    "FD": 1.19442601194426
+    "FD": 1.192184567833094
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Pumas UNAM",
     "rol": "Local",
-    "prom": 4.37,
-    "FD": 1.138930163447251
+    "prom": 4.5,
+    "FD": 1.1591331269349847
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Pumas UNAM",
     "rol": "Visitante",
-    "prom": 3.35,
-    "FD": 1.1645653616456535
+    "prom": 3.24,
+    "FD": 1.172314825035876
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Querétaro",
     "rol": "Local",
     "prom": 3.88,
-    "FD": 1.2726597325408617
+    "FD": 1.2728173374613003
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Querétaro",
     "rol": "Visitante",
     "prom": 4.65,
-    "FD": 1.2183145321831452
+    "FD": 1.216028259189756
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Mazatlán",
     "rol": "Local",
     "prom": 4.12,
-    "FD": 1.364041604754829
+    "FD": 1.3642105263157895
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Mazatlán",
     "rol": "Visitante",
     "prom": 3.41,
-    "FD": 1.2302587923025878
+    "FD": 1.2279501048680868
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Atlas",
     "rol": "Local",
     "prom": 3.67,
-    "FD": 1.2013372956909358
+    "FD": 1.2014860681114552
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Atlas",
     "rol": "Visitante",
     "prom": 3.39,
-    "FD": 1.1287325812873257
+    "FD": 1.1266144166022738
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Tijuana",
     "rol": "Local",
     "prom": 3.58,
-    "FD": 0.9271916790490341
+    "FD": 0.9273065015479878
   },
   {
     "liga": "America - LigaMX",
     "equipo": "Tijuana",
     "rol": "Visitante",
     "prom": 3.39,
-    "FD": 1.1068347710683477
+    "FD": 1.1047576995253336
   },
   {
     "liga": "America - Argentina",
     "equipo": "Independiente",
     "rol": "Local",
     "prom": 7.0,
-    "FD": 1.0845057299916145
+    "FD": 1.082891431761094
   },
   {
     "liga": "America - Argentina",
     "equipo": "Independiente",
     "rol": "Visitante",
     "prom": 4.22,
-    "FD": 0.8036431824270026
+    "FD": 0.8034279592929835
   },
   {
     "liga": "America - Argentina",
     "equipo": "Argentinos Juniors",
     "rol": "Local",
     "prom": 5.92,
-    "FD": 0.5590235721606261
+    "FD": 0.5581914596706671
   },
   {
     "liga": "America - Argentina",
     "equipo": "Argentinos Juniors",
     "rol": "Visitante",
     "prom": 5.86,
-    "FD": 0.5746048754353068
+    "FD": 0.5744509908944831
   },
   {
     "liga": "America - Argentina",
     "equipo": "River Plate",
     "rol": "Local",
-    "prom": 6.91,
-    "FD": 0.5841796329078542
+    "prom": 6.83,
+    "FD": 0.6279653921295004
   },
   {
     "liga": "America - Argentina",
     "equipo": "River Plate",
     "rol": "Visitante",
     "prom": 4.0,
-    "FD": 0.9302169836592554
+    "FD": 0.9299678628816284
   },
   {
     "liga": "America - Argentina",
     "equipo": "Atlético Tucumán",
     "rol": "Local",
     "prom": 6.25,
-    "FD": 1.0146277834715365
+    "FD": 1.0131174993022607
   },
   {
     "liga": "America - Argentina",
     "equipo": "Atlético Tucumán",
     "rol": "Visitante",
     "prom": 3.25,
-    "FD": 0.6790784891508171
+    "FD": 0.678896625602571
   },
   {
     "liga": "America - Argentina",
     "equipo": "Union Santa Fe",
     "rol": "Local",
     "prom": 6.25,
-    "FD": 0.6289015186807044
+    "FD": 0.6279653921295004
   },
   {
     "liga": "America - Argentina",
     "equipo": "Union Santa Fe",
     "rol": "Visitante",
     "prom": 4.4,
-    "FD": 0.9442807393517281
+    "FD": 0.9440278521692556
   },
   {
     "liga": "America - Argentina",
     "equipo": "Talleres de Cordoba",
     "rol": "Local",
     "prom": 6.5,
-    "FD": 1.224261623031771
+    "FD": 1.222439296678761
   },
   {
     "liga": "America - Argentina",
     "equipo": "Talleres de Cordoba",
     "rol": "Visitante",
     "prom": 2.78,
-    "FD": 1.026654165550496
+    "FD": 1.0263792179967863
   },
   {
     "liga": "America - Argentina",
     "equipo": "Rosario Central",
     "rol": "Local",
     "prom": 4.8,
-    "FD": 0.9223888940650331
+    "FD": 0.9210159084566006
   },
   {
     "liga": "America - Argentina",
     "equipo": "Rosario Central",
     "rol": "Visitante",
     "prom": 3.67,
-    "FD": 0.8699437449772303
+    "FD": 0.8697107659346546
   },
   {
     "liga": "America - Argentina",
     "equipo": "Instituto",
     "rol": "Local",
     "prom": 4.25,
-    "FD": 1.0146277834715365
+    "FD": 1.0131174993022607
   },
   {
     "liga": "America - Argentina",
     "equipo": "Instituto",
     "rol": "Visitante",
     "prom": 5.63,
-    "FD": 0.7293061880525048
+    "FD": 0.7291108730583824
   },
   {
     "liga": "America - Argentina",
     "equipo": "Estudiantes de Río Cuarto",
     "rol": "Local",
     "prom": 4.0,
-    "FD": 1.3276809838814871
+    "FD": 1.3257047167178344
   },
   {
     "liga": "America - Argentina",
     "equipo": "Estudiantes de Río Cuarto",
     "rol": "Visitante",
     "prom": 4.88,
-    "FD": 0.8297615858558801
+    "FD": 0.8295393679700054
   },
   {
     "liga": "America - Argentina",
     "equipo": "Estudiantes de La Plata",
     "rol": "Local",
     "prom": 5.33,
-    "FD": 1.2410323301965902
+    "FD": 1.2391850404688811
   },
   {
     "liga": "America - Argentina",
     "equipo": "Estudiantes de La Plata",
     "rol": "Visitante",
     "prom": 3.38,
-    "FD": 1.0306723814626308
+    "FD": 1.0303963577932513
   },
   {
     "liga": "America - Argentina",
     "equipo": "Boca Juniors",
     "rol": "Local",
     "prom": 6.67,
-    "FD": 0.6820087580359638
+    "FD": 0.6809935807982138
   },
   {
     "liga": "America - Argentina",
     "equipo": "Boca Juniors",
     "rol": "Visitante",
     "prom": 3.38,
-    "FD": 0.9804446825609431
+    "FD": 0.9801821103374397
   },
   {
     "liga": "America - Argentina",
     "equipo": "Racing Club",
     "rol": "Local",
     "prom": 4.43,
-    "FD": 0.7183452902264045
+    "FD": 0.7172760256768071
   },
   {
     "liga": "America - Argentina",
     "equipo": "Racing Club",
     "rol": "Visitante",
     "prom": 4.09,
-    "FD": 0.9864720064291457
+    "FD": 0.9862078200321373
   },
   {
     "liga": "America - Argentina",
     "equipo": "Huracán",
     "rol": "Local",
     "prom": 4.63,
-    "FD": 1.0146277834715365
+    "FD": 1.0131174993022607
   },
   {
     "liga": "America - Argentina",
     "equipo": "Huracán",
     "rol": "Visitante",
     "prom": 3.1,
-    "FD": 1.3661934101259043
+    "FD": 1.3658275307980718
   },
   {
     "liga": "America - Argentina",
     "equipo": "Gimnasia La Plata",
     "rol": "Local",
     "prom": 3.88,
-    "FD": 1.3640175160719277
+    "FD": 1.3619871615964276
   },
   {
     "liga": "America - Argentina",
     "equipo": "Gimnasia La Plata",
     "rol": "Visitante",
     "prom": 4.2,
-    "FD": 1.3661934101259043
+    "FD": 1.3658275307980718
   },
   {
     "liga": "America - Argentina",
     "equipo": "Deportivo Riestra",
     "rol": "Local",
     "prom": 5.13,
-    "FD": 0.9782912512810957
+    "FD": 0.9768350544236674
   },
   {
     "liga": "America - Argentina",
     "equipo": "Deportivo Riestra",
     "rol": "Visitante",
     "prom": 3.5,
-    "FD": 0.9804446825609431
+    "FD": 0.9801821103374397
   },
   {
     "liga": "America - Argentina",
     "equipo": "Aldosivi",
     "rol": "Local",
     "prom": 4.0,
-    "FD": 1.433895462592006
+    "FD": 1.431761094055261
   },
   {
     "liga": "America - Argentina",
     "equipo": "Aldosivi",
     "rol": "Visitante",
     "prom": 3.75,
-    "FD": 1.0306723814626308
+    "FD": 1.0303963577932513
   },
   {
     "liga": "America - Argentina",
     "equipo": "Defensa y Justicia",
     "rol": "Local",
     "prom": 4.63,
-    "FD": 0.6987794652007826
+    "FD": 0.6977393245883339
   },
   {
     "liga": "America - Argentina",
     "equipo": "Defensa y Justicia",
     "rol": "Visitante",
     "prom": 3.75,
-    "FD": 1.0547816769354408
+    "FD": 1.0544991965720407
   },
   {
     "liga": "America - Argentina",
     "equipo": "Platense",
     "rol": "Local",
     "prom": 5.0,
-    "FD": 0.8748718904313798
+    "FD": 0.8735696343845939
   },
   {
     "liga": "America - Argentina",
     "equipo": "Platense",
     "rol": "Visitante",
     "prom": 3.75,
-    "FD": 0.7293061880525048
+    "FD": 0.7291108730583824
   },
   {
     "liga": "America - Argentina",
     "equipo": "San Lorenzo",
     "rol": "Local",
     "prom": 5.0,
-    "FD": 1.1879250908413306
+    "FD": 1.1861568518001675
   },
   {
     "liga": "America - Argentina",
     "equipo": "San Lorenzo",
     "rol": "Visitante",
     "prom": 2.89,
-    "FD": 0.9603536030002682
+    "FD": 0.9600964113551153
   },
   {
     "liga": "America - Argentina",
     "equipo": "Central Cordoba",
     "rol": "Local",
     "prom": 4.13,
-    "FD": 0.9447498369514581
+    "FD": 0.9433435668434274
   },
   {
     "liga": "America - Argentina",
     "equipo": "Central Cordoba",
     "rol": "Visitante",
     "prom": 3.25,
-    "FD": 1.205464773640504
+    "FD": 1.205141938939475
   },
   {
     "liga": "America - Argentina",
     "equipo": "Independiente Rivadavia",
     "rol": "Local",
     "prom": 4.8,
-    "FD": 0.9782912512810957
+    "FD": 0.9768350544236674
   },
   {
     "liga": "America - Argentina",
     "equipo": "Independiente Rivadavia",
     "rol": "Visitante",
     "prom": 4.0,
-    "FD": 0.8317706938119476
+    "FD": 0.8315479378682378
   },
   {
     "liga": "America - Argentina",
     "equipo": "Tigre",
     "rol": "Local",
     "prom": 3.88,
-    "FD": 1.1180471443212523
+    "FD": 1.1163829193413342
   },
   {
     "liga": "America - Argentina",
     "equipo": "Tigre",
     "rol": "Visitante",
     "prom": 4.75,
-    "FD": 0.8036431824270026
+    "FD": 0.8034279592929835
   },
   {
     "liga": "America - Argentina",
     "equipo": "Belgrano",
     "rol": "Local",
     "prom": 4.44,
-    "FD": 0.9000279511786081
+    "FD": 0.898688250069774
   },
   {
     "liga": "America - Argentina",
     "equipo": "Belgrano",
     "rol": "Visitante",
-    "prom": 2.8,
-    "FD": 1.1251004553978035
+    "prom": 2.91,
+    "FD": 1.1328334226031065
   },
   {
     "liga": "America - Argentina",
     "equipo": "Lanús",
     "rol": "Local",
     "prom": 4.38,
-    "FD": 0.8385353582409392
+    "FD": 0.8372871895060007
   },
   {
     "liga": "America - Argentina",
     "equipo": "Lanús",
     "rol": "Visitante",
     "prom": 3.11,
-    "FD": 1.0487543530672383
+    "FD": 1.0484734868773433
   },
   {
     "liga": "America - Argentina",
     "equipo": "Sarmiento",
     "rol": "Local",
     "prom": 4.88,
-    "FD": 1.3975589304015652
+    "FD": 1.3954786491766678
   },
   {
     "liga": "America - Argentina",
     "equipo": "Sarmiento",
     "rol": "Visitante",
     "prom": 2.13,
-    "FD": 1.1311277792660062
+    "FD": 1.130824852704874
   },
   {
     "liga": "America - Argentina",
     "equipo": "Gimnasia y Esgrima",
     "rol": "Local",
     "prom": 4.5,
-    "FD": 1.048169197801174
+    "FD": 1.0466089868825008
   },
   {
     "liga": "America - Argentina",
     "equipo": "Gimnasia y Esgrima",
     "rol": "Visitante",
     "prom": 2.38,
-    "FD": 1.4827216715778198
+    "FD": 1.4823245848955544
   },
   {
     "liga": "America - Argentina",
     "equipo": "Banfield",
     "rol": "Local",
     "prom": 5.25,
-    "FD": 0.9084133047610174
+    "FD": 0.907061121964834
   },
   {
     "liga": "America - Argentina",
     "equipo": "Banfield",
     "rol": "Visitante",
     "prom": 2.0,
-    "FD": 1.2818108759710691
+    "FD": 1.2814675950723087
   },
   {
     "liga": "America - Argentina",
     "equipo": "Vélez Sarsfield",
     "rol": "Local",
     "prom": 5.67,
-    "FD": 1.1795397372589211
+    "FD": 1.1777839799051075
   },
   {
     "liga": "America - Argentina",
     "equipo": "Vélez Sarsfield",
     "rol": "Visitante",
     "prom": 3.0,
-    "FD": 0.9302169836592554
+    "FD": 0.9299678628816284
   },
   {
     "liga": "America - Argentina",
     "equipo": "Newells Old Boys",
     "rol": "Local",
     "prom": 4.25,
-    "FD": 1.048169197801174
+    "FD": 1.0466089868825008
   },
   {
     "liga": "America - Argentina",
     "equipo": "Newells Old Boys",
     "rol": "Visitante",
     "prom": 2.63,
-    "FD": 1.3320385748727568
+    "FD": 1.33168184252812
   },
   {
     "liga": "America - Argentina",
     "equipo": "Barracas Central",
     "rol": "Local",
     "prom": 2.25,
-    "FD": 1.0845057299916145
+    "FD": 1.082891431761094
   },
   {
     "liga": "America - Argentina",
     "equipo": "Barracas Central",
     "rol": "Visitante",
     "prom": 1.75,
-    "FD": 0.9543262791320656
+    "FD": 0.9540707016604179
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Hapoel Be'er Sheva",
     "rol": "Local",
-    "prom": 6.29,
-    "FD": 0.7905935050391936
+    "prom": 6.22,
+    "FD": 0.7586317135549872
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Hapoel Be'er Sheva",
     "rol": "Visitante",
     "prom": 5.72,
-    "FD": 0.7577053531927443
+    "FD": 0.7588243981686604
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Maccabi Haifa",
     "rol": "Local",
     "prom": 5.56,
-    "FD": 0.8577827547592384
+    "FD": 0.8570971867007672
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Maccabi Haifa",
     "rol": "Visitante",
-    "prom": 5.65,
-    "FD": 0.8134493437546084
+    "prom": 5.39,
+    "FD": 0.8270565647614827
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Maccabi Tel Aviv",
     "rol": "Local",
     "prom": 5.72,
-    "FD": 0.7211646136618141
+    "FD": 0.7205882352941176
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Maccabi Tel Aviv",
     "rol": "Visitante",
-    "prom": 5.75,
-    "FD": 0.8134493437546084
+    "prom": 5.88,
+    "FD": 0.789839019347216
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Beitar Jerusalem",
     "rol": "Local",
-    "prom": 6.29,
-    "FD": 0.7637178051511757
+    "prom": 6.11,
+    "FD": 0.7586317135549872
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Beitar Jerusalem",
     "rol": "Visitante",
     "prom": 5.44,
-    "FD": 0.7680283144079044
+    "FD": 0.769162605228179
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Hapoel Tel Aviv",
     "rol": "Local",
     "prom": 5.65,
-    "FD": 0.9742441209406493
+    "FD": 0.9734654731457799
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Hapoel Tel Aviv",
     "rol": "Visitante",
-    "prom": 4.88,
-    "FD": 0.7762866833800324
+    "prom": 4.78,
+    "FD": 0.769162605228179
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Hapoel Petah Tikva",
     "rol": "Local",
-    "prom": 5.18,
-    "FD": 0.9608062709966404
+    "prom": 5.0,
+    "FD": 1.0070332480818414
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Hapoel Petah Tikva",
     "rol": "Visitante",
     "prom": 4.78,
-    "FD": 1.0673941896475445
+    "FD": 1.0689706099542164
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Maccabi Netanya",
     "rol": "Local",
     "prom": 5.06,
-    "FD": 1.0414333706606942
+    "FD": 1.0406010230179028
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Maccabi Netanya",
     "rol": "Visitante",
     "prom": 3.94,
-    "FD": 0.9559062085238165
+    "FD": 0.9573179737114162
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Hapoel Haifa",
     "rol": "Local",
     "prom": 4.47,
-    "FD": 1.106382978723404
+    "FD": 1.1054987212276215
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Hapoel Haifa",
     "rol": "Visitante",
     "prom": 4.75,
-    "FD": 1.1479132871257924
+    "FD": 1.149608625018461
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Ashdod",
     "rol": "Local",
     "prom": 3.69,
-    "FD": 1.2049272116461365
+    "FD": 1.2039641943734014
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Ashdod",
     "rol": "Visitante",
     "prom": 4.18,
-    "FD": 1.0446836749741923
+    "FD": 1.0462265544232756
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Ironi Kiryat Shmona",
     "rol": "Local",
     "prom": 3.82,
-    "FD": 1.1332586786114218
+    "FD": 1.1323529411764703
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Ironi Kiryat Shmona",
     "rol": "Visitante",
     "prom": 3.75,
-    "FD": 0.9290665093644005
+    "FD": 0.930438635356668
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Maccabi Bnei Raina",
     "rol": "Local",
     "prom": 4.0,
-    "FD": 1.0212765957446805
+    "FD": 1.020460358056266
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Maccabi Bnei Raina",
     "rol": "Visitante",
     "prom": 4.24,
-    "FD": 1.0818463353487686
+    "FD": 1.0834440998375425
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Hapoel Katamon",
     "rol": "Local",
     "prom": 3.69,
-    "FD": 1.0503919372900334
+    "FD": 1.0495524296675192
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Hapoel Katamon",
     "rol": "Visitante",
     "prom": 3.82,
-    "FD": 1.0818463353487686
+    "FD": 1.0834440998375425
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Ironi Tiberias",
     "rol": "Local",
     "prom": 4.25,
-    "FD": 1.1758118701007836
+    "FD": 1.1748721227621484
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Ironi Tiberias",
     "rol": "Visitante",
     "prom": 2.65,
-    "FD": 1.4452145701224008
+    "FD": 1.4473489883325947
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Bnei Sakhnin",
     "rol": "Local",
     "prom": 3.65,
-    "FD": 1.198208286674132
+    "FD": 1.197250639386189
   },
   {
-    "liga": "America - Israel",
+    "liga": "Europa - Israel",
     "equipo": "Bnei Sakhnin",
     "rol": "Visitante",
     "prom": 2.5,
-    "FD": 1.3172098510544166
+    "FD": 1.319155220794565
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Qadsiah",
     "rol": "Local",
     "prom": 8.53,
-    "FD": 0.6431634111481657
+    "FD": 0.6470165348670022
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Qadsiah",
     "rol": "Visitante",
-    "prom": 6.13,
-    "FD": 0.6585817060637205
+    "prom": 6.35,
+    "FD": 0.6728110599078341
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Nassr",
     "rol": "Local",
-    "prom": 7.38,
-    "FD": 0.6174368747022391
+    "prom": 7.29,
+    "FD": 0.608195542774982
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Nassr",
     "rol": "Visitante",
     "prom": 6.65,
-    "FD": 0.6086330935251798
+    "FD": 0.6064516129032258
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Ittihad",
     "rol": "Local",
-    "prom": 7.06,
-    "FD": 0.6967603620771795
+    "prom": 6.94,
+    "FD": 0.7872034507548527
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Ittihad",
     "rol": "Visitante",
     "prom": 6.06,
-    "FD": 0.7510791366906474
+    "FD": 0.7483870967741935
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Hilal",
     "rol": "Local",
     "prom": 6.35,
-    "FD": 0.694616484040019
+    "FD": 0.6987778576563624
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Hilal",
     "rol": "Visitante",
-    "prom": 6.75,
-    "FD": 0.6826310380267214
+    "prom": 6.65,
+    "FD": 0.6728110599078341
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al-Ahli",
     "rol": "Local",
     "prom": 6.24,
-    "FD": 0.7439256788947117
+    "FD": 0.7483824586628325
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al-Ahli",
     "rol": "Visitante",
     "prom": 4.94,
-    "FD": 0.664131551901336
+    "FD": 0.6617511520737327
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Shabab",
     "rol": "Local",
     "prom": 5.71,
-    "FD": 1.1469747498808953
+    "FD": 1.1538461538461537
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Shabab",
     "rol": "Visitante",
     "prom": 5.06,
-    "FD": 1.0452209660842755
+    "FD": 1.0414746543778803
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Fateh",
     "rol": "Local",
     "prom": 5.53,
-    "FD": 1.1469747498808953
+    "FD": 1.1538461538461537
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Fateh",
     "rol": "Visitante",
-    "prom": 4.69,
-    "FD": 1.0877697841726617
+    "prom": 4.59,
+    "FD": 1.094930875576037
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Riyadh",
     "rol": "Local",
-    "prom": 4.94,
-    "FD": 1.1534063839923772
+    "prom": 5.29,
+    "FD": 1.0913012221423435
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Riyadh",
     "rol": "Visitante",
     "prom": 5.06,
-    "FD": 1.3393627954779033
+    "FD": 1.334562211981567
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Khaleej",
     "rol": "Local",
     "prom": 5.0,
-    "FD": 1.059075750357313
+    "FD": 1.0654205607476637
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Khaleej",
     "rol": "Visitante",
     "prom": 4.88,
-    "FD": 0.8916752312435766
+    "FD": 0.8884792626728112
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Neom SC",
     "rol": "Local",
-    "prom": 4.75,
-    "FD": 0.8704144830871842
+    "prom": 4.71,
+    "FD": 0.8238677210639826
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Neom SC",
     "rol": "Visitante",
     "prom": 4.82,
-    "FD": 0.9249743062692702
+    "FD": 0.9216589861751152
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Fayha",
     "rol": "Local",
-    "prom": 4.38,
-    "FD": 1.1126727012863267
+    "prom": 4.29,
+    "FD": 1.1171818835370237
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Fayha",
     "rol": "Visitante",
     "prom": 4.76,
-    "FD": 1.1210688591983555
+    "FD": 1.1170506912442395
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Damac",
     "rol": "Local",
     "prom": 4.76,
-    "FD": 1.2241543592186754
+    "FD": 1.231488138030194
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Damac",
     "rol": "Visitante",
-    "prom": 3.5,
-    "FD": 1.2727646454265158
+    "prom": 3.41,
+    "FD": 1.2571428571428573
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Kholood",
     "rol": "Local",
-    "prom": 4.19,
-    "FD": 1.1919961886612669
+    "prom": 4.35,
+    "FD": 1.1667864845434939
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Kholood",
     "rol": "Visitante",
     "prom": 3.82,
-    "FD": 0.9786228160328879
+    "FD": 0.975115207373272
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Hazm",
     "rol": "Local",
-    "prom": 4.38,
-    "FD": 1.059075750357313
+    "prom": 4.65,
+    "FD": 1.0395398993529834
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Hazm",
     "rol": "Visitante",
     "prom": 4.06,
-    "FD": 1.034121274409044
+    "FD": 1.0304147465437787
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Najma",
     "rol": "Local",
     "prom": 4.41,
-    "FD": 1.4492615531205333
+    "FD": 1.4579439252336448
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Najma",
     "rol": "Visitante",
     "prom": 3.0,
-    "FD": 1.4355601233299073
+    "FD": 1.4304147465437789
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Taawoun",
     "rol": "Local",
     "prom": 5.82,
-    "FD": 0.7310624106717484
+    "FD": 0.7354421279654925
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Taawoun",
     "rol": "Visitante",
-    "prom": 2.06,
-    "FD": 1.3060637204522094
+    "prom": 2.12,
+    "FD": 1.3235023041474654
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Ittifaq",
     "rol": "Local",
     "prom": 3.65,
-    "FD": 1.2477370176274414
+    "FD": 1.2552120776419842
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Ittifaq",
     "rol": "Visitante",
-    "prom": 4.31,
-    "FD": 0.8787255909558067
+    "prom": 4.06,
+    "FD": 0.8682027649769586
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Okhdood",
     "rol": "Local",
     "prom": 4.12,
-    "FD": 1.2112910909957122
+    "FD": 1.2185478073328542
   },
   {
-    "liga": "America - Saudi",
+    "liga": "Africa - Saudi",
     "equipo": "Al Okhdood",
     "rol": "Visitante",
-    "prom": 3.38,
-    "FD": 1.3190133607399794
+    "prom": 3.18,
+    "FD": 1.3548387096774193
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Al-Ahly",
     "rol": "Local",
     "prom": 6.0,
-    "FD": 0.672221004165753
+    "FD": 0.6754791804362194
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Al-Ahly",
     "rol": "Visitante",
     "prom": 7.07,
-    "FD": 0.8495145631067961
+    "FD": 0.8483991516008484
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Pyramids",
     "rol": "Local",
     "prom": 6.43,
-    "FD": 0.8057443543082657
+    "FD": 0.8096497025776602
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Pyramids",
     "rol": "Visitante",
     "prom": 6.0,
-    "FD": 0.9726941747572815
+    "FD": 0.9714170285829714
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Wadi Degla",
     "rol": "Local",
-    "prom": 5.19,
-    "FD": 0.8057443543082657
+    "prom": 5.06,
+    "FD": 0.7888301387970919
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Wadi Degla",
     "rol": "Visitante",
     "prom": 5.47,
-    "FD": 0.7369538834951456
+    "FD": 0.735986264013736
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Enppi",
     "rol": "Local",
     "prom": 6.55,
-    "FD": 0.9208506906380179
+    "FD": 0.9253139458030403
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Enppi",
     "rol": "Visitante",
     "prom": 4.33,
-    "FD": 0.9769417475728154
+    "FD": 0.9756590243409756
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "National Bank of Egypt",
     "rol": "Local",
     "prom": 6.24,
-    "FD": 0.9346634509975881
+    "FD": 0.9391936549900858
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "National Bank of Egypt",
     "rol": "Visitante",
-    "prom": 4.5,
-    "FD": 0.9111043689320387
+    "prom": 4.67,
+    "FD": 0.8908191091808909
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Tala'ea El Geish",
     "rol": "Local",
     "prom": 4.8,
-    "FD": 0.9369655777241833
+    "FD": 0.9415069398545935
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Tala'ea El Geish",
     "rol": "Visitante",
-    "prom": 5.06,
-    "FD": 0.7433252427184466
+    "prom": 5.0,
+    "FD": 0.7868902131097869
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Modern Sport",
     "rol": "Local",
-    "prom": 6.07,
-    "FD": 1.0428634071475553
+    "prom": 6.0,
+    "FD": 0.9970257766027758
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Modern Sport",
     "rol": "Visitante",
     "prom": 4.19,
-    "FD": 0.9833131067961164
+    "FD": 0.982022017977982
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Zamalek",
     "rol": "Local",
     "prom": 5.71,
-    "FD": 0.821859241394431
+    "FD": 0.8258426966292134
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Zamalek",
     "rol": "Visitante",
     "prom": 4.0,
-    "FD": 0.866504854368932
+    "FD": 0.8653671346328654
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Al-Mokawloon",
     "rol": "Local",
     "prom": 5.0,
-    "FD": 0.9622889717167287
+    "FD": 0.966953073364177
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Al-Mokawloon",
     "rol": "Visitante",
-    "prom": 4.57,
-    "FD": 1.0916262135922328
+    "prom": 4.4,
+    "FD": 1.1177658822341177
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Pharco",
     "rol": "Local",
-    "prom": 4.27,
-    "FD": 1.0428634071475553
+    "prom": 4.19,
+    "FD": 1.084930601454065
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Pharco",
     "rol": "Visitante",
     "prom": 4.75,
-    "FD": 1.0895024271844658
+    "FD": 1.0880719119280882
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Ismaily",
     "rol": "Local",
     "prom": 3.62,
-    "FD": 1.0083315062486295
+    "FD": 1.0132187706543292
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Ismaily",
     "rol": "Visitante",
-    "prom": 4.28,
-    "FD": 1.074635922330097
+    "prom": 4.37,
+    "FD": 1.0159579840420159
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "El-Ittihad El-Iskandary",
     "rol": "Local",
-    "prom": 4.36,
-    "FD": 1.1027187020390266
+    "prom": 4.07,
+    "FD": 1.1265697290152017
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "El-Ittihad El-Iskandary",
     "rol": "Visitante",
     "prom": 4.41,
-    "FD": 1.1128640776699028
+    "FD": 1.1114028885971114
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Zed FC",
     "rol": "Local",
     "prom": 3.6,
-    "FD": 0.9208506906380179
+    "FD": 0.9253139458030403
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Zed FC",
     "rol": "Visitante",
-    "prom": 4.19,
-    "FD": 1.274271844660194
+    "prom": 4.06,
+    "FD": 1.2344207655792345
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Kahraba Ismailia",
     "rol": "Local",
-    "prom": 4.39,
-    "FD": 1.0497697873273404
+    "prom": 4.53,
+    "FD": 1.0224719101123596
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Kahraba Ismailia",
     "rol": "Visitante",
     "prom": 3.77,
-    "FD": 1.09375
+    "FD": 1.0923139076860924
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Ceramica Cleopatra",
     "rol": "Local",
     "prom": 3.69,
-    "FD": 1.1165314623985967
+    "FD": 1.1219431592861864
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Ceramica Cleopatra",
     "rol": "Visitante",
     "prom": 4.0,
-    "FD": 0.9472087378640776
+    "FD": 0.945965054034946
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Al-Masry",
     "rol": "Local",
     "prom": 4.15,
-    "FD": 0.8863187897390923
+    "FD": 0.8906146728354263
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Al-Masry",
     "rol": "Visitante",
     "prom": 3.69,
-    "FD": 0.9302184466019416
+    "FD": 0.9289970710029289
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Smouha Sporting Club",
     "rol": "Local",
     "prom": 4.36,
-    "FD": 1.0359570269677703
+    "FD": 1.0409781890284204
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Smouha Sporting Club",
     "rol": "Visitante",
     "prom": 3.25,
-    "FD": 1.2041868932038833
+    "FD": 1.2026057973942026
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Petrojet",
     "rol": "Local",
     "prom": 3.47,
-    "FD": 1.5815610611707958
+    "FD": 1.5892267019167217
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Petrojet",
     "rol": "Visitante",
-    "prom": 3.81,
-    "FD": 1.0215412621359221
+    "prom": 3.71,
+    "FD": 1.085950914049086
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "El Gouna",
     "rol": "Local",
-    "prom": 3.86,
-    "FD": 1.0843016882262662
+    "prom": 4.07,
+    "FD": 1.0803040317250496
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "El Gouna",
     "rol": "Visitante",
     "prom": 2.94,
-    "FD": 1.1871966019417475
+    "FD": 1.1856378143621855
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Haras El Hodood",
     "rol": "Local",
-    "prom": 4.59,
-    "FD": 1.2454505590879192
+    "prom": 4.89,
+    "FD": 1.2075346992729676
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Haras El Hodood",
     "rol": "Visitante",
     "prom": 3.79,
-    "FD": 0.9408373786407765
+    "FD": 0.9396020603979396
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Ghazl El Mehalla",
     "rol": "Local",
     "prom": 3.25,
-    "FD": 1.0221442666082
+    "FD": 1.027098479841375
   },
   {
-    "liga": "America - Egipto",
+    "liga": "Africa - Egipto",
     "equipo": "Ghazl El Mehalla",
     "rol": "Visitante",
-    "prom": 3.8,
-    "FD": 0.9918082524271844
+    "prom": 3.63,
+    "FD": 0.9947480052519948
   },
   {
     "liga": "America - Peru",
     "equipo": "Universitario",
     "rol": "Local",
     "prom": 6.88,
-    "FD": 0.3879867797097284
+    "FD": 0.398936170212766
   },
   {
     "liga": "America - Peru",
     "equipo": "Universitario",
     "rol": "Visitante",
-    "prom": 5.57,
-    "FD": 0.6300330436911026
+    "prom": 5.25,
+    "FD": 0.625935764308138
   },
   {
     "liga": "America - Peru",
     "equipo": "Sporting Cristal",
     "rol": "Local",
-    "prom": 6.57,
-    "FD": 0.9596206351487282
+    "prom": 7.25,
+    "FD": 0.8643617021276596
   },
   {
     "liga": "America - Peru",
     "equipo": "Sporting Cristal",
     "rol": "Visitante",
     "prom": 4.13,
-    "FD": 0.9648757801982619
+    "FD": 0.9519439748852933
   },
   {
     "liga": "America - Peru",
     "equipo": "Cienciano",
     "rol": "Local",
     "prom": 4.88,
-    "FD": 0.7449346170426785
+    "FD": 0.7659574468085106
   },
   {
     "liga": "America - Peru",
     "equipo": "Cienciano",
     "rol": "Visitante",
-    "prom": 6.43,
-    "FD": 0.9758903438991553
+    "prom": 6.0,
+    "FD": 0.9519439748852933
   },
   {
     "liga": "America - Peru",
     "equipo": "Melgar",
     "rol": "Local",
     "prom": 5.63,
-    "FD": 1.2622503233223163
+    "FD": 1.297872340425532
   },
   {
     "liga": "America - Peru",
     "equipo": "Melgar",
     "rol": "Visitante",
     "prom": 4.0,
-    "FD": 0.9758903438991553
+    "FD": 1.0062786766481524
   },
   {
     "liga": "America - Peru",
     "equipo": "Atlético Grau",
     "rol": "Local",
     "prom": 4.86,
-    "FD": 0.7759735594194568
+    "FD": 0.797872340425532
   },
   {
     "liga": "America - Peru",
     "equipo": "Atlético Grau",
     "rol": "Visitante",
-    "prom": 4.0,
-    "FD": 1.0463835515848732
+    "prom": 3.78,
+    "FD": 1.0149722289302099
   },
   {
     "liga": "America - Peru",
     "equipo": "Sport Boys",
     "rol": "Local",
     "prom": 5.38,
-    "FD": 0.7449346170426785
+    "FD": 0.7659574468085106
   },
   {
     "liga": "America - Peru",
     "equipo": "Sport Boys",
     "rol": "Visitante",
-    "prom": 3.71,
-    "FD": 0.9450495655366539
+    "prom": 3.75,
+    "FD": 0.9236899299686064
   },
   {
     "liga": "America - Peru",
     "equipo": "Alianza Lima",
     "rol": "Local",
-    "prom": 4.57,
-    "FD": 0.44230492886909034
+    "prom": 4.38,
+    "FD": 0.43351063829787234
   },
   {
     "liga": "America - Peru",
     "equipo": "Alianza Lima",
     "rol": "Visitante",
     "prom": 3.25,
-    "FD": 0.6895116876759269
+    "FD": 0.6802704660709972
   },
   {
     "liga": "America - Peru",
     "equipo": "Los Chankas",
     "rol": "Local",
     "prom": 4.5,
-    "FD": 1.4562437131771804
+    "FD": 1.497340425531915
   },
   {
     "liga": "America - Peru",
     "equipo": "Los Chankas",
     "rol": "Visitante",
-    "prom": 3.86,
-    "FD": 0.9450495655366539
+    "prom": 3.5,
+    "FD": 0.897609273122434
   },
   {
     "liga": "America - Peru",
     "equipo": "ADT Tarma",
     "rol": "Local",
     "prom": 4.38,
-    "FD": 1.163960339129185
+    "FD": 1.196808510638298
   },
   {
     "liga": "America - Peru",
     "equipo": "ADT Tarma",
     "rol": "Visitante",
-    "prom": 3.14,
-    "FD": 1.0375719006241584
+    "prom": 2.75,
+    "FD": 1.2236174836995892
   },
   {
     "liga": "America - Peru",
     "equipo": "UTC",
     "rol": "Local",
-    "prom": 4.14,
-    "FD": 1.25707716625952
+    "prom": 4.13,
+    "FD": 1.2632978723404256
   },
   {
     "liga": "America - Peru",
     "equipo": "UTC",
     "rol": "Visitante",
     "prom": 4.75,
-    "FD": 1.18516705421613
+    "FD": 1.16928278193673
   },
   {
     "liga": "America - Peru",
     "equipo": "Sport Huancayo",
     "rol": "Local",
-    "prom": 5.57,
-    "FD": 0.9234085357091535
+    "prom": 5.38,
+    "FD": 0.9308510638297873
   },
   {
     "liga": "America - Peru",
     "equipo": "Sport Huancayo",
     "rol": "Visitante",
     "prom": 3.0,
-    "FD": 0.9098029616937949
+    "FD": 0.897609273122434
   },
   {
     "liga": "America - Peru",
     "equipo": "Deportivo Garcilaso",
     "rol": "Local",
     "prom": 3.25,
-    "FD": 0.9053024859893662
+    "FD": 0.9308510638297873
   },
   {
     "liga": "America - Peru",
     "equipo": "Deportivo Garcilaso",
     "rol": "Visitante",
-    "prom": 4.14,
-    "FD": 1.10145637008934
+    "prom": 4.0,
+    "FD": 1.114948080173871
   },
   {
     "liga": "America - Peru",
     "equipo": "Cusco FC",
     "rol": "Local",
-    "prom": 3.86,
-    "FD": 0.7759735594194568
+    "prom": 3.88,
+    "FD": 0.7659574468085106
   },
   {
     "liga": "America - Peru",
     "equipo": "Cusco FC",
     "rol": "Visitante",
     "prom": 3.25,
-    "FD": 1.019948598702729
+    "FD": 1.0062786766481524
   },
   {
     "liga": "America - Peru",
     "equipo": "Juan Pablo II College",
     "rol": "Local",
-    "prom": 3.38,
-    "FD": 1.4562437131771804
+    "prom": 3.67,
+    "FD": 1.446808510638298
   },
   {
     "liga": "America - Peru",
     "equipo": "Juan Pablo II College",
     "rol": "Visitante",
     "prom": 3.86,
-    "FD": 1.5420389181250762
+    "FD": 1.5213716493600578
   },
   {
     "liga": "America - Peru",
     "equipo": "Comerciantes Unidos",
     "rol": "Local",
-    "prom": 3.25,
-    "FD": 1.1975858600373614
+    "prom": 3.56,
+    "FD": 1.1808510638297873
   },
   {
     "liga": "America - Peru",
     "equipo": "Comerciantes Unidos",
     "rol": "Visitante",
     "prom": 4.14,
-    "FD": 0.9450495655366539
+    "FD": 0.9323834822506639
   },
   {
     "liga": "America - Peru",
     "equipo": "Alianza Atlético",
     "rol": "Local",
-    "prom": 3.43,
-    "FD": 1.1458542894093977
+    "prom": 3.88,
+    "FD": 1.0319148936170213
   },
   {
     "liga": "America - Peru",
     "equipo": "Alianza Atlético",
     "rol": "Visitante",
     "prom": 3.13,
-    "FD": 0.799657324684861
+    "FD": 0.7889398695967156
   },
   {
     "liga": "America - Peru",
     "equipo": "Deportivo Moquegua",
     "rol": "Local",
-    "prom": 3.14,
-    "FD": 1.0708435119988502
+    "prom": 3.13,
+    "FD": 1.0638297872340425
   },
   {
     "liga": "America - Peru",
     "equipo": "Deportivo Moquegua",
     "rol": "Visitante",
     "prom": 3.25,
-    "FD": 1.075021417207196
+    "FD": 1.0606133784110117
   },
   {
     "liga": "America - Peru",
     "equipo": "FC Cajamarca",
     "rol": "Local",
     "prom": 3.86,
-    "FD": 1.3295013651386691
+    "FD": 1.3670212765957446
   },
   {
     "liga": "America - Peru",
     "equipo": "FC Cajamarca",
     "rol": "Visitante",
-    "prom": 2.63,
-    "FD": 1.2116020070982743
+    "prom": 2.33,
+    "FD": 1.2323110359816467
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Cerro Porteño",
     "rol": "Local",
-    "prom": 5.6,
-    "FD": 0.9209707529558183
+    "prom": 5.27,
+    "FD": 0.9515311295883185
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Cerro Porteño",
     "rol": "Visitante",
     "prom": 4.6,
-    "FD": 1.0299265951439862
+    "FD": 0.9705372616984403
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Nacional do Paraguai",
     "rol": "Local",
-    "prom": 5.4,
-    "FD": 0.8711885500933416
+    "prom": 5.18,
+    "FD": 0.9515311295883185
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Nacional do Paraguai",
     "rol": "Visitante",
     "prom": 4.64,
-    "FD": 0.8130999435347261
+    "FD": 0.8203350664355864
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Olimpia",
     "rol": "Local",
     "prom": 5.0,
-    "FD": 0.8214063472308649
+    "FD": 0.8030825390387343
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Olimpia",
     "rol": "Visitante",
-    "prom": 4.5,
-    "FD": 0.7679277244494636
+    "prom": 4.64,
+    "FD": 0.7764298093587522
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Sportivo Trinidense",
     "rol": "Local",
     "prom": 4.36,
-    "FD": 1.1997510889856877
+    "FD": 1.1729872236868788
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Sportivo Trinidense",
     "rol": "Visitante",
-    "prom": 4.0,
-    "FD": 1.0389610389610389
+    "prom": 3.91,
+    "FD": 1.028307336799538
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Libertad",
     "rol": "Local",
     "prom": 4.55,
-    "FD": 1.0628500311138767
+    "FD": 1.0391401338470894
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Libertad",
     "rol": "Visitante",
-    "prom": 4.1,
-    "FD": 0.8130999435347261
+    "prom": 4.45,
+    "FD": 0.8203350664355864
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Sportivo Ameliano",
     "rol": "Local",
-    "prom": 4.5,
-    "FD": 0.89607965152458
+    "prom": 4.36,
+    "FD": 0.8639221253295475
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Sportivo Ameliano",
     "rol": "Visitante",
     "prom": 4.36,
-    "FD": 1.0615471485036703
+    "FD": 1.1346042749855576
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Sportivo San Lorenzo",
     "rol": "Local",
     "prom": 4.45,
-    "FD": 1.1325451151213441
+    "FD": 1.1072804704928003
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Sportivo San Lorenzo",
     "rol": "Visitante",
-    "prom": 3.9,
-    "FD": 1.0615471485036703
+    "prom": 3.82,
+    "FD": 1.1346042749855576
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Guaraní",
     "rol": "Local",
     "prom": 4.0,
-    "FD": 1.1549471064094585
+    "FD": 1.129182721557493
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Guaraní",
     "rol": "Visitante",
-    "prom": 4.3,
-    "FD": 0.6775832862789384
+    "prom": 4.64,
+    "FD": 0.6516464471403813
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Rubio Ñú",
     "rol": "Local",
     "prom": 3.64,
-    "FD": 1.1773490976975731
+    "FD": 1.151084972622186
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Rubio Ñú",
     "rol": "Visitante",
-    "prom": 3.9,
-    "FD": 0.9260304912478824
+    "prom": 4.09,
+    "FD": 0.9035239745811671
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Deportivo Recoleta",
     "rol": "Local",
-    "prom": 4.3,
-    "FD": 1.120099564405725
+    "prom": 4.0,
+    "FD": 1.1729872236868788
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Deportivo Recoleta",
     "rol": "Visitante",
     "prom": 3.18,
-    "FD": 1.3551665725578768
+    "FD": 1.3240901213171579
   },
   {
     "liga": "America - Paraguay",
     "equipo": "2 de Mayo",
     "rol": "Local",
-    "prom": 4.5,
-    "FD": 0.8711885500933416
+    "prom": 4.73,
+    "FD": 0.8395862908132223
   },
   {
     "liga": "America - Paraguay",
     "equipo": "2 de Mayo",
     "rol": "Visitante",
     "prom": 2.36,
-    "FD": 0.9644268774703556
+    "FD": 0.9867128827267475
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Sportivo Luqueño",
     "rol": "Local",
-    "prom": 2.4,
-    "FD": 0.7716241443683883
+    "prom": 2.45,
+    "FD": 0.8176840397485294
   },
   {
     "liga": "America - Paraguay",
     "equipo": "Sportivo Luqueño",
     "rol": "Visitante",
     "prom": 4.73,
-    "FD": 1.4906832298136645
+    "FD": 1.4488734835355286
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Independiente del Valle",
     "rol": "Local",
-    "prom": 8.0,
-    "FD": 0.7587733164717041
+    "prom": 8.5,
+    "FD": 0.7115135834411384
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Independiente del Valle",
     "rol": "Visitante",
     "prom": 4.71,
-    "FD": 0.8147181008902077
+    "FD": 0.8133665126199787
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Aucas",
     "rol": "Local",
-    "prom": 6.14,
-    "FD": 0.7587733164717041
+    "prom": 6.38,
+    "FD": 0.8098318240620956
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Aucas",
     "rol": "Visitante",
     "prom": 5.29,
-    "FD": 0.7862314540059346
+    "FD": 0.7849271240668325
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Técnico Universitario",
     "rol": "Local",
-    "prom": 5.83,
-    "FD": 1.095162820107493
+    "prom": 5.43,
+    "FD": 0.9987063389391978
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Técnico Universitario",
     "rol": "Visitante",
     "prom": 4.63,
-    "FD": 1.0691988130563799
+    "FD": 1.067425050361417
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Macará",
     "rol": "Local",
     "prom": 5.38,
-    "FD": 1.2342712614606386
+    "FD": 1.2626131953428201
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Macará",
     "rol": "Visitante",
-    "prom": 5.0,
-    "FD": 0.7919287833827893
+    "prom": 4.86,
+    "FD": 0.7583836947505629
   },
   {
     "liga": "America - Ecuador",
     "equipo": "LDU",
     "rol": "Local",
     "prom": 6.57,
-    "FD": 0.7233638950363579
+    "FD": 0.7399741267787839
   },
   {
     "liga": "America - Ecuador",
     "equipo": "LDU",
     "rol": "Visitante",
-    "prom": 5.0,
-    "FD": 1.221127596439169
+    "prom": 4.63,
+    "FD": 1.1375755421258442
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Universidad Católica",
     "rol": "Local",
-    "prom": 3.6,
-    "FD": 1.2646221941195068
+    "prom": 4.33,
+    "FD": 1.1203104786545925
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Universidad Católica",
     "rol": "Visitante",
     "prom": 5.43,
-    "FD": 0.6779821958456973
+    "FD": 0.6768574475648773
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Mushuc Runa",
     "rol": "Local",
-    "prom": 5.57,
-    "FD": 1.2646221941195068
+    "prom": 6.13,
+    "FD": 1.1642949547218628
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Mushuc Runa",
     "rol": "Visitante",
     "prom": 3.57,
-    "FD": 0.9229673590504451
+    "FD": 0.9214361891219339
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Manta FC",
     "rol": "Local",
     "prom": 5.14,
-    "FD": 0.8675308251659817
+    "FD": 0.8874514877102199
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Manta FC",
     "rol": "Visitante",
-    "prom": 4.43,
-    "FD": 1.13946587537092
+    "prom": 4.38,
+    "FD": 1.1849745230477544
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Barcelona-SC",
     "rol": "Local",
     "prom": 5.43,
-    "FD": 0.8675308251659817
+    "FD": 0.8874514877102199
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Barcelona-SC",
     "rol": "Visitante",
-    "prom": 3.0,
-    "FD": 1.0843916913946587
+    "prom": 3.63,
+    "FD": 0.9726270885175968
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Emelec",
     "rol": "Local",
-    "prom": 6.29,
-    "FD": 0.6500158077774265
+    "prom": 5.88,
+    "FD": 0.7115135834411384
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Emelec",
     "rol": "Visitante",
     "prom": 3.86,
-    "FD": 1.0843916913946587
+    "FD": 1.0825927242564284
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Libertad de Loja",
     "rol": "Local",
     "prom": 4.57,
-    "FD": 0.9762883338602593
+    "FD": 0.9987063389391978
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Libertad de Loja",
     "rol": "Visitante",
-    "prom": 3.71,
-    "FD": 1.0578041543026706
+    "prom": 3.38,
+    "FD": 1.2096219931271477
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Deportivo Cuenca",
     "rol": "Local",
-    "prom": 4.67,
-    "FD": 1.3480872589313944
+    "prom": 4.43,
+    "FD": 1.257438551099612
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Deportivo Cuenca",
     "rol": "Visitante",
     "prom": 3.38,
-    "FD": 0.9267655786350149
+    "FD": 0.9252281075956866
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Orense",
     "rol": "Local",
-    "prom": 5.43,
-    "FD": 0.9383496680366741
+    "prom": 5.5,
+    "FD": 1.003880983182406
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Orense",
     "rol": "Visitante",
     "prom": 2.43,
-    "FD": 1.3293768545994065
+    "FD": 1.327171465813485
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Leones del Norte",
     "rol": "Local",
     "prom": 3.57,
-    "FD": 1.120455263989883
+    "FD": 1.1461836998706338
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Leones del Norte",
     "rol": "Visitante",
-    "prom": 3.71,
-    "FD": 1.2477151335311574
+    "prom": 3.38,
+    "FD": 1.1622230122052375
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Delfin",
     "rol": "Local",
-    "prom": 4.43,
-    "FD": 1.0850458425545368
+    "prom": 4.0,
+    "FD": 1.2289780077619663
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Delfin",
     "rol": "Visitante",
     "prom": 1.86,
-    "FD": 1.0046290801186943
+    "FD": 1.0029624363076193
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Guayaquil City",
     "rol": "Local",
     "prom": 3.57,
-    "FD": 1.0471071767309517
+    "FD": 1.0711513583441137
   },
   {
     "liga": "America - Ecuador",
     "equipo": "Guayaquil City",
     "rol": "Visitante",
-    "prom": 2.71,
-    "FD": 0.8413056379821958
+    "prom": 2.5,
+    "FD": 0.9726270885175968
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Carabobo",
     "rol": "Local",
-    "prom": 5.33,
-    "FD": 0.6942561541205852
+    "prom": 5.3,
+    "FD": 0.793482111229189
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Carabobo",
     "rol": "Visitante",
     "prom": 5.63,
-    "FD": 0.8368200836820084
+    "FD": 0.8224408870612426
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Portuguesa",
     "rol": "Local",
-    "prom": 5.67,
-    "FD": 0.9165180164109884
+    "prom": 5.7,
+    "FD": 0.9918526390364862
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Portuguesa",
     "rol": "Visitante",
     "prom": 3.0,
-    "FD": 1.2552301255230127
+    "FD": 1.233661330591864
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Deportivo Táchira",
     "rol": "Local",
     "prom": 4.89,
-    "FD": 0.7766678558687122
+    "FD": 0.771165426850868
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Deportivo Táchira",
     "rol": "Visitante",
-    "prom": 4.88,
-    "FD": 0.5502092050209205
+    "prom": 5.11,
+    "FD": 0.5942135409017478
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Caracas",
     "rol": "Local",
     "prom": 3.57,
-    "FD": 1.2836246878344633
+    "FD": 1.2745306411618846
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Caracas",
     "rol": "Visitante",
     "prom": 5.5,
-    "FD": 0.8368200836820084
+    "FD": 0.8224408870612426
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Deportivo La Guaira",
     "rol": "Local",
     "prom": 5.25,
-    "FD": 0.4694969675347842
+    "FD": 0.4661707403471485
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Deportivo La Guaira",
     "rol": "Visitante",
-    "prom": 4.89,
-    "FD": 0.7677824267782427
+    "prom": 5.1,
+    "FD": 0.8018798648847115
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Academia Puerto Cabello",
     "rol": "Local",
-    "prom": 5.0,
-    "FD": 0.874063503389226
+    "prom": 5.22,
+    "FD": 0.7984413744243715
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Academia Puerto Cabello",
     "rol": "Visitante",
     "prom": 4.78,
-    "FD": 0.7447698744769875
+    "FD": 0.7319723894845059
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Zamora",
     "rol": "Local",
     "prom": 6.0,
-    "FD": 0.9989297181591155
+    "FD": 0.9918526390364862
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Zamora",
     "rol": "Visitante",
     "prom": 3.57,
-    "FD": 1.0167364016736404
+    "FD": 0.9992656777794099
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Academia Anzoátegui",
     "rol": "Local",
     "prom": 6.67,
-    "FD": 1.3310738494470213
+    "FD": 1.321643641516118
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Academia Anzoátegui",
     "rol": "Visitante",
     "prom": 3.14,
-    "FD": 1.1359832635983265
+    "FD": 1.1164635041856368
   },
   {
     "liga": "America - Venezuela",
     "equipo": "UCV",
     "rol": "Local",
     "prom": 4.88,
-    "FD": 1.0613628255440601
+    "FD": 1.0538434289762666
   },
   {
     "liga": "America - Venezuela",
     "equipo": "UCV",
     "rol": "Visitante",
-    "prom": 3.78,
-    "FD": 0.9539748953974896
+    "prom": 3.5,
+    "FD": 0.9869290644734912
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Estudiantes de Mérida",
     "rol": "Local",
-    "prom": 5.13,
-    "FD": 1.156261148769176
+    "prom": 5.56,
+    "FD": 1.1307120085015943
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Estudiantes de Mérida",
     "rol": "Visitante",
     "prom": 2.78,
-    "FD": 1.2092050209205023
+    "FD": 1.1884270818034957
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Trujillanos",
     "rol": "Local",
     "prom": 3.86,
-    "FD": 0.7142347484837674
+    "FD": 0.7091746369110876
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Trujillanos",
     "rol": "Visitante",
     "prom": 4.0,
-    "FD": 1.0104602510460252
+    "FD": 0.9930973711264505
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Rayo Zuliano",
     "rol": "Local",
     "prom": 4.0,
-    "FD": 1.3310738494470213
+    "FD": 1.321643641516118
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Rayo Zuliano",
     "rol": "Visitante",
     "prom": 3.29,
-    "FD": 1.5543933054393306
+    "FD": 1.5276839477162583
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Metropolitanos",
     "rol": "Local",
     "prom": 3.56,
-    "FD": 1.1088119871566182
+    "FD": 1.1009564293304999
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Metropolitanos",
     "rol": "Visitante",
-    "prom": 3.5,
-    "FD": 1.0460251046025106
+    "prom": 3.56,
+    "FD": 1.11851960640329
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Monagas",
     "rol": "Local",
     "prom": 2.57,
-    "FD": 1.2836246878344633
+    "FD": 1.2745306411618846
   },
   {
     "liga": "America - Venezuela",
     "equipo": "Monagas",
     "rol": "Visitante",
     "prom": 1.83,
-    "FD": 1.081589958158996
+    "FD": 1.0630048465266562
   },
   {
     "liga": "America - Bolivia",
@@ -9013,1540 +9012,2128 @@ let equipos = [
     "equipo": "Racing de Montevideo",
     "rol": "Local",
     "prom": 5.89,
-    "FD": 0.8334342822531798
+    "FD": 0.8360929667324928
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Racing de Montevideo",
     "rol": "Visitante",
-    "prom": 5.0,
-    "FD": 0.9178328945545238
+    "prom": 5.25,
+    "FD": 0.8854454897620365
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Nacional",
     "rol": "Local",
-    "prom": 5.86,
-    "FD": 0.6929133858267715
+    "prom": 6.75,
+    "FD": 0.6076257025672186
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Nacional",
     "rol": "Visitante",
     "prom": 5.33,
-    "FD": 0.6894831647498959
+    "FD": 0.6884338682899833
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Peñarol",
     "rol": "Local",
     "prom": 5.11,
-    "FD": 0.9691096305269533
+    "FD": 0.9722011241075498
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Peñarol",
     "rol": "Visitante",
-    "prom": 4.71,
-    "FD": 0.44339753360121925
+    "prom": 4.5,
+    "FD": 0.44272274488101826
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Montevideo City Torque",
     "rol": "Local",
     "prom": 4.88,
-    "FD": 0.9691096305269533
+    "FD": 0.9722011241075498
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Montevideo City Torque",
     "rol": "Visitante",
-    "prom": 4.75,
-    "FD": 0.9710405985866701
+    "prom": 4.89,
+    "FD": 0.9341449916989485
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Deportivo Maldonado",
     "rol": "Local",
     "prom": 3.63,
-    "FD": 0.9085402786190186
+    "FD": 0.911438553850828
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Deportivo Maldonado",
     "rol": "Visitante",
-    "prom": 6.38,
-    "FD": 0.9710405985866701
+    "prom": 6.33,
+    "FD": 0.9828444936358606
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Albion",
     "rol": "Local",
     "prom": 4.78,
-    "FD": 1.1580860084797093
+    "FD": 1.161780343308522
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Albion",
     "rol": "Visitante",
-    "prom": 4.71,
-    "FD": 1.172786476375225
+    "prom": 4.13,
+    "FD": 1.3835085777531821
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Defensor Sporting",
     "rol": "Local",
-    "prom": 5.57,
-    "FD": 1.0732889158086008
+    "prom": 5.13,
+    "FD": 1.0329636943642717
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Defensor Sporting",
     "rol": "Visitante",
     "prom": 4.67,
-    "FD": 1.035333240958847
+    "FD": 1.0337576092971776
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Wanderers",
     "rol": "Local",
-    "prom": 5.25,
-    "FD": 1.2428831011508175
+    "prom": 5.22,
+    "FD": 1.2687224669603523
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Wanderers",
     "rol": "Visitante",
     "prom": 3.88,
-    "FD": 0.9422197589025909
+    "FD": 0.9407858328721638
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Juventud de Las Piedras",
     "rol": "Local",
     "prom": 4.89,
-    "FD": 0.7801332525741974
+    "FD": 0.7826219049065776
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Juventud de Las Piedras",
     "rol": "Visitante",
     "prom": 4.0,
-    "FD": 0.9821255369267006
+    "FD": 0.9806308799114554
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Liverpool de Montevideo",
     "rol": "Local",
-    "prom": 4.71,
-    "FD": 1.0732889158086008
+    "prom": 4.5,
+    "FD": 1.1544888348777154
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Liverpool de Montevideo",
     "rol": "Visitante",
     "prom": 3.56,
-    "FD": 0.9111819315505056
+    "FD": 0.9097952407304926
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Progreso",
     "rol": "Local",
-    "prom": 4.25,
-    "FD": 0.9400363416111447
+    "prom": 4.11,
+    "FD": 0.9989366550205074
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Progreso",
     "rol": "Visitante",
     "prom": 3.75,
-    "FD": 1.0264652902868225
+    "FD": 1.0249031543995573
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Cerro Largo",
     "rol": "Local",
-    "prom": 2.71,
-    "FD": 0.9351907934585099
+    "prom": 2.5,
+    "FD": 0.9430350903843232
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Cerro Largo",
     "rol": "Visitante",
     "prom": 4.11,
-    "FD": 1.2326451434113894
+    "FD": 1.2307692307692306
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Danubio",
     "rol": "Local",
     "prom": 4.86,
-    "FD": 0.7970926711084191
+    "FD": 0.7996354245784597
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Danubio",
     "rol": "Visitante",
     "prom": 2.33,
-    "FD": 1.035333240958847
+    "FD": 1.0337576092971776
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Central Español",
     "rol": "Local",
     "prom": 3.75,
-    "FD": 0.9085402786190186
+    "FD": 0.911438553850828
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Central Español",
     "rol": "Visitante",
-    "prom": 3.13,
-    "FD": 1.2481640570874322
+    "prom": 3.11,
+    "FD": 1.2307692307692306
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Cerro",
     "rol": "Local",
-    "prom": 2.5,
-    "FD": 1.45366444579043
+    "prom": 2.78,
+    "FD": 1.3780950934224518
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Cerro",
     "rol": "Visitante",
     "prom": 3.63,
-    "FD": 1.2481640570874322
+    "FD": 1.2462645268400663
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Boston River",
     "rol": "Local",
     "prom": 3.56,
-    "FD": 1.264688067837674
+    "FD": 1.2687224669603523
   },
   {
     "liga": "America - Uruguay",
     "equipo": "Boston River",
     "rol": "Visitante",
-    "prom": 2.43,
-    "FD": 1.172786476375225
+    "prom": 2.63,
+    "FD": 1.0514665190924184
   },
   {
     "liga": "America - Albania",
     "equipo": "Dinamo Tirana",
     "rol": "Local",
     "prom": 4.44,
-    "FD": 1.0191249672517684
+    "FD": 1.0164619806637054
   },
   {
     "liga": "America - Albania",
     "equipo": "Dinamo Tirana",
     "rol": "Visitante",
-    "prom": 4.84,
-    "FD": 0.8261904761904763
+    "prom": 4.9,
+    "FD": 0.8033573141486811
   },
   {
     "liga": "America - Albania",
     "equipo": "Egnatia",
     "rol": "Local",
     "prom": 4.06,
-    "FD": 0.9903065234477337
+    "FD": 0.9877188398223152
   },
   {
     "liga": "America - Albania",
     "equipo": "Egnatia",
     "rol": "Visitante",
-    "prom": 4.63,
-    "FD": 1.0785714285714285
+    "prom": 4.55,
+    "FD": 1.0431654676258992
   },
   {
     "liga": "America - Albania",
     "equipo": "Vllaznia Shkodër",
     "rol": "Local",
-    "prom": 4.42,
-    "FD": 0.9379093528949437
+    "prom": 4.25,
+    "FD": 0.9276195453357722
   },
   {
     "liga": "America - Albania",
     "equipo": "Vllaznia Shkodër",
     "rol": "Visitante",
     "prom": 3.89,
-    "FD": 0.7547619047619047
+    "FD": 0.7601918465227818
   },
   {
     "liga": "America - Albania",
     "equipo": "Teuta Durrës",
     "rol": "Local",
     "prom": 4.56,
-    "FD": 0.8435944458999214
+    "FD": 0.841390122811602
   },
   {
     "liga": "America - Albania",
     "equipo": "Teuta Durrës",
     "rol": "Visitante",
     "prom": 4.17,
-    "FD": 0.8857142857142857
+    "FD": 0.8920863309352519
   },
   {
     "liga": "America - Albania",
     "equipo": "AF Elbasani",
     "rol": "Local",
-    "prom": 4.47,
-    "FD": 0.8959916164527115
+    "prom": 4.3,
+    "FD": 0.9276195453357722
   },
   {
     "liga": "America - Albania",
     "equipo": "AF Elbasani",
     "rol": "Visitante",
     "prom": 4.39,
-    "FD": 1.0571428571428572
+    "FD": 1.064748201438849
   },
   {
     "liga": "America - Albania",
     "equipo": "Flamurtari Vlorë",
     "rol": "Local",
     "prom": 4.94,
-    "FD": 1.0924810060256744
+    "FD": 1.0896263391690622
   },
   {
     "liga": "America - Albania",
     "equipo": "Flamurtari Vlorë",
     "rol": "Visitante",
     "prom": 3.44,
-    "FD": 1.111904761904762
+    "FD": 1.119904076738609
   },
   {
     "liga": "America - Albania",
     "equipo": "Partizani Tirana",
     "rol": "Local",
     "prom": 4.44,
-    "FD": 0.9012313335079906
+    "FD": 0.8988764044943821
   },
   {
     "liga": "America - Albania",
     "equipo": "Partizani Tirana",
     "rol": "Visitante",
     "prom": 3.67,
-    "FD": 1.2309523809523808
+    "FD": 1.2398081534772183
   },
   {
     "liga": "America - Albania",
     "equipo": "Vora",
     "rol": "Local",
     "prom": 4.0,
-    "FD": 0.888132040869793
+    "FD": 0.8858113404755684
   },
   {
     "liga": "America - Albania",
     "equipo": "Vora",
     "rol": "Visitante",
     "prom": 3.28,
-    "FD": 1.0047619047619047
+    "FD": 1.0119904076738608
   },
   {
     "liga": "America - Albania",
     "equipo": "Tirana",
     "rol": "Local",
     "prom": 3.17,
-    "FD": 1.1501178936337437
+    "FD": 1.1471126208518423
   },
   {
     "liga": "America - Albania",
     "equipo": "Tirana",
     "rol": "Visitante",
     "prom": 3.72,
-    "FD": 1.0047619047619047
+    "FD": 1.0119904076738608
   },
   {
     "liga": "America - Albania",
     "equipo": "Bylis Ballsh",
     "rol": "Local",
     "prom": 3.44,
-    "FD": 1.281110820015719
+    "FD": 1.2777632610399792
   },
   {
     "liga": "America - Albania",
     "equipo": "Bylis Ballsh",
     "rol": "Visitante",
     "prom": 2.0,
-    "FD": 1.045238095238095
+    "FD": 1.052757793764988
   },
   {
     "liga": "America - Colombia",
     "equipo": "Millonarios",
     "rol": "Local",
     "prom": 7.3,
-    "FD": 0.7936507936507935
+    "FD": 0.794194166780775
   },
   {
     "liga": "America - Colombia",
     "equipo": "Millonarios",
     "rol": "Visitante",
     "prom": 4.11,
-    "FD": 0.8386061006705072
+    "FD": 0.8359220559164078
   },
   {
     "liga": "America - Colombia",
     "equipo": "Independiente Medellín",
     "rol": "Local",
     "prom": 6.4,
-    "FD": 0.9031198686371098
+    "FD": 0.9037381897850199
   },
   {
     "liga": "America - Colombia",
     "equipo": "Independiente Medellín",
     "rol": "Visitante",
     "prom": 4.67,
-    "FD": 0.9651525167626783
+    "FD": 0.962063447237127
   },
   {
     "liga": "America - Colombia",
     "equipo": "Once Caldas",
     "rol": "Local",
     "prom": 6.18,
-    "FD": 0.8949096880131361
+    "FD": 0.8955223880597015
   },
   {
     "liga": "America - Colombia",
     "equipo": "Once Caldas",
     "rol": "Visitante",
     "prom": 4.6,
-    "FD": 1.189914061762206
+    "FD": 1.1861056198813893
   },
   {
     "liga": "America - Colombia",
     "equipo": "Deportivo Cali",
     "rol": "Local",
     "prom": 6.0,
-    "FD": 1.0673234811165844
+    "FD": 1.068054224291387
   },
   {
     "liga": "America - Colombia",
     "equipo": "Deportivo Cali",
     "rol": "Visitante",
     "prom": 4.11,
-    "FD": 1.1124752101237132
+    "FD": 1.1089146192224417
   },
   {
     "liga": "America - Colombia",
     "equipo": "Santa Fe",
     "rol": "Local",
     "prom": 5.18,
-    "FD": 0.8456486042692937
+    "FD": 0.8462275777077913
   },
   {
     "liga": "America - Colombia",
     "equipo": "Santa Fe",
     "rol": "Visitante",
-    "prom": 4.45,
-    "FD": 0.8404948531494948
+    "prom": 4.33,
+    "FD": 0.8792243245787441
   },
   {
     "liga": "America - Colombia",
     "equipo": "Llaneros",
     "rol": "Local",
     "prom": 5.67,
-    "FD": 1.0946907498631635
+    "FD": 1.0954402300424484
   },
   {
     "liga": "America - Colombia",
     "equipo": "Llaneros",
     "rol": "Visitante",
     "prom": 4.5,
-    "FD": 1.3410142600812163
+    "FD": 1.3367222065329942
   },
   {
     "liga": "America - Colombia",
     "equipo": "Junior Barranquilla",
     "rol": "Local",
-    "prom": 6.73,
-    "FD": 1.2944718117131908
+    "prom": 6.75,
+    "FD": 1.2542790633986034
   },
   {
     "liga": "America - Colombia",
     "equipo": "Junior Barranquilla",
     "rol": "Visitante",
     "prom": 2.73,
-    "FD": 1.0822551704599113
+    "FD": 1.078791301892121
   },
   {
     "liga": "America - Colombia",
     "equipo": "Deportes Tolima",
     "rol": "Local",
     "prom": 5.42,
-    "FD": 0.957854406130268
+    "FD": 0.9585102012871423
   },
   {
     "liga": "America - Colombia",
     "equipo": "Deportes Tolima",
     "rol": "Visitante",
-    "prom": 4.2,
-    "FD": 1.0765889130229482
+    "prom": 4.18,
+    "FD": 1.0957356678904264
   },
   {
     "liga": "America - Colombia",
     "equipo": "Atlético Bucaramanga",
     "rol": "Local",
     "prom": 4.89,
-    "FD": 0.8210180623973725
+    "FD": 0.8215801725318362
   },
   {
     "liga": "America - Colombia",
     "equipo": "Atlético Bucaramanga",
     "rol": "Visitante",
     "prom": 4.4,
-    "FD": 0.7366134668051751
+    "FD": 0.7342558599265743
   },
   {
     "liga": "America - Colombia",
     "equipo": "Atlético Nacional",
     "rol": "Local",
-    "prom": 5.2,
-    "FD": 0.7936507936507935
+    "prom": 5.36,
+    "FD": 0.8215801725318362
   },
   {
     "liga": "America - Colombia",
     "equipo": "Atlético Nacional",
     "rol": "Visitante",
     "prom": 4.17,
-    "FD": 0.9764850316366039
+    "FD": 0.9733596912359973
   },
   {
     "liga": "America - Colombia",
     "equipo": "Alianza",
     "rol": "Local",
     "prom": 4.89,
-    "FD": 1.2151067323481115
+    "FD": 1.2159386553471176
   },
   {
     "liga": "America - Colombia",
     "equipo": "Alianza",
     "rol": "Visitante",
     "prom": 3.8,
-    "FD": 0.9443762394938143
+    "FD": 0.9413536665725312
   },
   {
     "liga": "America - Colombia",
     "equipo": "La Equidad",
     "rol": "Local",
     "prom": 5.4,
-    "FD": 1.0673234811165844
+    "FD": 1.068054224291387
   },
   {
     "liga": "America - Colombia",
     "equipo": "La Equidad",
     "rol": "Visitante",
     "prom": 3.27,
-    "FD": 1.0482576258381338
+    "FD": 1.0449025698955097
   },
   {
     "liga": "America - Colombia",
     "equipo": "Fortaleza CEIF",
     "rol": "Local",
     "prom": 5.0,
-    "FD": 0.6020799124247399
+    "FD": 0.6024921265233466
   },
   {
     "liga": "America - Colombia",
     "equipo": "Fortaleza CEIF",
     "rol": "Visitante",
     "prom": 3.44,
-    "FD": 0.9651525167626783
+    "FD": 0.962063447237127
   },
   {
     "liga": "America - Colombia",
     "equipo": "Águilas Doradas",
     "rol": "Local",
     "prom": 5.2,
-    "FD": 1.012588943623426
+    "FD": 1.0132822127892647
   },
   {
     "liga": "America - Colombia",
     "equipo": "Águilas Doradas",
     "rol": "Visitante",
     "prom": 2.78,
-    "FD": 0.9235999622249503
+    "FD": 0.9206438859079354
   },
   {
     "liga": "America - Colombia",
     "equipo": "Jaguares de Córdoba",
     "rol": "Local",
     "prom": 5.1,
-    "FD": 0.8757525998905308
+    "FD": 0.8763521840339588
   },
   {
     "liga": "America - Colombia",
     "equipo": "Jaguares de Córdoba",
     "rol": "Visitante",
     "prom": 2.67,
-    "FD": 1.1332514873925772
+    "FD": 1.1296243998870374
   },
   {
     "liga": "America - Colombia",
     "equipo": "Cúcuta Deportivo",
     "rol": "Local",
     "prom": 3.56,
-    "FD": 1.611932129173508
+    "FD": 1.6130357387375052
   },
   {
     "liga": "America - Colombia",
     "equipo": "Cúcuta Deportivo",
     "rol": "Visitante",
     "prom": 4.1,
-    "FD": 1.0388138634431958
+    "FD": 1.0354890332297844
   },
   {
     "liga": "America - Colombia",
     "equipo": "América de Cali",
     "rol": "Local",
     "prom": 4.6,
-    "FD": 0.6841817186644772
+    "FD": 0.6846501437765302
   },
   {
     "liga": "America - Colombia",
     "equipo": "América de Cali",
     "rol": "Visitante",
     "prom": 2.64,
-    "FD": 0.859382377939371
+    "FD": 0.8566318365810034
   },
   {
     "liga": "America - Colombia",
     "equipo": "Deportivo Pasto",
     "rol": "Local",
     "prom": 4.36,
-    "FD": 0.9715380405035575
+    "FD": 0.9722032041626728
   },
   {
     "liga": "America - Colombia",
     "equipo": "Deportivo Pasto",
     "rol": "Visitante",
     "prom": 3.7,
-    "FD": 0.8499386155444328
+    "FD": 0.8472182999152781
   },
   {
     "liga": "America - Colombia",
     "equipo": "Boyacá Chicó",
     "rol": "Local",
     "prom": 4.67,
-    "FD": 1.1247947454844005
+    "FD": 1.1255648363686157
   },
   {
     "liga": "America - Colombia",
     "equipo": "Boyacá Chicó",
     "rol": "Visitante",
     "prom": 2.8,
-    "FD": 0.8121635659646803
+    "FD": 0.8095641532523769
   },
   {
     "liga": "America - Colombia",
     "equipo": "Deportivo Pereira",
     "rol": "Local",
     "prom": 3.44,
-    "FD": 1.3683634373289544
+    "FD": 1.3693002875530604
   },
   {
     "liga": "America - Colombia",
     "equipo": "Deportivo Pereira",
     "rol": "Visitante",
     "prom": 1.5,
-    "FD": 1.2654641609217112
+    "FD": 1.2614139132071918
   },
   {
     "liga": "America - Libertadores",
-    "equipo": "Palmeiras",
+    "equipo": "Palmeiras L",
     "rol": "Local",
     "prom": 7.0,
-    "FD": 0.867600542250339
+    "FD": 0.8435111150162552
   },
   {
     "liga": "America - Libertadores",
-    "equipo": "Palmeiras",
+    "equipo": "Palmeiras L",
     "rol": "Visitante",
     "prom": 7.67,
-    "FD": 0.7770736358028152
+    "FD": 0.7565796658294202
   },
   {
     "liga": "America - Libertadores",
-    "equipo": "Independiente del Valle",
+    "equipo": "Independiente del Valle L",
     "rol": "Local",
     "prom": 9.0,
-    "FD": 0.867600542250339
+    "FD": 0.750724892364467
   },
   {
     "liga": "America - Libertadores",
-    "equipo": "Independiente del Valle",
+    "equipo": "Independiente del Valle L",
     "rol": "Visitante",
     "prom": 6.33,
-    "FD": 0.5976109023610565
+    "FD": 0.5818499508572678
   },
   {
     "liga": "America - Libertadores",
-    "equipo": "anús",
+    "equipo": "Lanús L",
     "rol": "Local",
-    "prom": 8.5,
-    "FD": 0.7230004518752825
+    "prom": 9.0,
+    "FD": 0.5623407433441701
   },
   {
     "liga": "America - Libertadores",
-    "equipo": "anús",
+    "equipo": "Lanús L",
     "rol": "Visitante",
     "prom": 4.67,
-    "FD": 0.7178509337670348
+    "FD": 0.6989188598886099
   },
   {
     "liga": "America - Libertadores",
-    "equipo": "Rosario Central",
+    "equipo": "Rosario Central L",
     "rol": "Local",
     "prom": 6.0,
-    "FD": 0.867600542250339
+    "FD": 0.8435111150162552
   },
   {
     "liga": "America - Libertadores",
-    "equipo": "Rosario Central",
-    "rol": "Visitante",
-    "prom": 5.5,
-    "FD": 0.6281195670461555
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Coquimbo Unido",
-    "rol": "Local",
-    "prom": 7.67,
-    "FD": 1.8306371441482152
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Coquimbo Unido",
-    "rol": "Visitante",
-    "prom": 3.0,
-    "FD": 0.7178509337670348
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Nacional",
-    "rol": "Local",
-    "prom": 6.5,
-    "FD": 1.0122006326253954
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Nacional",
-    "rol": "Visitante",
-    "prom": 5.0,
-    "FD": 1.6743873030116088
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Universidad Católica",
-    "rol": "Local",
-    "prom": 6.67,
-    "FD": 1.156800723000452
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Universidad Católica",
-    "rol": "Visitante",
-    "prom": 3.5,
-    "FD": 1.6151646009758283
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Universitario",
-    "rol": "Local",
-    "prom": 7.0,
-    "FD": 1.0122006326253954
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Universitario",
+    "equipo": "Rosario Central L",
     "rol": "Visitante",
     "prom": 4.33,
-    "FD": 1.256239134092311
+    "FD": 0.9313093808015727
   },
   {
     "liga": "America - Libertadores",
-    "equipo": "Sporting Cristal",
+    "equipo": "Coquimbo Unido L",
+    "rol": "Local",
+    "prom": 7.67,
+    "FD": 1.7798084526842983
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Coquimbo Unido L",
+    "rol": "Visitante",
+    "prom": 4.67,
+    "FD": 0.5818499508572678
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Nacional L",
+    "rol": "Local",
+    "prom": 5.0,
+    "FD": 1.4058518583604251
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Nacional L",
+    "rol": "Visitante",
+    "prom": 5.0,
+    "FD": 1.6302282406901825
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Universidad Católica L",
+    "rol": "Local",
+    "prom": 6.67,
+    "FD": 1.1246814866883401
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Universidad Católica L",
+    "rol": "Visitante",
+    "prom": 3.5,
+    "FD": 1.572567434749372
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Universitario L",
+    "rol": "Local",
+    "prom": 7.67,
+    "FD": 0.9362973376680432
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Universitario L",
+    "rol": "Visitante",
+    "prom": 4.33,
+    "FD": 1.2231080048050673
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Sporting Cristal L",
     "rol": "Local",
     "prom": 6.4,
-    "FD": 0.9832806145503842
+    "FD": 0.9559792636850891
   },
   {
     "liga": "America - Libertadores",
-    "equipo": "Sporting Cristal",
+    "equipo": "Sporting Cristal L",
     "rol": "Visitante",
     "prom": 4.0,
-    "FD": 1.121642084010992
+    "FD": 1.092060718575953
   },
   {
     "liga": "America - Libertadores",
-    "equipo": "Bolívar",
+    "equipo": "Bolívar L",
     "rol": "Local",
-    "prom": 8.5,
-    "FD": 0.4338002711251695
+    "prom": 8.33,
+    "FD": 0.469554520692382
   },
   {
     "liga": "America - Libertadores",
-    "equipo": "Bolívar",
+    "equipo": "Bolívar L",
     "rol": "Visitante",
     "prom": 3.0,
-    "FD": 0.9565363692445739
+    "FD": 0.9313093808015727
   },
   {
     "liga": "America - Libertadores",
-    "equipo": "Corinthians",
-    "rol": "Local",
-    "prom": 6.5,
-    "FD": 1.3014008133755084
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Corinthians",
-    "rol": "Visitante",
-    "prom": 4.0,
-    "FD": 0.7178509337670348
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Boca Juniors",
-    "rol": "Local",
-    "prom": 8.5,
-    "FD": 0.7230004518752825
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Boca Juniors",
-    "rol": "Visitante",
-    "prom": 2.33,
-    "FD": 0.7770736358028152
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Mirassol",
-    "rol": "Local",
-    "prom": 6.33,
-    "FD": 1.3505648441030276
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Mirassol",
-    "rol": "Visitante",
-    "prom": 2.5,
-    "FD": 0.6281195670461555
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Independiente Medellín",
-    "rol": "Local",
-    "prom": 5.25,
-    "FD": 0.6507004066877542
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Independiente Medellín",
-    "rol": "Visitante",
-    "prom": 4.0,
-    "FD": 0.9870450339296729
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Deportes Tolima",
-    "rol": "Local",
-    "prom": 4.6,
-    "FD": 1.156800723000452
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Deportes Tolima",
-    "rol": "Visitante",
-    "prom": 4.25,
-    "FD": 0.8973136672087935
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Junior Barranquilla",
-    "rol": "Local",
-    "prom": 5.33,
-    "FD": 1.8306371441482152
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Junior Barranquilla",
-    "rol": "Visitante",
-    "prom": 3.0,
-    "FD": 1.0767764006505522
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Estudiantes dea Plata",
+    "equipo": "Corinthians L",
     "rol": "Local",
     "prom": 6.0,
-    "FD": 0.289200180750113
+    "FD": 1.2174677093401283
   },
   {
     "liga": "America - Libertadores",
-    "equipo": "Estudiantes dea Plata",
+    "equipo": "Corinthians L",
     "rol": "Visitante",
-    "prom": 3.0,
-    "FD": 0.7770736358028152
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Flamengo",
-    "rol": "Local",
-    "prom": 3.5,
-    "FD": 1.0122006326253954
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Flamengo",
-    "rol": "Visitante",
-    "prom": 4.5,
-    "FD": 1.1665077673714315
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Always Ready",
-    "rol": "Local",
-    "prom": 4.33,
-    "FD": 1.156800723000452
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Always Ready",
-    "rol": "Visitante",
-    "prom": 3.5,
-    "FD": 1.6151646009758283
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Deportivoa Guaira",
-    "rol": "Local",
-    "prom": 5.33,
-    "FD": 1.735201084500678
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Deportivoa Guaira",
-    "rol": "Visitante",
-    "prom": 2.0,
-    "FD": 1.7048959676967077
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Independiente Rivadavia",
-    "rol": "Local",
-    "prom": 5.0,
-    "FD": 0.4829643018526887
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Independiente Rivadavia",
-    "rol": "Visitante",
-    "prom": 2.0,
-    "FD": 0.7178509337670348
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Santa Fe",
-    "rol": "Local",
-    "prom": 4.33,
-    "FD": 1.2522367826479892
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Santa Fe",
-    "rol": "Visitante",
-    "prom": 3.0,
-    "FD": 0.9870450339296729
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Cusco FC",
-    "rol": "Local",
-    "prom": 5.67,
-    "FD": 1.2522367826479892
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Cusco FC",
-    "rol": "Visitante",
-    "prom": 0.5,
-    "FD": 0.8973136672087935
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "ibertad",
-    "rol": "Local",
-    "prom": 2.0,
-    "FD": 1.5906009941256214
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "ibertad",
-    "rol": "Visitante",
-    "prom": 4.67,
-    "FD": 0.8380909651730132
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Fluminense",
-    "rol": "Local",
-    "prom": 3.0,
-    "FD": 0.289200180750113
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Fluminense",
-    "rol": "Visitante",
-    "prom": 3.67,
-    "FD": 0.6586282317312544
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "DU",
-    "rol": "Local",
-    "prom": 4.5,
-    "FD": 0.4338002711251695
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "DU",
-    "rol": "Visitante",
-    "prom": 2.67,
-    "FD": 1.256239134092311
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Platense",
-    "rol": "Local",
     "prom": 4.0,
-    "FD": 0.4829643018526887
+    "FD": 0.6989188598886099
   },
   {
     "liga": "America - Libertadores",
-    "equipo": "Platense",
-    "rol": "Visitante",
-    "prom": 1.5,
-    "FD": 0.5383882003252761
+    "equipo": "Boca Juniors L",
+    "rol": "Local",
+    "prom": 8.5,
+    "FD": 0.7029259291802126
   },
   {
     "liga": "America - Libertadores",
-    "equipo": "Peñarol",
-    "rol": "Local",
-    "prom": 2.0,
-    "FD": 0.7230004518752825
+    "equipo": "Boca Juniors L",
+    "rol": "Visitante",
+    "prom": 2.33,
+    "FD": 0.7565796658294202
   },
   {
     "liga": "America - Libertadores",
-    "equipo": "Peñarol",
-    "rol": "Visitante",
-    "prom": 3.67,
-    "FD": 0.7770736358028152
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Barcelona-SC",
-    "rol": "Local",
-    "prom": 3.4,
-    "FD": 0.867600542250339
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Barcelona-SC",
-    "rol": "Visitante",
-    "prom": 2.0,
-    "FD": 1.0319107172901125
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Cerro Porteño",
-    "rol": "Local",
-    "prom": 4.0,
-    "FD": 1.0122006326253954
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Cerro Porteño",
-    "rol": "Visitante",
-    "prom": 1.67,
-    "FD": 1.3154618361280914
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Cruzeiro",
-    "rol": "Local",
-    "prom": 4.5,
-    "FD": 0.7230004518752825
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "Cruzeiro",
-    "rol": "Visitante",
-    "prom": 1.0,
-    "FD": 1.3154618361280914
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "UCV",
-    "rol": "Local",
-    "prom": 1.67,
-    "FD": 1.9289652056032536
-  },
-  {
-    "liga": "America - Libertadores",
-    "equipo": "UCV",
-    "rol": "Visitante",
-    "prom": 1.0,
-    "FD": 1.256239134092311
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Millonarios",
-    "rol": "Local",
-    "prom": 10.0,
-    "FD": 1.0226909555768617
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Millonarios",
-    "rol": "Visitante",
-    "prom": 4.25,
-    "FD": 1.2113734507318712
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Olimpia",
-    "rol": "Local",
-    "prom": 9.0,
-    "FD": 0.578400361500226
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Olimpia",
-    "rol": "Visitante",
-    "prom": 4.25,
-    "FD": 0.8972315683843928
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Botafogo",
-    "rol": "Local",
-    "prom": 8.67,
-    "FD": 0.578400361500226
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Botafogo",
-    "rol": "Visitante",
-    "prom": 5.0,
-    "FD": 0.8500088542588984
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Macará",
-    "rol": "Local",
-    "prom": 6.67,
-    "FD": 0.7721644826028017
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Macará",
-    "rol": "Visitante",
-    "prom": 5.67,
-    "FD": 1.2599020128681895
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Bragantino",
-    "rol": "Local",
-    "prom": 6.5,
-    "FD": 1.5906009941256214
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Bragantino",
-    "rol": "Visitante",
-    "prom": 5.0,
-    "FD": 0.6290065521515849
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Racing Club",
-    "rol": "Local",
-    "prom": 6.5,
-    "FD": 1.3014008133755084
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Racing Club",
-    "rol": "Visitante",
-    "prom": 5.67,
-    "FD": 0.6290065521515849
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "O'Higgins",
+    "equipo": "Mirassol L",
     "rol": "Local",
     "prom": 6.33,
-    "FD": 1.2522367826479892
+    "FD": 1.3130656357086372
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "O'Higgins",
+    "liga": "America - Libertadores",
+    "equipo": "Mirassol L",
     "rol": "Visitante",
-    "prom": 7.5,
-    "FD": 0.7555634260079097
+    "prom": 2.0,
+    "FD": 0.9907174838921045
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "Grêmio",
+    "liga": "America - Libertadores",
+    "equipo": "Independiente Medellín L",
     "rol": "Local",
-    "prom": 5.5,
-    "FD": 1.735201084500678
+    "prom": 5.25,
+    "FD": 0.6326333362621913
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "Grêmio",
+    "liga": "America - Libertadores",
+    "equipo": "Independiente Medellín L",
+    "rol": "Visitante",
+    "prom": 4.2,
+    "FD": 1.0833242328273454
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Deportes Tolima L",
+    "rol": "Local",
+    "prom": 4.6,
+    "FD": 1.1246814866883401
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Deportes Tolima L",
+    "rol": "Visitante",
+    "prom": 4.0,
+    "FD": 1.0134323468384843
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Junior Barranquilla L",
+    "rol": "Local",
+    "prom": 5.33,
+    "FD": 1.7798084526842983
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Junior Barranquilla L",
+    "rol": "Visitante",
+    "prom": 3.0,
+    "FD": 1.0483782898329148
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Estudiantes de La Plata L",
+    "rol": "Local",
+    "prom": 7.0,
+    "FD": 0.6551269659959582
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Estudiantes de La Plata L",
+    "rol": "Visitante",
+    "prom": 3.0,
+    "FD": 0.7565796658294202
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Flamengo L",
+    "rol": "Local",
+    "prom": 5.33,
+    "FD": 0.8435111150162552
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Flamengo L",
+    "rol": "Visitante",
+    "prom": 4.5,
+    "FD": 1.135743147318991
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Always Ready L",
+    "rol": "Local",
+    "prom": 4.33,
+    "FD": 1.1246814866883401
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Always Ready L",
+    "rol": "Visitante",
+    "prom": 6.0,
+    "FD": 1.2807688107458777
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Deportivo La Guaira L",
+    "rol": "Local",
+    "prom": 5.33,
+    "FD": 1.6870222300325104
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Deportivo La Guaira L",
     "rol": "Visitante",
     "prom": 1.67,
-    "FD": 0.9444542825098872
+    "FD": 1.2231080048050673
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "ão Paulo",
+    "liga": "America - Libertadores",
+    "equipo": "Independiente Rivadavia L",
     "rol": "Local",
-    "prom": 5.5,
-    "FD": 1.446000903750565
+    "prom": 5.0,
+    "FD": 0.469554520692382
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "ão Paulo",
+    "liga": "America - Libertadores",
+    "equipo": "Independiente Rivadavia L",
+    "rol": "Visitante",
+    "prom": 2.0,
+    "FD": 0.9313093808015727
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Santa Fe L",
+    "rol": "Local",
+    "prom": 4.33,
+    "FD": 1.2174677093401283
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Santa Fe L",
+    "rol": "Visitante",
+    "prom": 2.67,
+    "FD": 1.165447198864257
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Cusco FC L",
+    "rol": "Local",
+    "prom": 5.67,
+    "FD": 1.2174677093401283
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Cusco FC L",
+    "rol": "Visitante",
+    "prom": 1.0,
+    "FD": 1.1060390957737252
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Libertad L",
+    "rol": "Local",
+    "prom": 3.33,
+    "FD": 1.2174677093401283
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Libertad L",
+    "rol": "Visitante",
+    "prom": 4.67,
+    "FD": 0.815987768919952
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Fluminense L",
+    "rol": "Local",
+    "prom": 2.67,
+    "FD": 0.28117037167208503
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Fluminense L",
+    "rol": "Visitante",
+    "prom": 3.67,
+    "FD": 0.6412580539477996
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "LDU L",
+    "rol": "Local",
+    "prom": 4.33,
+    "FD": 1.3130656357086372
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "LDU L",
+    "rol": "Visitante",
+    "prom": 2.67,
+    "FD": 1.2231080048050673
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Platense L",
+    "rol": "Local",
+    "prom": 4.0,
+    "FD": 0.469554520692382
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Platense L",
+    "rol": "Visitante",
+    "prom": 2.33,
+    "FD": 0.6412580539477996
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Peñarol L",
+    "rol": "Local",
+    "prom": 4.33,
+    "FD": 0.6551269659959582
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Peñarol L",
+    "rol": "Visitante",
+    "prom": 3.67,
+    "FD": 0.7565796658294202
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Barcelona-SC L",
+    "rol": "Local",
+    "prom": 3.4,
+    "FD": 0.8435111150162552
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Barcelona-SC L",
+    "rol": "Visitante",
+    "prom": 2.0,
+    "FD": 1.0046958610898766
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Cerro Porteño L",
+    "rol": "Local",
+    "prom": 4.0,
+    "FD": 0.9840963008522977
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Cerro Porteño L",
+    "rol": "Visitante",
+    "prom": 1.67,
+    "FD": 1.2807688107458777
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Cruzeiro L",
+    "rol": "Local",
+    "prom": 4.5,
+    "FD": 0.7029259291802126
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "Cruzeiro L",
+    "rol": "Visitante",
+    "prom": 1.0,
+    "FD": 1.2807688107458777
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "UCV L",
+    "rol": "Local",
+    "prom": 1.67,
+    "FD": 1.8754063790528073
+  },
+  {
+    "liga": "America - Libertadores",
+    "equipo": "UCV L",
+    "rol": "Visitante",
+    "prom": 1.33,
+    "FD": 1.165447198864257
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Millonarios S",
+    "rol": "Local",
+    "prom": 9.0,
+    "FD": 1.029352633695215
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Millonarios S",
+    "rol": "Visitante",
+    "prom": 4.25,
+    "FD": 1.2619770974526756
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Olimpia S",
+    "rol": "Local",
+    "prom": 6.67,
+    "FD": 0.42975472456775227
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Olimpia S",
+    "rol": "Visitante",
+    "prom": 4.25,
+    "FD": 0.8880579574666977
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Botafogo S",
+    "rol": "Local",
+    "prom": 8.67,
+    "FD": 0.5146763168476075
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Botafogo S",
+    "rol": "Visitante",
+    "prom": 4.67,
+    "FD": 1.0600607618602476
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Macará S",
+    "rol": "Local",
+    "prom": 6.67,
+    "FD": 0.687092882991556
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Macará S",
     "rol": "Visitante",
     "prom": 5.67,
-    "FD": 1.5111268520158194
+    "FD": 1.2470203318532365
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "Montevideo City Torque",
+    "liga": "America - CopaSudamerica",
+    "equipo": "Bragantino S",
+    "rol": "Local",
+    "prom": 5.67,
+    "FD": 1.3716123843988741
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Bragantino S",
+    "rol": "Visitante",
+    "prom": 5.0,
+    "FD": 0.6225753680766534
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Racing Club S",
+    "rol": "Local",
+    "prom": 7.33,
+    "FD": 0.9444310414153598
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Racing Club S",
+    "rol": "Visitante",
+    "prom": 5.67,
+    "FD": 0.6225753680766534
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "O'Higgins S",
+    "rol": "Local",
+    "prom": 6.33,
+    "FD": 1.1142742259750702
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "O'Higgins S",
+    "rol": "Visitante",
+    "prom": 6.33,
+    "FD": 0.934797849964945
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Grêmio S",
+    "rol": "Local",
+    "prom": 6.0,
+    "FD": 1.4591073582629672
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Grêmio S",
+    "rol": "Visitante",
+    "prom": 1.67,
+    "FD": 0.934797849964945
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "São Paulo S",
+    "rol": "Local",
+    "prom": 6.0,
+    "FD": 1.1142742259750702
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "São Paulo S",
+    "rol": "Visitante",
+    "prom": 5.67,
+    "FD": 1.495676559943912
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Montevideo City Torque S",
     "rol": "Local",
     "prom": 5.5,
-    "FD": 1.156800723000452
+    "FD": 1.029352633695215
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "Montevideo City Torque",
+    "liga": "America - CopaSudamerica",
+    "equipo": "Montevideo City Torque S",
     "rol": "Visitante",
-    "prom": 4.5,
-    "FD": 0.9444542825098872
+    "prom": 4.67,
+    "FD": 1.0600607618602476
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "Barracas Central",
+    "liga": "America - CopaSudamerica",
+    "equipo": "Barracas Central S",
     "rol": "Local",
     "prom": 5.33,
-    "FD": 1.2522367826479892
+    "FD": 1.1142742259750702
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "Barracas Central",
+    "liga": "America - CopaSudamerica",
+    "equipo": "Barracas Central S",
     "rol": "Visitante",
-    "prom": 4.5,
-    "FD": 0.7555634260079097
+    "prom": 3.33,
+    "FD": 0.934797849964945
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "Audax Italiano",
+    "liga": "America - CopaSudamerica",
+    "equipo": "Audax Italiano S",
     "rol": "Local",
     "prom": 5.33,
-    "FD": 1.735201084500678
+    "FD": 1.5440289505428226
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "Audax Italiano",
+    "liga": "America - CopaSudamerica",
+    "equipo": "Audax Italiano S",
     "rol": "Visitante",
-    "prom": 5.0,
-    "FD": 0.9444542825098872
+    "prom": 4.0,
+    "FD": 0.7945781724702032
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "Tigre",
+    "liga": "America - CopaSudamerica",
+    "equipo": "Tigre S",
     "rol": "Local",
     "prom": 5.0,
-    "FD": 0.7230004518752825
+    "FD": 0.6433453960595094
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "Tigre",
+    "liga": "America - CopaSudamerica",
+    "equipo": "Tigre S",
     "rol": "Visitante",
     "prom": 3.33,
-    "FD": 1.071011156366212
+    "FD": 1.0600607618602476
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "Cienciano",
+    "liga": "America - CopaSudamerica",
+    "equipo": "Cienciano S",
     "rol": "Local",
-    "prom": 5.0,
-    "FD": 0.3846362403976503
+    "prom": 4.25,
+    "FD": 0.8363490148773622
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "Cienciano",
+    "liga": "America - CopaSudamerica",
+    "equipo": "Cienciano S",
     "rol": "Visitante",
     "prom": 3.33,
-    "FD": 0.9444542825098872
+    "FD": 0.934797849964945
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "Juventud de Las Piedras",
+    "liga": "America - CopaSudamerica",
+    "equipo": "Juventud de Las Piedras S",
     "rol": "Local",
     "prom": 5.0,
-    "FD": 1.6397650248531406
+    "FD": 1.4591073582629672
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "Juventud de Las Piedras",
+    "liga": "America - CopaSudamerica",
+    "equipo": "Juventud de Las Piedras S",
     "rol": "Visitante",
-    "prom": 1.5,
-    "FD": 0.37778171300395486
+    "prom": 4.0,
+    "FD": 0.373919139985978
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "Blooming",
+    "liga": "America - CopaSudamerica",
+    "equipo": "Blooming S",
     "rol": "Local",
     "prom": 4.75,
-    "FD": 0.867600542250339
+    "FD": 0.7720144752714113
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "Blooming",
-    "rol": "Visitante",
-    "prom": 5.0,
-    "FD": 1.3222359955138419
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Deportivo Riestra",
-    "rol": "Local",
-    "prom": 4.67,
-    "FD": 1.156800723000452
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Deportivo Riestra",
-    "rol": "Visitante",
-    "prom": 5.0,
-    "FD": 1.5111268520158194
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Atlético-MG",
-    "rol": "Local",
-    "prom": 4.5,
-    "FD": 0.289200180750113
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Atlético-MG",
-    "rol": "Visitante",
-    "prom": 3.0,
-    "FD": 1.1333451390118645
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Vasco",
-    "rol": "Local",
-    "prom": 4.5,
-    "FD": 1.446000903750565
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Vasco",
-    "rol": "Visitante",
-    "prom": 4.67,
-    "FD": 1.5111268520158194
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "an Lorenzo",
-    "rol": "Local",
-    "prom": 4.5,
-    "FD": 0.7230004518752825
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "an Lorenzo",
-    "rol": "Visitante",
-    "prom": 4.67,
-    "FD": 0.6932294433622571
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Palestino",
-    "rol": "Local",
-    "prom": 4.5,
-    "FD": 0.578400361500226
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Palestino",
-    "rol": "Visitante",
-    "prom": 5.5,
-    "FD": 0.7083407118824153
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Carabobo",
-    "rol": "Local",
-    "prom": 4.33,
-    "FD": 1.735201084500678
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Carabobo",
-    "rol": "Visitante",
-    "prom": 4.0,
-    "FD": 1.2277905672628533
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Alianza Atlético",
-    "rol": "Local",
-    "prom": 4.25,
-    "FD": 1.446000903750565
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Alianza Atlético",
-    "rol": "Visitante",
-    "prom": 2.5,
-    "FD": 1.1333451390118645
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Deportivo Cuenca",
-    "rol": "Local",
-    "prom": 4.25,
-    "FD": 1.156800723000452
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Deportivo Cuenca",
-    "rol": "Visitante",
-    "prom": 1.5,
-    "FD": 0.9444542825098872
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "antos",
-    "rol": "Local",
-    "prom": 4.0,
-    "FD": 1.0122006326253954
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "antos",
-    "rol": "Visitante",
-    "prom": 4.33,
-    "FD": 1.195679121657517
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Academia Puerto Cabello",
-    "rol": "Local",
-    "prom": 3.75,
-    "FD": 0.7230004518752825
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Academia Puerto Cabello",
-    "rol": "Visitante",
-    "prom": 3.0,
-    "FD": 0.7555634260079097
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "América de Cali",
-    "rol": "Local",
-    "prom": 3.67,
-    "FD": 0.6738364211477633
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "América de Cali",
-    "rol": "Visitante",
-    "prom": 2.67,
-    "FD": 0.8178974086535623
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Boston River",
-    "rol": "Local",
-    "prom": 3.25,
-    "FD": 2.385901491188432
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Boston River",
-    "rol": "Visitante",
-    "prom": 4.0,
-    "FD": 1.4166814237648306
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "River Plate",
-    "rol": "Local",
-    "prom": 3.0,
-    "FD": 1.156800723000452
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "River Plate",
-    "rol": "Visitante",
-    "prom": 4.67,
-    "FD": 0.4401156956496074
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Independiente Petrolero",
-    "rol": "Local",
-    "prom": 2.75,
-    "FD": 1.2291007681879802
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Independiente Petrolero",
-    "rol": "Visitante",
-    "prom": 1.5,
-    "FD": 1.3222359955138419
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Caracas",
-    "rol": "Local",
-    "prom": 2.67,
-    "FD": 1.2522367826479892
-  },
-  {
-    "liga": "America - Sudamericana",
-    "equipo": "Caracas",
+    "liga": "America - CopaSudamerica",
+    "equipo": "Blooming S",
     "rol": "Visitante",
     "prom": 3.33,
-    "FD": 1.0067882651555398
+    "FD": 1.3704136480486093
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "Deportivo Recoleta",
+    "liga": "America - CopaSudamerica",
+    "equipo": "Deportivo Riestra S",
     "rol": "Local",
-    "prom": 5.67,
-    "FD": 1.0613646633529146
+    "prom": 4.67,
+    "FD": 1.029352633695215
   },
   {
-    "liga": "America - Sudamericana",
-    "equipo": "Deportivo Recoleta",
+    "liga": "America - CopaSudamerica",
+    "equipo": "Deportivo Riestra S",
+    "rol": "Visitante",
+    "prom": 5.67,
+    "FD": 1.1834540780556204
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Atlético-MG S",
+    "rol": "Local",
+    "prom": 5.0,
+    "FD": 0.25733815842380375
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Atlético-MG S",
+    "rol": "Visitante",
+    "prom": 3.0,
+    "FD": 1.1217574199579339
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Vasco S",
+    "rol": "Local",
+    "prom": 5.33,
+    "FD": 0.9444310414153598
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Vasco S",
+    "rol": "Visitante",
+    "prom": 4.67,
+    "FD": 1.495676559943912
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "San Lorenzo S",
+    "rol": "Local",
+    "prom": 5.33,
+    "FD": 0.7720144752714113
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "San Lorenzo S",
+    "rol": "Visitante",
+    "prom": 4.67,
+    "FD": 0.6861416218742695
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Palestino S",
+    "rol": "Local",
+    "prom": 4.0,
+    "FD": 0.9444310414153598
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Palestino S",
+    "rol": "Visitante",
+    "prom": 5.5,
+    "FD": 0.7010983874737087
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Carabobo S",
+    "rol": "Local",
+    "prom": 4.33,
+    "FD": 1.5440289505428226
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Carabobo S",
+    "rol": "Visitante",
+    "prom": 4.33,
+    "FD": 1.0600607618602476
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Alianza Atlético S",
+    "rol": "Local",
+    "prom": 4.25,
+    "FD": 1.2866907921190187
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Alianza Atlético S",
+    "rol": "Visitante",
+    "prom": 2.5,
+    "FD": 1.1217574199579339
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Deportivo Cuenca S",
+    "rol": "Local",
+    "prom": 4.25,
+    "FD": 1.029352633695215
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Deportivo Cuenca S",
+    "rol": "Visitante",
+    "prom": 2.33,
+    "FD": 0.8095349380696424
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Santos S",
+    "rol": "Local",
+    "prom": 3.67,
+    "FD": 0.9444310414153598
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Santos S",
+    "rol": "Visitante",
+    "prom": 4.33,
+    "FD": 1.1834540780556204
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Academia Puerto Cabello S",
+    "rol": "Local",
+    "prom": 3.75,
+    "FD": 0.6433453960595094
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Academia Puerto Cabello S",
+    "rol": "Visitante",
+    "prom": 2.33,
+    "FD": 0.8731011918672585
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "América de Cali S",
+    "rol": "Local",
+    "prom": 3.67,
+    "FD": 0.5995979091274628
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "América de Cali S",
+    "rol": "Visitante",
+    "prom": 2.67,
+    "FD": 0.8095349380696424
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Boston River S",
+    "rol": "Local",
+    "prom": 3.25,
+    "FD": 2.123039806996381
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Boston River S",
+    "rol": "Visitante",
+    "prom": 3.67,
+    "FD": 1.3704136480486093
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "River Plate S",
+    "rol": "Local",
+    "prom": 4.67,
+    "FD": 0.687092882991556
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "River Plate S",
+    "rol": "Visitante",
+    "prom": 4.67,
+    "FD": 0.43561579808366435
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Independiente Petrolero S",
+    "rol": "Local",
+    "prom": 2.75,
+    "FD": 1.093687173301166
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Independiente Petrolero S",
     "rol": "Visitante",
     "prom": 1.67,
-    "FD": 1.071011156366212
+    "FD": 1.4339799018462256
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Caracas S",
+    "rol": "Local",
+    "prom": 4.0,
+    "FD": 1.093687173301166
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Caracas S",
+    "rol": "Visitante",
+    "prom": 3.33,
+    "FD": 0.9964945080626313
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Deportivo Recoleta S",
+    "rol": "Local",
+    "prom": 5.67,
+    "FD": 0.9444310414153598
+  },
+  {
+    "liga": "America - CopaSudamerica",
+    "equipo": "Deportivo Recoleta S",
+    "rol": "Visitante",
+    "prom": 2.25,
+    "FD": 1.1217574199579339
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Criciúma",
+    "rol": "Local",
+    "prom": 8.5,
+    "FD": 1.3213213213213217
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Criciúma",
+    "rol": "Visitante",
+    "prom": 5.83,
+    "FD": 1.1033912324234907
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "América Mineiro",
+    "rol": "Local",
+    "prom": 6.0,
+    "FD": 1.1051051051051053
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "América Mineiro",
+    "rol": "Visitante",
+    "prom": 7.0,
+    "FD": 0.5955334987593053
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Náutico",
+    "rol": "Local",
+    "prom": 9.6,
+    "FD": 0.8168168168168171
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Náutico",
+    "rol": "Visitante",
+    "prom": 3.2,
+    "FD": 1.1910669975186106
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Botafogo-SP",
+    "rol": "Local",
+    "prom": 8.0,
+    "FD": 1.0570570570570574
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Botafogo-SP",
+    "rol": "Visitante",
+    "prom": 4.6,
+    "FD": 1.1579818031430937
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Londrina",
+    "rol": "Local",
+    "prom": 8.5,
+    "FD": 1.1411411411411414
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Londrina",
+    "rol": "Visitante",
+    "prom": 4.33,
+    "FD": 1.1298593879239043
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Novorizontino",
+    "rol": "Local",
+    "prom": 7.0,
+    "FD": 0.5765765765765767
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Novorizontino",
+    "rol": "Visitante",
+    "prom": 5.0,
+    "FD": 0.794044665012407
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Atlético-GO",
+    "rol": "Local",
+    "prom": 6.8,
+    "FD": 0.43243243243243257
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Atlético-GO",
+    "rol": "Visitante",
+    "prom": 5.0,
+    "FD": 1.3234077750206785
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Operário",
+    "rol": "Local",
+    "prom": 6.67,
+    "FD": 1.2012012012012017
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Operário",
+    "rol": "Visitante",
+    "prom": 4.75,
+    "FD": 0.9925558312655088
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Ponte Preta",
+    "rol": "Local",
+    "prom": 7.4,
+    "FD": 1.2492492492492497
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Ponte Preta",
+    "rol": "Visitante",
+    "prom": 4.2,
+    "FD": 1.2903225806451615
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Ceará",
+    "rol": "Local",
+    "prom": 5.4,
+    "FD": 0.6726726726726728
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Ceará",
+    "rol": "Visitante",
+    "prom": 5.0,
+    "FD": 1.0918114143920596
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "CRB",
+    "rol": "Local",
+    "prom": 6.0,
+    "FD": 0.9129129129129131
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "CRB",
+    "rol": "Visitante",
+    "prom": 3.4,
+    "FD": 0.7609594706368901
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Vila Nova",
+    "rol": "Local",
+    "prom": 5.0,
+    "FD": 0.7687687687687691
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Vila Nova",
+    "rol": "Visitante",
+    "prom": 4.0,
+    "FD": 0.860215053763441
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Fortaleza",
+    "rol": "Local",
+    "prom": 4.2,
+    "FD": 0.43243243243243257
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Fortaleza",
+    "rol": "Visitante",
+    "prom": 4.8,
+    "FD": 0.9925558312655088
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Sport Recife",
+    "rol": "Local",
+    "prom": 5.6,
+    "FD": 1.3933933933933937
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Sport Recife",
+    "rol": "Visitante",
+    "prom": 3.0,
+    "FD": 1.0918114143920596
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Avaí",
+    "rol": "Local",
+    "prom": 4.67,
+    "FD": 0.9609609609609613
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Avaí",
+    "rol": "Visitante",
+    "prom": 3.75,
+    "FD": 0.827129859387924
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Goiás",
+    "rol": "Local",
+    "prom": 4.2,
+    "FD": 1.3933933933933937
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Goiás",
+    "rol": "Visitante",
+    "prom": 4.0,
+    "FD": 0.6617038875103393
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "São Bernardo",
+    "rol": "Local",
+    "prom": 4.4,
+    "FD": 1.48948948948949
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "São Bernardo",
+    "rol": "Visitante",
+    "prom": 3.8,
+    "FD": 1.4226633581472292
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Juventude",
+    "rol": "Local",
+    "prom": 5.8,
+    "FD": 1.3453453453453457
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Juventude",
+    "rol": "Visitante",
+    "prom": 2.2,
+    "FD": 0.7609594706368901
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Athletic-MG",
+    "rol": "Local",
+    "prom": 5.2,
+    "FD": 1.1051051051051053
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Athletic-MG",
+    "rol": "Visitante",
+    "prom": 2.4,
+    "FD": 1.2241521918941276
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Cuiabá",
+    "rol": "Local",
+    "prom": 3.6,
+    "FD": 0.6246246246246249
+  },
+  {
+    "liga": "America - BrasilB",
+    "equipo": "Cuiabá",
+    "rol": "Visitante",
+    "prom": 2.4,
+    "FD": 0.7278742762613732
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "Bohemians",
+    "rol": "Local",
+    "prom": 6.1,
+    "FD": 5.11
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "Bohemians",
+    "rol": "Visitante",
+    "prom": 9.0,
+    "FD": 4.22
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "Derry City",
+    "rol": "Local",
+    "prom": 6.9,
+    "FD": 5.22
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "Derry City",
+    "rol": "Visitante",
+    "prom": 9.0,
+    "FD": 4.89
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "Drogheda Utd",
+    "rol": "Local",
+    "prom": 4.33,
+    "FD": 3.56
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "Drogheda Utd",
+    "rol": "Visitante",
+    "prom": 9.0,
+    "FD": 6.22
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "Dundalk",
+    "rol": "Local",
+    "prom": 5.11,
+    "FD": 6.89
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "Dundalk",
+    "rol": "Visitante",
+    "prom": 9.0,
+    "FD": 5.11
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "Galway Utd",
+    "rol": "Local",
+    "prom": 4.25,
+    "FD": 4.89
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "Galway Utd",
+    "rol": "Visitante",
+    "prom": 9.0,
+    "FD": 6.67
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "Shamrock Rovers",
+    "rol": "Local",
+    "prom": 4.89,
+    "FD": 5.2
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "Shamrock Rovers",
+    "rol": "Visitante",
+    "prom": 10.0,
+    "FD": 3.2
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "Shelbourne",
+    "rol": "Local",
+    "prom": 5.89,
+    "FD": 4.89
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "Shelbourne",
+    "rol": "Visitante",
+    "prom": 9.0,
+    "FD": 4.44
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "Sligo Rovers",
+    "rol": "Local",
+    "prom": 4.11,
+    "FD": 3.78
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "Sligo Rovers",
+    "rol": "Visitante",
+    "prom": 9.0,
+    "FD": 7.33
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "St. Patricks",
+    "rol": "Local",
+    "prom": 5.56,
+    "FD": 5.0
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "St. Patricks",
+    "rol": "Visitante",
+    "prom": 9.0,
+    "FD": 4.78
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "Waterford",
+    "rol": "Local",
+    "prom": 5.33,
+    "FD": 4.44
+  },
+  {
+    "liga": "Europa - Irlanda ",
+    "equipo": "Waterford",
+    "rol": "Visitante",
+    "prom": 9.0,
+    "FD": 6.22
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "Breidablik",
+    "rol": "Local",
+    "prom": 8.75,
+    "FD": 7.0
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "Breidablik",
+    "rol": "Visitante",
+    "prom": 4.0,
+    "FD": 4.0
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "Fram",
+    "rol": "Local",
+    "prom": 9.75,
+    "FD": 8.75
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "Fram",
+    "rol": "Visitante",
+    "prom": 4.0,
+    "FD": 2.75
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "Hafnarfjordur",
+    "rol": "Local",
+    "prom": 4.0,
+    "FD": 4.83
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "Hafnarfjordur",
+    "rol": "Visitante",
+    "prom": 6.0,
+    "FD": 9.67
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "IA Akranes",
+    "rol": "Local",
+    "prom": 5.67,
+    "FD": 7.0
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "IA Akranes",
+    "rol": "Visitante",
+    "prom": 5.0,
+    "FD": 7.8
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "IBV",
+    "rol": "Local",
+    "prom": 2.5,
+    "FD": 5.25
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "IBV",
+    "rol": "Visitante",
+    "prom": 4.0,
+    "FD": 7.0
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "KA Akureyri",
+    "rol": "Local",
+    "prom": 5.2,
+    "FD": 3.0
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "KA Akureyri",
+    "rol": "Visitante",
+    "prom": 3.0,
+    "FD": 7.67
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "Keflavik",
+    "rol": "Local",
+    "prom": 7.0,
+    "FD": 5.75
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "Keflavik",
+    "rol": "Visitante",
+    "prom": 4.0,
+    "FD": 6.25
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "KR Reykjavik",
+    "rol": "Local",
+    "prom": 9.8,
+    "FD": 8.75
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "KR Reykjavik",
+    "rol": "Visitante",
+    "prom": 4.0,
+    "FD": 3.5
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "Stjarnan",
+    "rol": "Local",
+    "prom": 6.67,
+    "FD": 4.0
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "Stjarnan",
+    "rol": "Visitante",
+    "prom": 3.0,
+    "FD": 6.67
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "Thor Akureyri",
+    "rol": "Local",
+    "prom": 6.67,
+    "FD": 4.8
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "Thor Akureyri",
+    "rol": "Visitante",
+    "prom": 5.0,
+    "FD": 8.0
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "Valur",
+    "rol": "Local",
+    "prom": 5.8,
+    "FD": 3.75
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "Valur",
+    "rol": "Visitante",
+    "prom": 4.0,
+    "FD": 10.0
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "Vikingur R.",
+    "rol": "Local",
+    "prom": 5.8,
+    "FD": 7.0
+  },
+  {
+    "liga": "Europa - Islandia",
+    "equipo": "Vikingur R.",
+    "rol": "Visitante",
+    "prom": 4.0,
+    "FD": 4.0
   }
 ];
 
